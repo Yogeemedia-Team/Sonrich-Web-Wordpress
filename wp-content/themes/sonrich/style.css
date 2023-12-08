@@ -250,6 +250,12 @@ a.nav-link.dropdown-toggle {
   margin-left: 70px !important;
 }
 
+/* top navbar css start */
+a.top-bar.nav-link.dropdown-toggle::after {
+  display: none;
+}
+/* top navbar css end */
+
 /*Banner Section*/
 .banner-section .background-image {
   position: relative;
