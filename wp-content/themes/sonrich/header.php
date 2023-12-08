@@ -66,7 +66,7 @@
 
 
     <title> Sonrich </title>
-	<?php wp_head(); ?>
+    <?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
@@ -77,33 +77,32 @@
 
             <!-- top nav start -->
             <div class="navigation-bar" style="background: var(--black);">
-                <nav class="navbar navbar-expand-lg navbar-light container p-2">
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav m-2 mb-lg-0 ms-auto">
-                            <li class="nav-item ms-2">
-                                <a class="top-bar nav-link dropdown-toggle" target="_blank" href="#" role="button">
-                                    Future Sonrich
-                                </a>
-                            </li>
-                            <li class="nav-item ms-2">
-                                <a class="top-bar nav-link dropdown-toggle" target="_blank" href="#" role="button">
-                                    invoice
-                                </a>
-                            </li>
-                            <li class="nav-item ms-2">
-                                <a class="top-bar nav-link dropdown-toggle" target="_blank" href="#" role="button">
-                                    Sell Sell
-                                </a>
-                            </li>
-                            <li class="nav-item ms-2">
-                                <a class="top-bar nav-link dropdown-toggle" target="_blank" href="#" role="button">
-                                    Old Sonrich
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
+                <nav class="navbar navbar-expand-sm navbar-light container p-2">
+                    <ul class="navbar-nav m-2 mb-lg-0 ms-auto">
+                        <li class="top-nav-item">
+                            <a class="top-bar nav-link" target="_blank" href="#" role="button">
+                                Future Sonrich
+                            </a>
+                        </li>
+                        <li class="top-nav-item">
+                            <a class="top-bar nav-link" target="_blank" href="#" role="button">
+                                invoice
+                            </a>
+                        </li>
+                        <li class="top-nav-item">
+                            <a class="top-bar nav-link" target="_blank" href="#" role="button">
+                                Sell Sell
+                            </a>
+                        </li>
+                        <li class="top-nav-item">
+                            <a class="top-bar nav-link" target="_blank" href="#" role="button">
+                                Old Sonrich
+                            </a>
+                        </li>
+                    </ul>
                 </nav>
             </div>
+            <!-- top nav end -->
 
 
             <!-- ----Add By ON----- -->
