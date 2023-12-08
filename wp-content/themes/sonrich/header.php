@@ -64,8 +64,9 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/inc/responsive.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
 
-    <title>Sonrich</title>
-    <?php wp_head(); ?>
+
+    <title> Sonrich </title>
+	<?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>
