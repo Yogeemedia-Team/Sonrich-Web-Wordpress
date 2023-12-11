@@ -251,8 +251,22 @@ a.nav-link.dropdown-toggle {
 }
 
 /* top navbar css start */
-a.top-bar.nav-link.dropdown-toggle::after {
-  display: none;
+.top-nav-item {
+  margin: 2px;
+}
+
+.top-bar.nav-link {
+  width: 125px !important;
+  padding: 6px;
+  text-align: center;
+  background: var(--dark-blue);
+}
+
+.top-bar.nav-link {
+  color: #fff !important;
+  font-size: 14px;
+  letter-spacing: 1.2px;
+  font-weight: 200;
 }
 /* top navbar css end */
 
