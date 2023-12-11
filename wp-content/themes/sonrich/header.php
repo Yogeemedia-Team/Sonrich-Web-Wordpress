@@ -131,7 +131,6 @@
                             )
                         );
                         ?>
-
                         <form class="d-flex ms-2" role="search">
                             <input class="form-control navbar-search me-2 ms-auto" type="search" placeholder="Search"
                                 aria-label="Search">
@@ -145,7 +144,7 @@
         </header>
 
 
-        <!-- <div id="page" class="site">
+    <!-- <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e('Skip to content', 'sonrich'); ?></a>
 
 	<header id="masthead" class="site-header">
