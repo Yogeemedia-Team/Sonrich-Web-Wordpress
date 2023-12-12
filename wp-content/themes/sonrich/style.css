@@ -3205,3 +3205,38 @@ display: block;
   }
 }
 
+
+/* about us css start */
+p.first-p.first-letter::first-letter {
+  font-size: 300%;
+  padding: 5px 10px;
+  margin: 5px;
+  border: 1px solid;
+  float: left;
+  font-weight: 600;
+}
+
+a.first-word {
+  color: var(--white);
+  font-weight: 600;
+  border-bottom: 1px solid;
+  text-decoration: none;
+}
+
+p.first-p.about-p {
+  color: var(--black);
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.3em;
+  letter-spacing: 1px;
+}
+
+.first-p.about-p.about-description {
+  font-size: 1.5rem;
+}
+
+.in-service-box {
+  background: var(--gray);
+  border-radius: 25px;
+}
+/* about us css end */
