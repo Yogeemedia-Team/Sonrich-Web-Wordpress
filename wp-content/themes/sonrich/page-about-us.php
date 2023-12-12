@@ -255,7 +255,7 @@ get_header();  ?>
                             </h2>
                             <span class="short-underline m-auto m-md-0"></span>
                         </div>
-                        <p class="first-p first-letter py-3">
+                        <p class="first-p py-3">
                             <a href="#" class="first-word">Luvnarich</a> is an ecommerce platform that operates
                             as a direct-selling company, specializing in a diverse array of products
                             encompassing health, wellness, lifestyle, and education. With a focus on enhancing
@@ -297,7 +297,7 @@ get_header();  ?>
                             </h2>
                             <span class="short-underline m-auto m-md-0"></span>
                         </div>
-                        <p class="first-p first-letter py-3">Absolutely NOT! Luvnarich emphatically
+                        <p class="first-p py-3">Absolutely NOT! Luvnarich emphatically
                             distances itself from any form of
                             investment scheme. It is crucial to comprehend that Luvnarich is neither a
                             scheme nor an illicit operation. On the contrary, it stands as a reputable
@@ -337,7 +337,7 @@ get_header();  ?>
                             </h2>
                             <span class="short-underline m-auto m-md-0"></span>
                         </div>
-                        <p class="first-p first-letter py-3">
+                        <p class="first-p py-3">
                             <a href="#" class="first-word">Luvnarich</a> embraces the approach of
                             direct selling, which involves the direct marketing and distribution of goods and
                             services directly to consumers, whether it be within the comfort of their homes or
@@ -377,7 +377,7 @@ get_header();  ?>
                             </h2>
                             <span class="short-underline m-auto m-md-0"></span>
                         </div>
-                        <p class="first-p first-letter py-3">Generating income with Luvnarich solely relies on
+                        <p class="first-p py-3">Generating income with Luvnarich solely relies on
                             product sales. By utilizing and recommending our products to others, you have the
                             opportunity to earn commissions based on actual sales. Luvnarich employs a
                             well-designed compensation plan that calculates the commissions you are entitled to,
@@ -413,7 +413,7 @@ get_header();  ?>
                             </h2>
                             <span class="short-underline m-auto m-md-0"></span>
                         </div>
-                        <p class="first-p first-letter py-3">
+                        <p class="first-p py-3">
                             <a href="#" class="first-word">Luvnarich</a> represents a legitimate
                             business endeavor, comparable to any other enterprise. It is important to understand
                             that Luvnarich is not a shortcut to instant wealth. Achieving success in this line
