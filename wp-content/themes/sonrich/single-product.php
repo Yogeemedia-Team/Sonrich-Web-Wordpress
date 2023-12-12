@@ -23,19 +23,33 @@ get_header();  ?>
             <div class="row">
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="single-product-detail-left w-100">
-                        <div class="single-product-image w-100">
-                            <img src="<?php echo get_template_directory_uri(); ?>/inc/images/shop-image-10-600x600.jpg" alt="" class="w-100">
-                        </div>
+                    <div class="single-product-image w-100">
+                        <?php if (has_post_thumbnail()) : ?>
+                            <img src="<?php the_post_thumbnail_url('full'); ?>" alt="<?php the_title_attribute(); ?>" class="w-100">
+                        <?php endif; ?>
+                    </div>
                     </div>
                 </div>
 
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="single-product-detail-right">
                         <div class="single-product-details">
-                            <h1 class="product_title mb-2 text-uppercase fs-5">Organic Pear</h1>
-                            <p class="price"><span class="single-product-price-amount amount"><bdi><span class="single-product-currency">$</span>22.00</bdi></span></p>
+                            <h1 class="product_title mb-2 text-uppercase fs-5"><?php the_title(); ?></h1>
+
+                            <?php
+                            // Display the price custom field
+                            $price = get_post_meta(get_the_ID(), '_product_price', true);
+                            if (!empty($price)) :
+                            ?>
+                                <p class="price">
+                                    <span class="single-product-price-amount amount">
+                                        <bdi><span class="single-product-currency">$</span><?php echo esc_html($price); ?></bdi>
+                                    </span>
+                                </p>
+                            <?php endif; ?>
+
                             <div class="single-product-description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id leo in vitae turpis massa sed elementum. In ante metus dictum at. Lacus vel facilisis volutpat est velit egestas dui. A scelerisque purus semper eget. Diam quis enim lobortis scelerisque fermentum. At augue eget arcu dictum varius duis at consectetur lorem. Volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque. Amet justo donec enim diam. Sem fringilla ut morbi tincidunt augue interdum velit euismod. Platea dictumst quisque sagittis purus sit amet volutpat consequat mauris. Mollis aliquam ut porttitor leo a.</p>
+                                <?php the_content(); ?>
                             </div>
 
                             <div class="product-quantity mt-4 d-flex">
@@ -161,137 +175,71 @@ get_header();  ?>
     <!-- single-produt-detail-section end -->
 
 
-    <!-- Related product section start -->
-    <div class="related-product-section mt-3">
-        <div class="related-products mt-5 mb-5 pb-5">
-            <div class="shop-product-section">
-                <div class="container pt-4">
-                    <div class="related-product-header">
-                        <h2>Related Products</h2>
-                    </div>
-                    <div class="row mt-5 pt-2">
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="products-item w-100" style="position: relative;">
-                                <div class="product-item-image">
-                                    <span class="onsale onsale-outter"><span class="onsale-inner">Sale</span></span>
-                                    <a href=""><img src="<?php echo get_template_directory_uri(); ?>/inc/images/shop-image-10-600x600.jpg" alt="" class="w-100"></a>
-                                    <span class="add-to-cart-button-outer">
-                                        <span class="add-to-cart-button-inner">
-                                            <a href="" class="add-to-cart-button">Add to cart</a>
-                                        </span>
-                                    </span>
-                                </div>
-                                <div class="product-details">
-                                    <h4 class="entry-title text-center font-weight-normal">
-                                        <a href="#" class="font-weight-normal">Organic Pear</a>
-                                    </h4>
+  <!-- Related product section start -->
+<div class="related-product-section mt-3">
+    <div class="related-products mt-5 mb-5 pb-5">
+        <div class="shop-product-section">
+            <div class="container pt-4">
+                <div class="related-product-header">
+                    <h2>Related Products</h2>
+                </div>
+                <div class="row mt-5 pt-2">
+                    <?php
+                    // Custom query to get related products
+                    $related_args = array(
+                        'post_type'      => 'product',
+                        'posts_per_page' => 4, // Number of related products to display
+                        'post__not_in'   => array(get_the_ID()), // Exclude the current product
+                        'orderby'        => 'rand', // You can change the orderby as needed
+                    );
 
-                                    <div class="qode-pli-price text-center">
-                                        <span class="product-price-amount amount">
-                                            <bdi><span class="product-price-currency">$</span>22.00</bdi>
-                                        </span>
-                                    </div>
+                    $related_query = new WP_Query($related_args);
 
-                                    <div class="qode-pli-add-to-cart text-center">
-                                        <a rel="nofollow" href="?add-to-cart=62" data-quantity="1" data-product_id="62" data-product_sku="008" class="add_to_cart_button ajax_add_to_cart qode-button">Add to cart</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="products-item w-100">
-                                <div class="product-item-image">
-                                    <a href=""><img src="<?php echo get_template_directory_uri(); ?>/inc/images/shop-image-11-600x600.jpg" alt="" class="w-100"></a>
-                                    <span class="add-to-cart-button-outer">
-                                        <span class="add-to-cart-button-inner">
-                                            <a href="" class="add-to-cart-button">Add to cart</a>
-                                        </span>
-                                    </span>
-                                </div>
-
-                                <div class="product-details">
-                                    <h4 class="entry-title text-center font-weight-normal">
-                                        <a href="#" class="font-weight-normal">Organic Pear</a>
-                                    </h4>
-
-                                    <div class="qode-pli-price text-center">
-                                        <span class="product-price-amount amount">
-                                            <bdi><span class="product-price-currency">$</span>22.00</bdi>
+                    if ($related_query->have_posts()) :
+                        while ($related_query->have_posts()) : $related_query->the_post();
+                    ?>
+                            <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="products-item w-100" style="position: relative;">
+                                    <div class="product-item-image">
+                                        <a href="<?php the_permalink(); ?>"><img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php the_title_attribute(); ?>" class="w-100"></a>
+                                        <span class="add-to-cart-button-outer">
+                                            <span class="add-to-cart-button-inner">
+                                                <a href="<?php the_permalink(); ?>" class="add-to-cart-button">View</a>
+                                            </span>
                                         </span>
                                     </div>
-
-                                    <div class="qode-pli-add-to-cart text-center">
-                                        <a rel="nofollow" href="?add-to-cart=62" data-quantity="1" data-product_id="62" data-product_sku="008" class="add_to_cart_button ajax_add_to_cart qode-button">Add to cart</a>
+                                    <div class="product-details">
+                                        <h4 class="entry-title text-center font-weight-normal">
+                                            <a href="<?php the_permalink(); ?>" class="font-weight-normal"><?php the_title(); ?></a>
+                                        </h4>
+                                        <div class="qode-pli-price text-center">
+                                            <?php
+                                            // Display the price custom field
+                                            $price = get_post_meta(get_the_ID(), '_product_price', true);
+                                            if (!empty($price)) :
+                                            ?>
+                                                <span class="product-price-amount amount">
+                                                    <bdi><span class="product-price-currency">$</span><?php echo esc_html($price); ?></bdi>
+                                                </span>
+                                            <?php endif; ?>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="products-item w-100">
-                                <div class="product-item-image">
-                                    <a href=""><img src="<?php echo get_template_directory_uri(); ?>/inc/images/shop-image-12-600x600.jpg" alt="" class="w-100"></a>
-                                    <span class="add-to-cart-button-outer">
-                                        <span class="add-to-cart-button-inner">
-                                            <a href="" class="add-to-cart-button">Add to cart</a>
-                                        </span>
-                                    </span>
-                                </div>
-
-                                <div class="product-details">
-                                    <h4 class="entry-title text-center font-weight-normal">
-                                        <a href="#" class="font-weight-normal">Organic Pear</a>
-                                    </h4>
-
-                                    <div class="qode-pli-price text-center">
-                                        <span class="product-price-amount amount">
-                                            <bdi><span class="product-price-currency">$</span>22.00</bdi>
-                                        </span>
-                                    </div>
-
-                                    <div class="qode-pli-add-to-cart text-center">
-                                        <a rel="nofollow" href="?add-to-cart=62" data-quantity="1" data-product_id="62" data-product_sku="008" class="add_to_cart_button ajax_add_to_cart qode-button">Add to cart</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-3 col-md-6 col-sm-12">
-                            <div class="products-item w-100">
-                                <div class="product-item-image">
-                                    <a href=""><img src="<?php echo get_template_directory_uri(); ?>/inc/images/shop-image-13-600x600.jpg" alt="" class="w-100"></a>
-                                    <span class="add-to-cart-button-outer">
-                                        <span class="add-to-cart-button-inner">
-                                            <a href="" class="add-to-cart-button">Add to cart</a>
-                                        </span>
-                                    </span>
-                                </div>
-
-                                <div class="product-details">
-                                    <h4 class="entry-title text-center font-weight-normal">
-                                        <a href="#" class="font-weight-normal">Organic Pear</a>
-                                    </h4>
-
-                                    <div class="qode-pli-price text-center">
-                                        <span class="product-price-amount amount">
-                                            <bdi><span class="product-price-currency">$</span>22.00</bdi>
-                                        </span>
-                                    </div>
-
-                                    <div class="qode-pli-add-to-cart text-center">
-                                        <a rel="nofollow" href="?add-to-cart=62" data-quantity="1" data-product_id="62" data-product_sku="008" class="add_to_cart_button ajax_add_to_cart qode-button">Add to cart</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <?php
+                        endwhile;
+                        wp_reset_postdata();
+                    else :
+                        echo '<p>No related products found.</p>';
+                    endif;
+                    ?>
                 </div>
             </div>
-
         </div>
     </div>
-    <!-- Related product section end -->
+</div>
+<!-- Related product section end -->
+
 
 
 </div>
