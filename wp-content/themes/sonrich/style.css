@@ -2582,6 +2582,97 @@ display: block;
   transform: translate(0%, 35%);
 }
 
+
+/*Complances-page*/
+/*Complances page*/
+.square-image {
+  width: 40%;
+}
+
+.square-image img {
+  box-sizing: border-box;
+  height: auto;
+  max-width: 420px;
+  vertical-align: bottom;
+  border-radius: 20px;
+}
+
+.square-part {
+  background-color: var(--light-green);
+  width: 100%;
+  max-width: 61%;
+  padding: 50px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.right-side-square .main-para-title h3 {
+  font-size: 50px;
+  font-weight: 600;
+}
+
+/* .right-side-square .main-para-title h3:first-of-type:first-letter{
+	font-size: 70px;
+} */
+
+.right-side-square .main-para-title span{
+  color: var(--yellow);
+}
+
+.complances-second-background {
+  background-image: url(./inc/Images/p.png);
+  background-position: 50% 50%;
+  background-repeat: repeat;
+  background-size: auto;
+  height: 500px;
+  background-color: #f8eedb;
+  position: relative;
+  opacity: 0.7;
+}
+
+.complances-second-background p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -60%);
+  font-weight: 600;
+  font-size: 30px;
+  border: 3px solid var(--yellow);
+  padding: 20px 20px;
+}
+
+.optional-details p {
+  font-weight: 600;
+  text-align: center;
+  padding: 30px 20px;
+  background: linear-gradient(0deg,rgb(0,109,87) 55%,rgb(0 0 0 / 0%) 100%);
+  opacity: 0.7;
+  min-height: 162px;
+}
+
+.optional-details {
+  margin-top: -75px;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.background-options {
+  padding: 0px 70px;
+}
+
+.complances-questionnier-part button.accordion-button.collapsed {
+  background-color: var(--light-cream);
+  margin-bottom: 15px;
+}
+
+.complances-questionnier-part button.accordion-button.collapsed {
+    font-weight: 600;
+}
+
+.complances-questionnier-part button.accordion-button {
+  color: black !important;
+  font-weight: 600;
+}
+
 @media (max-width: 1800x) {
 }
 
@@ -2990,6 +3081,11 @@ display: block;
 
 .input-group.input-newsletter {
   padding: 0px 138px;
+}
+
+/*complances-page*/
+.square-part {
+  max-width: 180%;
 }
 }
 
