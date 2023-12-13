@@ -11,7 +11,8 @@ get_header();  ?>
 <!--Third Section Start-->
 <div class="container-fluid stay-se p-0">
     <div class="stay py-5 px-3">
-        <img src="inc/Images/blue-moving.jpeg" alt="blue moving" class="blue-move d-none">
+        <img src="<?php echo get_template_directory_uri(); ?>inc/Images/blue-moving.jpeg" alt="blue moving"
+            class="blue-move d-none">
         <div class="row">
             <div class="col-12 col-lg-6">
                 <div class="stay-description p-0">
@@ -22,11 +23,10 @@ get_header();  ?>
                         <span class="short-underline m-auto m-md-0"></span>
                     </div>
                     <p class="first-p first-letter py-3">
-                        <a href="#" class="first-word">Luvnarich</a> is an esteemed company focused on wellness
-                        and lifestyle, utilizing an
-                        e-commerce & Web based system powered direct selling business model. Our aim is to
-                        provide customers with an extensive selection of exceptional products and services. At
-                        Luvnarich , we strongly believe in empowering individuals by granting them the
+                        <a href="#" class="first-word">Luvnarich</a> is an esteemed company focused on wellness and
+                        lifestyle, utilizing an e-commerce & Web based system powered direct selling business model.
+                        Our aim is to provide customers with an extensive selection of exceptional products and
+                        services. At Luvnarich, we strongly believe in empowering individuals by granting them the
                         opportunity to not only access high-quality offerings but also establish their own sales
                         enterprise through the promotion of these remarkable products.
                     </p>
@@ -41,7 +41,8 @@ get_header();  ?>
             </div>
             <div class="col-12 col-lg-6 m-auto d-block">
                 <div class="right-bac-image">
-                    <img src="inc/Images/Success.png" alt="img" class="success w-100 p-3">
+                    <img src="<?php echo get_template_directory_uri(); ?>inc/Images/Success.png" alt="img"
+                        class="success w-100 p-3">
                 </div>
             </div>
         </div>
@@ -109,7 +110,8 @@ get_header();  ?>
 <!--Section Start-->
 <div class="container-fluid stay-se p-0">
     <div class="stay py-5 px-3">
-        <img src="inc/Images/blue-moving.jpeg" alt="blue moving" class="blue-move d-none">
+        <img src="<?php echo get_template_directory_uri(); ?>inc/Images/blue-moving.jpeg" alt="blue moving"
+            class="blue-move d-none">
         <div class="row">
             <div class="col-12 col-lg-6 order-2">
                 <div class="stay-description p-0">
@@ -153,7 +155,8 @@ get_header();  ?>
             </div>
             <div class="col-12 col-lg-6 m-auto d-block order-1">
                 <div class="right-bac-image">
-                    <img src="inc/Images/Success.png" alt="img" class="success w-100 p-3">
+                    <img src="<?php echo get_template_directory_uri(); ?>inc/Images/Success.png" alt="img"
+                        class="success w-100 p-3">
                 </div>
             </div>
         </div>
@@ -245,7 +248,8 @@ get_header();  ?>
 <section class="what-luvnarich">
     <div class="container-fluid stay-se p-0">
         <div class="stay py-5 px-3">
-            <img src="inc/Images/blue-moving.jpeg" alt="blue moving" class="blue-move d-none">
+            <img src="<?php echo get_template_directory_uri(); ?>inc/Images/blue-moving.jpeg" alt="blue moving"
+                class="blue-move d-none">
             <div class="row">
                 <div class="col-12 col-lg-6">
                     <div class="stay-description p-0">
@@ -274,7 +278,8 @@ get_header();  ?>
                 </div>
                 <div class="col-12 col-lg-6 m-auto d-block">
                     <div class="right-bac-image">
-                        <img src="inc/Images/Success.png" alt="img" class="success w-100 p-3">
+                        <img src="<?php echo get_template_directory_uri(); ?>inc/Images/Success.png" alt="img"
+                            class="success w-100 p-3">
                     </div>
                 </div>
             </div>
@@ -287,7 +292,8 @@ get_header();  ?>
 <section class="scheme">
     <div class="container-fluid stay-se p-0">
         <div class="stay py-5 px-3">
-            <img src="inc/Images/blue-moving.jpeg" alt="blue moving" class="blue-move d-none">
+            <img src="<?php echo get_template_directory_uri(); ?>inc/Images/blue-moving.jpeg" alt="blue moving"
+                class="blue-move d-none">
             <div class="row">
                 <div class="col-12 col-lg-6 order-2">
                     <div class="stay-description p-0">
@@ -314,7 +320,8 @@ get_header();  ?>
                 </div>
                 <div class="col-12 col-lg-6 m-auto d-block order-1">
                     <div class="right-bac-image">
-                        <img src="inc/Images/Success.png" alt="img" class="success w-100 p-3">
+                        <img src="<?php echo get_template_directory_uri(); ?>inc/Images/Success.png" alt="img"
+                            class="success w-100 p-3">
                     </div>
                 </div>
             </div>
@@ -327,7 +334,8 @@ get_header();  ?>
 <section class="direct-selling">
     <div class="container-fluid stay-se p-0">
         <div class="stay py-5 px-3">
-            <img src="inc/Images/blue-moving.jpeg" alt="blue moving" class="blue-move d-none">
+            <img src="<?php echo get_template_directory_uri(); ?>inc/Images/blue-moving.jpeg" alt="blue moving"
+                class="blue-move d-none">
             <div class="row">
                 <div class="col-12 col-lg-6">
                     <div class="stay-description p-0">
@@ -354,7 +362,8 @@ get_header();  ?>
                 </div>
                 <div class="col-12 col-lg-6 m-auto d-block">
                     <div class="right-bac-image">
-                        <img src="inc/Images/Success.png" alt="img" class="success w-100 p-3">
+                        <img src="<?php echo get_template_directory_uri(); ?>inc/Images/Success.png" alt="img"
+                            class="success w-100 p-3">
                     </div>
                 </div>
             </div>
@@ -367,7 +376,8 @@ get_header();  ?>
 <section class="make-money">
     <div class="container-fluid stay-se p-0">
         <div class="stay py-5 px-3">
-            <img src="inc/Images/blue-moving.jpeg" alt="blue moving" class="blue-move d-none">
+            <img src="<?php echo get_template_directory_uri(); ?>inc/Images/blue-moving.jpeg" alt="blue moving"
+                class="blue-move d-none">
             <div class="row">
                 <div class="col-12 col-lg-6 order-2">
                     <div class="stay-description p-0">
@@ -390,7 +400,8 @@ get_header();  ?>
                 </div>
                 <div class="col-12 col-lg-6 m-auto d-block order-1">
                     <div class="right-bac-image">
-                        <img src="inc/Images/Success.png" alt="img" class="success w-100 p-3">
+                        <img src="<?php echo get_template_directory_uri(); ?>inc/Images/Success.png" alt="img"
+                            class="success w-100 p-3">
                     </div>
                 </div>
             </div>
@@ -403,7 +414,8 @@ get_header();  ?>
 <section class="making-income">
     <div class="container-fluid stay-se p-0">
         <div class="stay py-5 px-3">
-            <img src="inc/Images/blue-moving.jpeg" alt="blue moving" class="blue-move d-none">
+            <img src="<?php echo get_template_directory_uri(); ?>inc/Images/blue-moving.jpeg" alt="blue moving"
+                class="blue-move d-none">
             <div class="row">
                 <div class="col-12 col-lg-6">
                     <div class="stay-description p-0">
@@ -427,7 +439,8 @@ get_header();  ?>
                 </div>
                 <div class="col-12 col-lg-6 m-auto d-block">
                     <div class="right-bac-image">
-                        <img src="inc/Images/Success.png" alt="img" class="success w-100 p-3">
+                        <img src="<?php echo get_template_directory_uri(); ?>inc/Images/Success.png" alt="img"
+                            class="success w-100 p-3">
                     </div>
                 </div>
             </div>
