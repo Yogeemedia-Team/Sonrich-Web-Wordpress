@@ -250,6 +250,12 @@ a.nav-link.dropdown-toggle {
   margin-left: 70px !important;
 }
 
+/* top navbar css start */
+a.top-bar.nav-link.dropdown-toggle::after {
+  display: none;
+}
+/* top navbar css end */
+
 /*Banner Section*/
 .banner-section .background-image {
   position: relative;
@@ -2696,9 +2702,10 @@ display: block;
 
   img.circle-image {
     width: 63%;
-    left: 24px;
-    top: -31px;
-  }
+    top: -6%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
   .newsletter-bottom-textbox.text-center {
     width: 100%;
