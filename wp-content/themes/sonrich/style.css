@@ -67,12 +67,19 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
-:root {
+ :root {
   --green: #209d54;
   --dark-blue: #006f7d;
   --white: #ffff;
-  --black: #0000;
+  --black: #000000;
   --yellow: #eabe12;
+  --secondory: #7A7A7A;
+  --shade-green: #a8ae4f;
+  --gray: #c0bebe;
+  --dark-gray: #a0a0a0;
+  --light-green: #e9f2e8;
+  --light-cream: #fff6e1;
+  --light-white: #fffffd;
 }
 
 * {
@@ -130,6 +137,32 @@ body {
   scroll-behavior: smooth;
 }
 
+p.paragraph-des {
+  font-size: 20px;
+  color: #4a4a4a;
+  font-weight: 300;
+  line-height: 1.5em;
+  max-width: 550px;
+}
+
+.head-title h5{
+  font-size: 18px;
+  line-height: 1.8em;
+  color: var(--green);
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+h4.title {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 2;
+}
+
+p.paragraph {
+  font-size: 18px;
+  line-height: 1.8;
+}
 ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
   margin: 0 auto;
 }
@@ -2666,6 +2699,93 @@ span.onsale-inner {
   font-weight: 600;
 }
 
+/*Business-Venture*/
+.business-opportunity {
+  background-color: var(--light-cream);
+}
+
+.offers-card-item span i {
+  color: var(--green);
+  font-size: 50px;
+}
+
+.offers-card-item {
+  padding: 20px 15px;
+  background-color: var(--light-white);
+  min-height: 241px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+p.paragraph-des.offers-description {
+  font-size: 18px !important;
+  font-weight: 600;
+}
+
+.opportunity-image-background {
+  background-color: var(--dark-blue);
+  border-top-right-radius: 35px;
+  border-bottom-right-radius: 35px;
+
+}
+
+.row.business-venture-row {
+  border: 2px solid #48a8a6;
+  border-radius: 35px;
+  position: relative;
+}
+
+.opportunity-image img {
+  border-top-left-radius: 35px;
+  border-bottom-left-radius: 35px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.opportunity-image-background .back-text-area h4 {
+  font-size: 30px;
+  width: 500px;
+  margin: 0 auto;
+  font-weight: 300;
+  line-height: 1.8em;
+  color: var(--yellow);
+}
+
+.opportunity-list ul li {
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+.opportunity-image {
+  border-top-left-radius: 35px;
+  border-bottom-left-radius: 35px;
+  height: 500px;
+  object-fit: cover;
+  filter: blur(5px);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: green;
+}
+
+.opportunity-content {
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-508px, -34px);
+  z-index: 99999;
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-weight: bold;
+}
+
+.business-venture-second-section {
+  position: relative;
+}
+
+
 @media (max-width: 1800x) {
 }
 
@@ -2812,6 +2932,16 @@ span.onsale-inner {
   .input-group.input-newsletter {
     padding: 0px 138px;
   }
+
+    /*Business-venture*/
+.opportunity-image-background .back-text-area h4 {
+  max-width: 349px;
+}
+
+.opportunity-content {
+transform: translate(-268px, -34px);
+max-width: 156px;
+}
 }
 
 @media (max-width: 768px) {
@@ -3079,6 +3209,16 @@ span.onsale-inner {
  .input-group.input-newsletter {
     padding: 0px 138px;
   }
+
+/*Business-venture*/
+.opportunity-image-background .back-text-area h4 {
+  max-width: 359px;
+}
+
+.opportunity-content {
+  transform: translate(-250px, -34px);
+  max-width: 156px;
+}
 }
 
 @media (max-width: 578px) {
@@ -3260,6 +3400,27 @@ span.onsale-inner {
     width: 100%;
     padding: 0px 36px;
   }
+
+  /*Business-Venture page*/
+  .opportunity-image.w-100 {
+    display: none;
+}
+
+.opportunity-content {
+  display: none;
+}
+
+.back-text-area h4 {
+  padding: 9px;
+}
+
+.opportunity-image-background .back-text-area h4 {
+  margin-top: 20px !important;
+}
+
+.opportunity-list.text-white.mt-3 {
+  margin-bottom: 30px !important;
+}
 }
 
 @media (max-width: 370px) {
