@@ -67,7 +67,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
- :root {
+:root {
   --green: #209d54;
   --dark-blue: #006f7d;
   --white: #ffff;
@@ -245,7 +245,7 @@ a.nav-link.dropdown-toggle {
 }
 
 .navbar-expand-lg .navbar-collapse {
-  display: flex!important;
+  display: flex !important;
   flex-basis: auto;
   margin-left: 70px !important;
 }
@@ -830,14 +830,13 @@ p.txt-start {
   bottom: 0;
 }
 
-
 :root {
   --green: #209d54;
   --dark-blue: #006f7d;
   --white: #ffff;
   --black: #000000;
   --yellow: #eabe12;
-  --secondory: #7A7A7A;
+  --secondory: #7a7a7a;
   --shade-green: #a8ae4f;
   --gray: #c0bebe;
   --dark-gray: #a0a0a0;
@@ -1552,7 +1551,7 @@ p.txt-start {
 }
 
 .con-info,
-.con-info .phone a{
+.con-info .phone a {
   font-size: 14px;
   color: var(--secondory);
 }
@@ -1572,7 +1571,7 @@ p.txt-start {
   border: none;
   font-size: 14px;
   color: var(--secondory);
-  background: #F8F8F8;
+  background: #f8f8f8;
 }
 
 .header_sec {
@@ -1677,13 +1676,13 @@ p.txt-start {
   transition: var(--animation);
 }
 
-.gallery-share:hover  .social-share {
+.gallery-share:hover .social-share {
   visibility: visible;
   transition: var(--animation);
 }
 
 .inner-arrow {
-display: block;
+  display: block;
   position: absolute;
   top: -6px;
   left: 8px;
@@ -1711,10 +1710,6 @@ display: block;
   color: var(--white);
 }
 /* gallery page css end */
-
-
-
-
 
 /*Sonrich new design styles*/
 .parallax-banner-wrapper {
@@ -1748,14 +1743,14 @@ display: block;
 .shop-products .product-title-box .product-title {
   color: var(--shade-green);
   line-height: 0px;
-  font-family: 'Satisfy', cursive;
+  font-family: "Satisfy", cursive;
   font-size: 25px !important;
 }
 
 .shop-products .product-heading-title {
   font-size: 50px;
   line-height: 100px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 .shop-products .product-heading-description {
@@ -1763,15 +1758,15 @@ display: block;
   font-size: 20px;
   font-weight: 400;
   line-height: 33px;
-  font-family: 'Catamaran', sans-serif;
+  font-family: "Catamaran", sans-serif;
 }
 
-.shop-products .product-title-box .bottom-description{
+.shop-products .product-title-box .bottom-description {
   margin: -10px 0px 0px 0px;
   padding: 0% 31% 0% 31%;
 }
 
-.shop-product-section .product-details .entry-title{
+.shop-product-section .product-details .entry-title {
   color: black;
   text-decoration: none;
   font-style: normal;
@@ -1789,18 +1784,18 @@ display: block;
   text-decoration: none;
   font-size: 20px;
   line-height: 43px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 .qode-pli-price.text-center {
   color: #818181;
   font-size: 18px;
   opacity: 1;
-  -webkit-transition: all .3s ease;
-  -moz-transition: all .3s ease;
-  transition: all .3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  transition: all 0.3s ease;
   will-change: transform;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 .subscribe-newsleter-wrapper {
@@ -1830,7 +1825,7 @@ display: block;
 .newsletter-textbox {
   position: relative;
   z-index: 2;
-  padding-top: 100px; 
+  padding-top: 100px;
 }
 
 .newsletter-textbox-image {
@@ -1857,24 +1852,24 @@ display: block;
 }
 
 .newsletter-bottom-textbox h4 {
-    font-size: 25px;
-    line-height: 30px;
-    font-weight: 400;
-    letter-spacing: 0px;
-    font-family: 'Satisfy', cursive;
-    text-align: center;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  font-family: "Satisfy", cursive;
+  text-align: center;
 }
 
 .newsletter-bottom-textbox h2 {
   font-size: 50px;
   line-height: 60px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 400;
   margin-bottom: 25px;
   text-align: center;
 }
 
-.input-newsletter .form-control{
+.input-newsletter .form-control {
   height: 45px;
   border-color: #fff;
   border-radius: 0;
@@ -1885,10 +1880,10 @@ display: block;
   border: none;
 }
 
-.input-newsletter .btn{
+.input-newsletter .btn {
   min-height: 45px;
   border-radius: 0;
-  background-color: rgba(4,88,47,1);
+  background-color: rgba(4, 88, 47, 1);
   padding: 0px 25px;
   font-size: 12px;
   font-weight: 500;
@@ -1905,7 +1900,8 @@ display: block;
   color: var(--gray);
 }
 
-span.qode-pli-onsale, span.qode-pli-out-of-stock {
+span.qode-pli-onsale,
+span.qode-pli-out-of-stock {
   position: absolute;
   display: block;
   width: auto;
@@ -1913,7 +1909,7 @@ span.qode-pli-onsale, span.qode-pli-out-of-stock {
   letter-spacing: 1px;
   text-align: center;
   z-index: 100;
-  font-family: 'Satisfy', sans-serif;
+  font-family: "Satisfy", sans-serif;
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
   transform: translateZ(0);
@@ -1927,8 +1923,6 @@ span.qode-pli-onsale, span.qode-pli-out-of-stock {
   background-color: #fff;
   box-shadow: 5px 0px 5px 0px rgba(0, 0, 0, 0.08);
 }
-
-
 
 .parallax-banner-wrapper {
   position: relative;
@@ -1954,13 +1948,11 @@ span.qode-pli-onsale, span.qode-pli-out-of-stock {
   z-index: 2;
 }
 
-
-
 .single-product-header-bottom-part {
   height: 500px;
 }
 
-.main-wrapper .single-product-page{
+.main-wrapper .single-product-page {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -1984,7 +1976,7 @@ span.qode-pli-onsale, span.qode-pli-out-of-stock {
 
 .single-product-header-bottom-part .title_subtitle_holder_inner h1 {
   font-size: 70px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
   font-weight: 400;
 }
 
@@ -1996,7 +1988,7 @@ span.qode-pli-onsale, span.qode-pli-out-of-stock {
 .single-product-detail-right .single-product-price-amount {
   font-size: 21px;
   color: var(--dark-gray);
-  font-family: Raleway,sans-serif;
+  font-family: Raleway, sans-serif;
   font-weight: 600;
   line-height: 0;
 }
@@ -2011,20 +2003,20 @@ span.single-product-currency {
   color: var(--dark-gray);
 }
 
-
 .qty {
   border: none;
   padding: 0 5px;
   width: 35px;
   display: inline;
   text-align: center;
-  font-family: Raleway,sans-serif;
+  font-family: Raleway, sans-serif;
   font-weight: 600;
   color: var(--dark-gray);
   font-size: 17px;
   background: 0 0;
 }
-input.qtyplus,input.qtyminus { 
+input.qtyplus,
+input.qtyminus {
   padding: 0;
   width: 17px;
   height: 17px;
@@ -2035,10 +2027,10 @@ input.qtyplus,input.qtyminus {
   border: 0;
   cursor: pointer;
   outline: 0;
-  -webkit-transition: all .3s ease-out;
-  -moz-transition: all .3s ease-out;
-  -o-transition: all .3s ease-out;
-  transition: all .3s ease-out;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
   background-color: #bcbcbc;
   color: #fff;
   border-radius: 500px;
@@ -2047,7 +2039,7 @@ input.qtyplus,input.qtyminus {
 
 .product-quantity button.buy--btn {
   color: #ffffff;
-  font-family: 'Catamaran', sans-serif;
+  font-family: "Catamaran", sans-serif;
   border-color: #04582f;
   font-size: 12px;
   line-height: 46px;
@@ -2073,7 +2065,7 @@ form#myform {
   line-height: 37px;
 }
 
-.product-quantity button.buy--btn:hover{
+.product-quantity button.buy--btn:hover {
   background-color: #aa8c69;
 }
 
@@ -2083,7 +2075,7 @@ form#myform {
 
 span.sku_wrapper,
 span.posted_in,
-span.tagged_as{
+span.tagged_as {
   display: block;
   position: relative;
   color: #333;
@@ -2093,8 +2085,7 @@ span.tagged_as{
 }
 
 .sku_wrapper .sku,
-.posted_in a
-.tagged_as a {
+.posted_in a .tagged_as a {
   color: #a0a0a0 !important;
   padding-left: 5px;
   text-decoration: none !important;
@@ -2108,7 +2099,6 @@ span.tagged_as a {
   padding-left: 5px;
   font-size: 12px;
 }
-
 
 /**/
 
@@ -2125,14 +2115,14 @@ button.accordion-button.text-center.collapsed {
 }
 
 button.accordion-button.text-center {
-    color: #303030;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 20px;
-    text-align: center;
-    margin: 0 auto;
-    background-color: #e3e3e3;
+  color: #303030;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #e3e3e3;
 }
 
 .accordion-item {
@@ -2157,7 +2147,7 @@ button.accordion-button.text-center {
 
 .accordion-body p {
   color: #a0a0a0;
-  font-family: 'Catamaran', sans-serif;
+  font-family: "Catamaran", sans-serif;
   font-size: 16px;
   line-height: 27px;
   font-style: normal;
@@ -2181,21 +2171,21 @@ td.product-attributes-item__value {
 }
 
 h2.reviews-title {
-    color: #000000;
-    line-height: 75px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 13px;
-    margin-bottom: 0.7em;
+  color: #000000;
+  line-height: 75px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  margin-bottom: 0.7em;
 }
 
-div#review_form{
+div#review_form {
   color: #a0a0a0;
 }
 
 p.noreviews {
   color: #a0a0a0;
-  font-family: 'Catamaran', sans-serif;
+  font-family: "Catamaran", sans-serif;
   font-size: 16px;
   line-height: 27px;
   font-style: normal;
@@ -2211,7 +2201,7 @@ div#respond {
 
 p.comment-notes {
   color: #a0a0a0;
-  font-family: 'Catamaran', sans-serif;
+  font-family: "Catamaran", sans-serif;
   font-size: 16px;
   line-height: 27px;
   font-style: normal;
@@ -2229,7 +2219,7 @@ p.stars {
   margin-bottom: 15px;
 }
 
-#review-form form p{
+#review-form form p {
   color: rgb(160, 160, 160);
   font-family: Catamaran, sans-serif;
   font-size: 16px;
@@ -2249,7 +2239,7 @@ p.stars {
 
 p.comment-form-comment {
   color: #a0a0a0;
-  font-family: 'Catamaran', sans-serif;
+  font-family: "Catamaran", sans-serif;
   font-size: 16px;
   line-height: 27px;
   font-style: normal;
@@ -2281,7 +2271,9 @@ textarea#comment {
   -webkit-appearance: none;
 }
 
-#commentform input[type=text], #commentform input[type=email], #commentform textarea {
+#commentform input[type="text"],
+#commentform input[type="email"],
+#commentform textarea {
   display: block;
   padding-left: 2.6%;
   padding-right: 2.6%;
@@ -2298,7 +2290,11 @@ textarea#comment {
   border: none;
 }
 
-#respond input[type=text], #respond input[type=email], #respond textarea, .contact_form input[type=text], .contact_form textarea {
+#respond input[type="text"],
+#respond input[type="email"],
+#respond textarea,
+.contact_form input[type="text"],
+.contact_form textarea {
   width: 100%;
   margin: 0 0 20px;
   padding: 15px 12px;
@@ -2310,7 +2306,7 @@ textarea#comment {
   line-height: 17px;
   background-color: #fff;
   color: #818181;
-  font-family: Raleway,serif;
+  font-family: Raleway, serif;
   font-weight: 400;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -2318,22 +2314,22 @@ textarea#comment {
   -webkit-appearance: none;
 }
 
-.form-submit #submit{
-    color: rgb(255, 255, 255);
-    font-family: Catamaran, sans-serif;
-    font-size: 12px;
-    line-height: 46px;
-    height: 46px;
-    font-style: normal;
-    font-weight: 500;
-    background-color: rgb(4, 88, 47);
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    padding-left: 45px;
-    padding-right: 45px;
-    border-color: rgb(4, 88, 47);
-    border-radius: 0px;
-    border-width: 0px;
+.form-submit #submit {
+  color: rgb(255, 255, 255);
+  font-family: Catamaran, sans-serif;
+  font-size: 12px;
+  line-height: 46px;
+  height: 46px;
+  font-style: normal;
+  font-weight: 500;
+  background-color: rgb(4, 88, 47);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-left: 45px;
+  padding-right: 45px;
+  border-color: rgb(4, 88, 47);
+  border-radius: 0px;
+  border-width: 0px;
 }
 
 input#comment-cookies-consent {
@@ -2380,7 +2376,7 @@ span.onsale-inner {
   padding: 12px 17px;
 }
 
-.related-products a.add-to-cart-button:hover{
+.related-products a.add-to-cart-button:hover {
   background-color: #aa8c69;
 }
 
@@ -2388,11 +2384,11 @@ span.onsale-inner {
   cursor: pointer;
 }
 
-.related-products .products-item{
+.related-products .products-item {
   overflow: hidden;
 }
 
-.related-products .shop-product-section .product-item-image{
+.related-products .shop-product-section .product-item-image {
   width: 100%;
   transition: opacity 0.3s ease-in-out;
 }
@@ -2421,9 +2417,6 @@ span.onsale-inner {
   opacity: 1;
 }
 
-
-
-
 /* prize box css start */
 .main-box {
   width: 100px;
@@ -2433,16 +2426,16 @@ span.onsale-inner {
   position: relative;
   display: block;
   overflow: hidden;
-  }
+}
 
 .btn-box span {
   transition: transform 0.2s ease-out;
-  }
+}
 
 .btn-box span:first-child {
   display: inline-block;
   padding: 0 20px;
-  }
+}
 
 .btn-box span:last-child {
   position: absolute;
@@ -2454,28 +2447,28 @@ span.onsale-inner {
   align-items: center;
   justify-content: center;
   transform: translateY(-100%);
-  }
+}
 
 .btn-box:hover span:first-child {
   transform: translateY(100%);
-  }
+}
 
 .btn-box:hover span:last-child,
 .main-box[data-animation] .btn-box:hover span:last-child {
   transform: none;
-  }
+}
 
 .main-box[data-animation="to-right"] .btn-box span:last-child {
   transform: translateX(-100%);
-  }
+}
 
 .main-box[data-animation="to-right"] .btn-box:hover span:first-child {
   transform: translateX(100%);
-  }  
-  
+}
+
 .product-price-currency {
   color: var(--dark-gray);
-  font-family: Raleway,sans-serif;
+  font-family: Raleway, sans-serif;
 }
 /* prize box css end */
 
@@ -2538,13 +2531,13 @@ span.onsale-inner {
   transition: var(--animation);
 }
 
-.gallery-share:hover  .social-share {
+.gallery-share:hover .social-share {
   visibility: visible;
   transition: var(--animation);
 }
 
 .inner-arrow {
-display: block;
+  display: block;
   position: absolute;
   top: -6px;
   left: 8px;
@@ -2685,7 +2678,6 @@ display: block;
   }
 }
 
-
 @media (max-width: 1200px) {
 }
 
@@ -2819,7 +2811,7 @@ display: block;
 
   .input-group.input-newsletter {
     padding: 0px 138px;
-}
+  }
 }
 
 @media (max-width: 768px) {
@@ -3072,21 +3064,21 @@ display: block;
 
   .newsletter-bottom-textbox h2 {
     text-align: center;
-}
+  }
 
-.newsletter-bottom-textbox.text-center {
-  width: 100%;
-  padding: 0px 30px;
-}
+  .newsletter-bottom-textbox.text-center {
+    width: 100%;
+    padding: 0px 30px;
+  }
 
-.input-group.input-newsletter {
-  padding: 0px 138px;
-}
 
 /*complances-page*/
 .square-part {
   max-width: 180%;
 }
+ .input-group.input-newsletter {
+    padding: 0px 138px;
+  }
 }
 
 @media (max-width: 578px) {
@@ -3246,28 +3238,28 @@ display: block;
 
   .input-group.input-newsletter {
     padding: 0px 138px;
-}
+  }
 
-.shop-products .product-title-box .bottom-description {
-  padding: 0% 15% 0% 15%;
-}
+  .shop-products .product-title-box .bottom-description {
+    padding: 0% 15% 0% 15%;
+  }
 
-.shop-product-section .products-item {
-  margin-bottom: 40px;
-}
+  .shop-product-section .products-item {
+    margin-bottom: 40px;
+  }
 
-.newsletter-textbox-image {
-  top: 0px;
-}
+  .newsletter-textbox-image {
+    top: 0px;
+  }
 
-.input-group.input-newsletter {
-  padding: 0px 0px;
-}
+  .input-group.input-newsletter {
+    padding: 0px 0px;
+  }
 
-.newsletter-bottom-textbox.text-center {
-  width: 100%;
-  padding: 0px 36px;
-}
+  .newsletter-bottom-textbox.text-center {
+    width: 100%;
+    padding: 0px 36px;
+  }
 }
 
 @media (max-width: 370px) {
@@ -3302,3 +3294,155 @@ display: block;
   }
 }
 
+/* about us css start */
+p.first-p.first-letter::first-letter {
+  font-size: 300%;
+  padding: 5px 10px;
+  margin: 5px;
+  border: 1px solid;
+  float: left;
+  font-weight: 600;
+}
+
+a.first-word {
+  color: var(--white);
+  font-weight: 600;
+  border-bottom: 1px solid;
+  text-decoration: none;
+}
+
+p.first-p.about-p {
+  color: var(--black);
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.3em;
+  letter-spacing: 1px;
+}
+
+.first-p.about-p.about-description {
+  font-size: 1.5rem;
+}
+
+.in-service-box {
+  background: var(--gray);
+  border-radius: 25px;
+}
+/* about us css end */
+
+/* wall of fame css start */
+/* The actual timeline (the vertical ruler) */
+.main-timeline-2 {
+  position: relative;
+}
+
+/* The actual timeline (the vertical ruler) */
+.main-timeline-2::after {
+  content: "";
+  position: absolute;
+  width: 3px;
+  background-color: #26c6da;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.timeline-2 {
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.timeline-2::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -11px;
+  background-color: #26c6da;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.left-2 {
+  padding: 0px 40px 20px 0px;
+  left: 0;
+}
+
+/* Place the container to the right */
+.right-2 {
+  padding: 0px 0px 20px 40px;
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left-2::before {
+  content: " ";
+  position: absolute;
+  top: 18px;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right-2::before {
+  content: " ";
+  position: absolute;
+  top: 18px;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right-2::after {
+  left: -14px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .main-timeline-2::after {
+    left: 31px;
+  }
+
+  /* Full-width containers */
+  .timeline-2 {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+
+  /* Make sure that all arrows are pointing leftwards */
+  .timeline-2::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+  }
+
+  /* Make sure all circles are at the same spot */
+  .left-2::after,
+  .right-2::after {
+    left: 18px;
+  }
+
+  .left-2::before {
+    right: auto;
+  }
+
+  /* Make all right containers behave like the left ones */
+  .right-2 {
+    left: 0%;
+  }
+}
+/* wall of fame css start */
