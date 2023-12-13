@@ -62,10 +62,27 @@ Template Name: Home
                 <div class="featured-images">
                     <h2 class="featured-title text-center pt-5">Featured Product</h2>
                     <div class="row f-product py-5">
+
+                    <?php
+                    // Custom query to get related products
+                    $related_args = array(
+                        'post_type'      => 'product',
+                        'posts_per_page' => 4, // Number of related products to display
+                        'post__not_in'   => array(get_the_ID()), // Exclude the current product
+                        'orderby'        => 'rand', // You can change the orderby as needed
+                    );
+
+                    $related_query = new WP_Query($related_args);
+
+                    if ($related_query->have_posts()) :
+                        while ($related_query->have_posts()) : $related_query->the_post();
+                    ?>
                         <div class="col-lg-3 col-md-6 text-center">
-                            <img src="<?php echo get_template_directory_uri(); ?>/inc/images/Featured_product1.png" alt="product" class="fea-img w-100">
+                            <a href="<?php the_permalink(); ?>">
+                            <img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php the_title_attribute(); ?>" class="fea-img w-100">
+                            </a>
                             <div class="featured-pr text-center">
-                                <h4 class="product_name">Product Name</h4>
+                                <h4 class="product_name"><?php the_title(); ?></h4>
                                 <h6 class="cat_name">category name</h6>
                                 <div class="star-rating">
                                     <span class="fa fa-star checked"></span>
@@ -74,54 +91,22 @@ Template Name: Home
                                     <span class="fa fa-star checked"></span>
                                     <span class="fa fa-star checked"></span>
                                 </div>
-                                <h5 class="product-price">599.00</h5>
+                                <?php
+                                            // Display the price custom field
+                                            $price = get_post_meta(get_the_ID(), '_product_price', true);
+                                            if (!empty($price)) :
+                                            ?>
+                                <h5 class="product-price">$<?php echo esc_html($price); ?></h5>
+                                <?php endif; ?>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 text-center">
-                            <img src="<?php echo get_template_directory_uri(); ?>/inc/images/Featured_Product2.png" alt="product" class="fea-img w-100">
-                            <div class="featured-pr">
-                                <h4 class="product_name">Product Name</h4>
-                                <h6 class="cat_name">category name</h6>
-                                <!-- <div class="star-rating">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                </div> -->
-                                <h5 class="product-price">599.00</h5>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 text-center">
-                            <img src="<?php echo get_template_directory_uri(); ?>/inc/images/Featured_Product5.png" alt="product" class="fea-img w-100">
-                            <div class="featured-pr">
-                                <h4 class="product_name">Product Name</h4>
-                                <h6 class="cat_name">category name</h6>
-                                <!-- <div class="star-rating">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                </div> -->
-                                <h5 class="product-price">599.00</h5>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 text-center">
-                            <img src="<?php echo get_template_directory_uri(); ?>/inc/images/Featured_Product7.png" alt="product" class="fea-img w-100">
-                            <div class="featured-pr">
-                                <h4 class="product_name">Product Name</h4>
-                                <h6 class="cat_name">category name</h6>
-                                <!-- <div class="star-rating">
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                    <span class="fa fa-star checked"></span>
-                                </div> -->
-                                <h5 class="product-price">599.00</h5>
-                            </div>
-                        </div>
+                        <?php
+                        endwhile;
+                        wp_reset_postdata();
+                    else :
+                        echo '<p>No related products found.</p>';
+                    endif;
+                    ?>
                     </div>
 
                 </div>
