@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Default
+Template Name: good will
 */
 
 get_header();  ?>

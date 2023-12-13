@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Default
+Template Name: private policy
 */
 
 get_header();  ?>

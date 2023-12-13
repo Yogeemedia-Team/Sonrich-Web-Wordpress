@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Default
+Template Name: Terms & Conditions
 */
 
 get_header();  ?>
