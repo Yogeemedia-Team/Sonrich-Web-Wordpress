@@ -28,33 +28,27 @@ get_header();  ?>
     <div class="container">
         <div class="row" style="display: flex; flex-wrap: wrap;">
             <div class="col-lg-4 col-sm-6">
-                <div class="thumbnail bg-img my-2"
-                    style="background: url(<?php echo get_template_directory_uri(); ?>https://source.unsplash.com/sBvouTuXoAE);">
+                <div class="thumbnail bg-img my-2" style="background: url(https://source.unsplash.com/sBvouTuXoAE);">
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <div class="thumbnail bg-img my-2"
-                    style="background: url(<?php echo get_template_directory_uri(); ?>https://source.unsplash.com/VQYxQiiRky0);">
+                <div class="thumbnail bg-img my-2" style="background: url(https://source.unsplash.com/VQYxQiiRky0);">
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <div class="thumbnail bg-img my-2"
-                    style="background: url(<?php echo get_template_directory_uri(); ?>https://source.unsplash.com/gJFvHkUHdSI);">
+                <div class="thumbnail bg-img my-2" style="background: url(https://source.unsplash.com/gJFvHkUHdSI);">
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <div class="thumbnail bg-img my-2"
-                    style="background: url(<?php echo get_template_directory_uri(); ?>https://source.unsplash.com/8oydDuX4AAM);">
+                <div class="thumbnail bg-img my-2" style="background: url(https://source.unsplash.com/8oydDuX4AAM);">
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <div class="thumbnail bg-img my-2"
-                    style="background: url(<?php echo get_template_directory_uri(); ?>https://source.unsplash.com/PN_c3RKCVlA);">
+                <div class="thumbnail bg-img my-2" style="background: url(https://source.unsplash.com/PN_c3RKCVlA);">
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <div class="thumbnail bg-img my-2"
-                    style="background: url(<?php echo get_template_directory_uri(); ?>https://source.unsplash.com/wsMwDxF8SKA);">
+                <div class="thumbnail bg-img my-2" style="background: url(https://source.unsplash.com/wsMwDxF8SKA);">
                 </div>
             </div>
         </div>

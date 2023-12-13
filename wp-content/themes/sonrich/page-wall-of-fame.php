@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Default
+Template Name: wall of fame
 */
 
 get_header();  ?>
