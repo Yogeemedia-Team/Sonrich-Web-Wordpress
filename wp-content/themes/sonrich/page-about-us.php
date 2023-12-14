@@ -12,8 +12,6 @@ get_header();  ?>
 <section class="stay">
     <div class="container stay-se p-0">
         <div class="py-5 px-3">
-            <img src="<?php echo get_template_directory_uri(); ?>/inc/images/blue-moving.jpeg" alt="blue moving"
-                class="blue-move d-none">
             <div class="row">
                 <div class="col-12 col-lg-6">
                     <div class="stay-description p-0">
@@ -113,8 +111,6 @@ get_header();  ?>
 <section class="stay">
     <div class="container stay-se p-0">
         <div class="py-5 px-3">
-            <img src="<?php echo get_template_directory_uri(); ?>/inc/images/blue-moving.jpeg" alt="blue moving"
-                class="blue-move d-none">
             <div class="row">
                 <div class="col-12 col-lg-6 order-2">
                     <div class="stay-description p-0">
@@ -252,8 +248,6 @@ get_header();  ?>
 <section class="what-luvnarich stay">
     <div class="container stay-se p-0">
         <div class="py-5 px-3">
-            <img src="<?php echo get_template_directory_uri(); ?>/inc/images/blue-moving.jpeg" alt="blue moving"
-                class="blue-move d-none">
             <div class="row">
                 <div class="col-12 col-lg-6">
                     <div class="stay-description p-0">
@@ -296,8 +290,6 @@ get_header();  ?>
 <section class="scheme stay">
     <div class="container stay-se p-0">
         <div class="py-5 px-3">
-            <img src="<?php echo get_template_directory_uri(); ?>/inc/images/blue-moving.jpeg" alt="blue moving"
-                class="blue-move d-none">
             <div class="row">
                 <div class="col-12 col-lg-6 order-2">
                     <div class="stay-description p-0">
@@ -338,8 +330,6 @@ get_header();  ?>
 <section class="direct-selling stay">
     <div class="container stay-se p-0">
         <div class="py-5 px-3">
-            <img src="<?php echo get_template_directory_uri(); ?>/inc/images/blue-moving.jpeg" alt="blue moving"
-                class="blue-move d-none">
             <div class="row">
                 <div class="col-12 col-lg-6">
                     <div class="stay-description p-0">
@@ -380,8 +370,6 @@ get_header();  ?>
 <section class="make-money stay">
     <div class="container stay-se p-0">
         <div class="py-5 px-3">
-            <img src="<?php echo get_template_directory_uri(); ?>/inc/images/blue-moving.jpeg" alt="blue moving"
-                class="blue-move d-none">
             <div class="row">
                 <div class="col-12 col-lg-6 order-2">
                     <div class="stay-description p-0">
@@ -418,8 +406,6 @@ get_header();  ?>
 <section class="making-income stay">
     <div class="container stay-se p-0">
         <div class="py-5 px-3">
-            <img src="<?php echo get_template_directory_uri(); ?>/inc/images/blue-moving.jpeg" alt="blue moving"
-                class="blue-move d-none">
             <div class="row">
                 <div class="col-12 col-lg-6">
                     <div class="stay-description p-0">
