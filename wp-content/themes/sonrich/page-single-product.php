@@ -33,27 +33,27 @@ get_header();  ?>
                     <div class="single-product-detail-right">
                         <div class="single-product-details">
                             <h1 class="product_title mb-2 text-uppercase fs-5">Organic Pear</h1>
-                            <p class="price"><span class="single-product-price-amount amount"><bdi><span class="single-product-currency">$</span>22.00</bdi></span></p>
+                            <!-- <p class="price"><span class="single-product-price-amount amount"><bdi><span class="single-product-currency">$</span>22.00</bdi></span></p> -->
                             <div class="single-product-description">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Id leo in vitae turpis massa sed elementum. In ante metus dictum at. Lacus vel facilisis volutpat est velit egestas dui. A scelerisque purus semper eget. Diam quis enim lobortis scelerisque fermentum. At augue eget arcu dictum varius duis at consectetur lorem. Volutpat maecenas volutpat blandit aliquam etiam erat velit scelerisque. Amet justo donec enim diam. Sem fringilla ut morbi tincidunt augue interdum velit euismod. Platea dictumst quisque sagittis purus sit amet volutpat consequat mauris. Mollis aliquam ut porttitor leo a.</p>
                             </div>
 
-                            <div class="product-quantity mt-4 d-flex">
+                            <!-- <div class="product-quantity mt-4 d-flex">
                                 <form id='myform' method='POST' action='#' class="pt">
                                     <input type='button' value='-' class='qtyminus' field='quantity' />
                                     <input type='text' name='quantity' value='0' class='qty' />
                                     <input type='button' value='+' class='qtyplus' field='quantity' />
                                 </form>
                                 <button class="buy--btn mx-4">ADD TO CART</button>
-                            </div>
+                            </div> -->
 
-                            <div class="product_meta">
+                            <!-- <div class="product_meta">
                                 <span class="sku_wrapper">SKU: <span class="sku">012</span></span>
                                 <span class="posted_in">Category: <a href="https://bridge268.qodeinteractive.com/product-category/organic/" rel="tag">Organic</a></span>
                                 <span class="tagged_as">Tags: <a href="https://bridge268.qodeinteractive.com/product-tag/natural/" rel="tag">Natural</a>, <a href="https://bridge268.qodeinteractive.com/product-tag/vegan/" rel="tag">Vegan</a></span>
-                            </div>
+                            </div> -->
 
-                            <div class="product-according mt-5">
+                            <!-- <div class="product-according mt-5">
                                 <div class="accordion" id="accordionPanelsStayOpenExample">
                                     <div class="accordion-item">
                                         <h2 class="accordion-header" id="panelsStayOpen-headingOne">
@@ -151,7 +151,7 @@ get_header();  ?>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
                 </div>
@@ -177,7 +177,7 @@ get_header();  ?>
                                     <a href=""><img src="<?php echo get_template_directory_uri(); ?>/inc/images/shop-image-10-600x600.jpg" alt="" class="w-100"></a>
                                     <span class="add-to-cart-button-outer">
                                         <span class="add-to-cart-button-inner">
-                                            <a href="" class="add-to-cart-button">Add to cart</a>
+                                            <!-- <a href="" class="add-to-cart-button">Add to cart</a> -->
                                         </span>
                                     </span>
                                 </div>
@@ -186,15 +186,15 @@ get_header();  ?>
                                         <a href="#" class="font-weight-normal">Organic Pear</a>
                                     </h4>
 
-                                    <div class="qode-pli-price text-center">
+                                    <!-- <div class="qode-pli-price text-center">
                                         <span class="product-price-amount amount">
                                             <bdi><span class="product-price-currency">$</span>22.00</bdi>
                                         </span>
-                                    </div>
+                                    </div> -->
 
-                                    <div class="qode-pli-add-to-cart text-center">
+                                    <!-- <div class="qode-pli-add-to-cart text-center">
                                         <a rel="nofollow" href="?add-to-cart=62" data-quantity="1" data-product_id="62" data-product_sku="008" class="add_to_cart_button ajax_add_to_cart qode-button">Add to cart</a>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
