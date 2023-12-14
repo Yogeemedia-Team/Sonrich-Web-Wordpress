@@ -45,7 +45,7 @@ get_header();  ?>
                 </ul>
 
                 <div class="policy-title fw-bold pt-3">Refunds</div>
-                <p class="px-2 px-md-5">
+                <p>
                     Once your return is received and inspected, you will be notified about the same. You will
                     also be notified of the approval or rejection of your refund. If you are approved, then your
                     refund will be processed, and your credit card will automatically be credited or you will be
@@ -53,7 +53,7 @@ get_header();  ?>
                 </p>
 
                 <div class="policy-title fw-bold pt-3">Late Payments</div>
-                <p class="px-2 px-md-5">
+                <p>
                     If you haven't received a refund yet, re check your bank account. Thereafter
                     contact your credit card issuer or bank; it may take some time for your
                     refund to be officially reflected due to the processing time. If still not
@@ -62,12 +62,12 @@ get_header();  ?>
                 </p>
 
                 <div class="policy-title fw-bold pt-3">Sale items</div>
-                <p class="px-2 px-md-5">
+                <p>
                     Only regular priced items may be refunded, unfortunately sale items cannot be refunded.
                 </p>
 
                 <div class="policy-title fw-bold pt-3">Exchanges</div>
-                <p class="px-2 px-md-5">
+                <p>
                     Exchanges may be possible if the product is still in its original condition,
                     packaging and tags are still intact. We only replace items if they are
                     defective or damaged. If you have any queries on a possible exchange or
@@ -76,7 +76,7 @@ get_header();  ?>
                 </p>
 
                 <div class="policy-title fw-bold pt-3">Shipping</div>
-                <p class="px-2 px-md-5">
+                <p>
                     To return your product, you should mail your product to <strong>No:204/A/1, Bandaragama Road,
                         Kesbewa.</strong> You will be responsible to pay for the shipping costs while returning your
                     product.
