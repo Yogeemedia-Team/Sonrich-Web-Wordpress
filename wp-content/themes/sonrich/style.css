@@ -81,12 +81,12 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
   --light-cream: #fff6e1;
   --light-white: #fffffd;
 }
-
+/*
 * {
   padding: 0;
   margin: 0;
 }
-
+ 
 html,
 body,
 div,
@@ -129,7 +129,7 @@ ul {
   margin-right: 0;
   margin-top: 0;
   margin-bottom: 0;
-}
+} */
 
 body {
   font-family: "Titillium Web", sans-serif;
@@ -875,56 +875,6 @@ p.txt-start {
   --dark-gray: #a0a0a0;
 }
 
-* {
-  padding: 0;
-  margin: 0;
-}
-
-html,
-body,
-div,
-span,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-font,
-img,
-b,
-u,
-i,
-dl,
-dt,
-dd,
-ol,
-li,
-ul {
-  border-style: none;
-  border-color: inherit;
-  border-width: 0;
-  padding-top: 0;
-  padding-left: 0;
-  padding-right: 0;
-  padding-bottom: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
-  background: transparent;
-  text-align: left;
-  margin-left: 0;
-  margin-right: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  text-decoration: none;
-  list-style: none;
-}
 
 body {
   min-height: 100vh;
