@@ -11,7 +11,7 @@ get_header();  ?>
 <!--Third Section Start-->
 <div class="container-fluid stay-se p-0">
     <div class="stay py-5 px-3">
-        <img src="<?php echo get_template_directory_uri(); ?>/inc/Images/blue-moving.jpeg" alt="blue moving"
+        <img src="<?php echo get_template_directory_uri(); ?>/inc/images/blue-moving.jpeg" alt="blue moving"
             class="blue-move d-none">
         <div class="row">
             <div class="col-12 col-lg-6">
@@ -41,7 +41,7 @@ get_header();  ?>
             </div>
             <div class="col-12 col-lg-6 m-auto d-block">
                 <div class="right-bac-image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/inc/Images/Success.png" alt="img"
+                    <img src="<?php echo get_template_directory_uri(); ?>/inc/images/Success.png" alt="img"
                         class="success w-100 p-3">
                 </div>
             </div>
@@ -110,7 +110,7 @@ get_header();  ?>
 <!--Section Start-->
 <div class="container-fluid stay-se p-0">
     <div class="stay py-5 px-3">
-        <img src="<?php echo get_template_directory_uri(); ?>/inc/Images/blue-moving.jpeg" alt="blue moving"
+        <img src="<?php echo get_template_directory_uri(); ?>/inc/images/blue-moving.jpeg" alt="blue moving"
             class="blue-move d-none">
         <div class="row">
             <div class="col-12 col-lg-6 order-2">
@@ -155,7 +155,7 @@ get_header();  ?>
             </div>
             <div class="col-12 col-lg-6 m-auto d-block order-1">
                 <div class="right-bac-image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/inc/Images/Success.png" alt="img"
+                    <img src="<?php echo get_template_directory_uri(); ?>/inc/images/Success.png" alt="img"
                         class="success w-100 p-3">
                 </div>
             </div>
@@ -248,7 +248,7 @@ get_header();  ?>
 <section class="what-luvnarich">
     <div class="container-fluid stay-se p-0">
         <div class="stay py-5 px-3">
-            <img src="<?php echo get_template_directory_uri(); ?>/inc/Images/blue-moving.jpeg" alt="blue moving"
+            <img src="<?php echo get_template_directory_uri(); ?>/inc/images/blue-moving.jpeg" alt="blue moving"
                 class="blue-move d-none">
             <div class="row">
                 <div class="col-12 col-lg-6">
@@ -278,7 +278,7 @@ get_header();  ?>
                 </div>
                 <div class="col-12 col-lg-6 m-auto d-block">
                     <div class="right-bac-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/inc/Images/Success.png" alt="img"
+                        <img src="<?php echo get_template_directory_uri(); ?>/inc/images/Success.png" alt="img"
                             class="success w-100 p-3">
                     </div>
                 </div>
@@ -292,7 +292,7 @@ get_header();  ?>
 <section class="scheme">
     <div class="container-fluid stay-se p-0">
         <div class="stay py-5 px-3">
-            <img src="<?php echo get_template_directory_uri(); ?>/inc/Images/blue-moving.jpeg" alt="blue moving"
+            <img src="<?php echo get_template_directory_uri(); ?>/inc/images/blue-moving.jpeg" alt="blue moving"
                 class="blue-move d-none">
             <div class="row">
                 <div class="col-12 col-lg-6 order-2">
@@ -320,7 +320,7 @@ get_header();  ?>
                 </div>
                 <div class="col-12 col-lg-6 m-auto d-block order-1">
                     <div class="right-bac-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/inc/Images/Success.png" alt="img"
+                        <img src="<?php echo get_template_directory_uri(); ?>/inc/images/Success.png" alt="img"
                             class="success w-100 p-3">
                     </div>
                 </div>
@@ -334,7 +334,7 @@ get_header();  ?>
 <section class="direct-selling">
     <div class="container-fluid stay-se p-0">
         <div class="stay py-5 px-3">
-            <img src="<?php echo get_template_directory_uri(); ?>/inc/Images/blue-moving.jpeg" alt="blue moving"
+            <img src="<?php echo get_template_directory_uri(); ?>/inc/images/blue-moving.jpeg" alt="blue moving"
                 class="blue-move d-none">
             <div class="row">
                 <div class="col-12 col-lg-6">
@@ -362,7 +362,7 @@ get_header();  ?>
                 </div>
                 <div class="col-12 col-lg-6 m-auto d-block">
                     <div class="right-bac-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/inc/Images/Success.png" alt="img"
+                        <img src="<?php echo get_template_directory_uri(); ?>/inc/images/Success.png" alt="img"
                             class="success w-100 p-3">
                     </div>
                 </div>
@@ -376,7 +376,7 @@ get_header();  ?>
 <section class="make-money">
     <div class="container-fluid stay-se p-0">
         <div class="stay py-5 px-3">
-            <img src="<?php echo get_template_directory_uri(); ?>/inc/Images/blue-moving.jpeg" alt="blue moving"
+            <img src="<?php echo get_template_directory_uri(); ?>/inc/images/blue-moving.jpeg" alt="blue moving"
                 class="blue-move d-none">
             <div class="row">
                 <div class="col-12 col-lg-6 order-2">
@@ -400,7 +400,7 @@ get_header();  ?>
                 </div>
                 <div class="col-12 col-lg-6 m-auto d-block order-1">
                     <div class="right-bac-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/inc/Images/Success.png" alt="img"
+                        <img src="<?php echo get_template_directory_uri(); ?>/inc/images/Success.png" alt="img"
                             class="success w-100 p-3">
                     </div>
                 </div>
@@ -414,7 +414,7 @@ get_header();  ?>
 <section class="making-income">
     <div class="container-fluid stay-se p-0">
         <div class="stay py-5 px-3">
-            <img src="<?php echo get_template_directory_uri(); ?>/inc/Images/blue-moving.jpeg" alt="blue moving"
+            <img src="<?php echo get_template_directory_uri(); ?>/inc/images/blue-moving.jpeg" alt="blue moving"
                 class="blue-move d-none">
             <div class="row">
                 <div class="col-12 col-lg-6">
@@ -439,7 +439,7 @@ get_header();  ?>
                 </div>
                 <div class="col-12 col-lg-6 m-auto d-block">
                     <div class="right-bac-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/inc/Images/Success.png" alt="img"
+                        <img src="<?php echo get_template_directory_uri(); ?>/inc/images/Success.png" alt="img"
                             class="success w-100 p-3">
                     </div>
                 </div>

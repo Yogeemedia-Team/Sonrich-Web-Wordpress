@@ -67,13 +67,13 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
- :root {
+:root {
   --green: #209d54;
   --dark-blue: #006f7d;
   --white: #ffff;
   --black: #000000;
   --yellow: #eabe12;
-  --secondory: #7A7A7A;
+  --secondory: #7a7a7a;
   --shade-green: #a8ae4f;
   --gray: #c0bebe;
   --dark-gray: #a0a0a0;
@@ -145,7 +145,7 @@ p.paragraph-des {
   max-width: 550px;
 }
 
-.head-title h5{
+.head-title h5 {
   font-size: 18px;
   line-height: 1.8em;
   color: var(--green);
@@ -874,7 +874,6 @@ p.txt-start {
   --gray: #c0bebe;
   --dark-gray: #a0a0a0;
 }
-
 
 body {
   min-height: 100vh;
@@ -2558,7 +2557,6 @@ span.onsale-inner {
   transform: translate(0%, 35%);
 }
 
-
 /*Complances-page*/
 /*Complances page*/
 .square-image {
@@ -2591,12 +2589,12 @@ span.onsale-inner {
 	font-size: 70px;
 } */
 
-.right-side-square .main-para-title span{
+.right-side-square .main-para-title span {
   color: var(--yellow);
 }
 
 .complances-second-background {
-  background-image: url(./inc/Images/p.png);
+  background-image: url(./inc/images/p.png);
   background-position: 50% 50%;
   background-repeat: repeat;
   background-size: auto;
@@ -2621,7 +2619,7 @@ span.onsale-inner {
   font-weight: 600;
   text-align: center;
   padding: 30px 20px;
-  background: linear-gradient(0deg,rgb(0,109,87) 55%,rgb(0 0 0 / 0%) 100%);
+  background: linear-gradient(0deg, rgb(0, 109, 87) 55%, rgb(0 0 0 / 0%) 100%);
   opacity: 0.7;
   min-height: 162px;
 }
@@ -2641,7 +2639,7 @@ span.onsale-inner {
 }
 
 .complances-questionnier-part button.accordion-button.collapsed {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .complances-questionnier-part button.accordion-button {
@@ -2676,7 +2674,6 @@ p.paragraph-des.offers-description {
   background-color: var(--dark-blue);
   border-top-right-radius: 35px;
   border-bottom-right-radius: 35px;
-
 }
 
 .row.business-venture-row {
@@ -2734,7 +2731,6 @@ p.paragraph-des.offers-description {
 .business-venture-second-section {
   position: relative;
 }
-
 
 @media (max-width: 1800x) {
 }
@@ -2872,7 +2868,7 @@ p.paragraph-des.offers-description {
     top: -6%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
+  }
 
   .newsletter-bottom-textbox.text-center {
     width: 100%;
@@ -2883,15 +2879,15 @@ p.paragraph-des.offers-description {
     padding: 0px 138px;
   }
 
-    /*Business-venture*/
-.opportunity-image-background .back-text-area h4 {
-  max-width: 349px;
-}
+  /*Business-venture*/
+  .opportunity-image-background .back-text-area h4 {
+    max-width: 349px;
+  }
 
-.opportunity-content {
-transform: translate(-268px, -34px);
-max-width: 156px;
-}
+  .opportunity-content {
+    transform: translate(-268px, -34px);
+    max-width: 156px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -3151,24 +3147,23 @@ max-width: 156px;
     padding: 0px 30px;
   }
 
-
-/*complances-page*/
-.square-part {
-  max-width: 180%;
-}
- .input-group.input-newsletter {
+  /*complances-page*/
+  .square-part {
+    max-width: 180%;
+  }
+  .input-group.input-newsletter {
     padding: 0px 138px;
   }
 
-/*Business-venture*/
-.opportunity-image-background .back-text-area h4 {
-  max-width: 359px;
-}
+  /*Business-venture*/
+  .opportunity-image-background .back-text-area h4 {
+    max-width: 359px;
+  }
 
-.opportunity-content {
-  transform: translate(-250px, -34px);
-  max-width: 156px;
-}
+  .opportunity-content {
+    transform: translate(-250px, -34px);
+    max-width: 156px;
+  }
 }
 
 @media (max-width: 578px) {
@@ -3354,23 +3349,23 @@ max-width: 156px;
   /*Business-Venture page*/
   .opportunity-image.w-100 {
     display: none;
-}
+  }
 
-.opportunity-content {
-  display: none;
-}
+  .opportunity-content {
+    display: none;
+  }
 
-.back-text-area h4 {
-  padding: 9px;
-}
+  .back-text-area h4 {
+    padding: 9px;
+  }
 
-.opportunity-image-background .back-text-area h4 {
-  margin-top: 20px !important;
-}
+  .opportunity-image-background .back-text-area h4 {
+    margin-top: 20px !important;
+  }
 
-.opportunity-list.text-white.mt-3 {
-  margin-bottom: 30px !important;
-}
+  .opportunity-list.text-white.mt-3 {
+    margin-bottom: 30px !important;
+  }
 }
 
 @media (max-width: 370px) {
