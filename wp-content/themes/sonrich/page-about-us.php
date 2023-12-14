@@ -7,9 +7,9 @@ get_header();  ?>
 
 <?php get_template_part('template-parts/inner', 'banner'); ?>
 
-
 <!--Third Section Start-->
 <section class="stay">
+    <!-- <img src="inc/images/blue-moving.jpeg" alt="blue moving" class="blue-move d-none"> -->
     <div class="container stay-se p-0">
         <div class="py-5 px-3">
             <div class="row">
@@ -21,27 +21,32 @@ get_header();  ?>
                             </h2>
                             <span class="short-underline m-auto m-md-0"></span>
                         </div>
-                        <p class="first-p first-letter py-3">
-                            <a href="#" class="first-word">Luvnarich</a> is an esteemed company focused on wellness and
-                            lifestyle, utilizing an e-commerce & Web based system powered direct selling business model.
-                            Our aim is to provide customers with an extensive selection of exceptional products and
-                            services. At Luvnarich, we strongly believe in empowering individuals by granting them the
-                            opportunity to not only access high-quality offerings but also establish their own sales
+                        <p class="first-p  first-letter py-3">
+                            <a href="#" class="first-word">Luvnarich</a> is an esteemed company focused on
+                            wellness
+                            and lifestyle, utilizing an
+                            e-commerce & Web based system powered direct selling business model. Our aim is to
+                            provide customers with an extensive selection of exceptional products and services.
+                            At
+                            Luvnarich , we strongly believe in empowering individuals by granting them the
+                            opportunity to not only access high-quality offerings but also establish their own
+                            sales
                             enterprise through the promotion of these remarkable products.
                         </p>
                         <p class="second-p">
-                            Luvnarich endeavors to enrich the lives of our valued customers by delivering products
+                            Luvnarich endeavors to enrich the lives of our valued customers by delivering
+                            products
                             and services that foster well-being and an enhanced lifestyle. We are dedicated to
                             offering distinctive, premium-quality merchandise that caters to a diverse range of
-                            needs. These needs encompass various aspects, including Wellness and nutrition, Beauty &
+                            needs. These needs encompass various aspects, including Wellness and nutrition,
+                            Beauty &
                             personal care , travel and luxury, as well as education.
                         </p>
                     </div>
                 </div>
                 <div class="col-12 col-lg-6 m-auto d-block">
                     <div class="right-bac-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/inc/images/Success.png" alt="img"
-                            class="success w-100 p-3">
+                        <img src="inc/images/Success.png" alt="img" class="success left-courve w-100 p-3">
                     </div>
                 </div>
             </div>
@@ -57,7 +62,7 @@ get_header();  ?>
             <div class="col text-center text-md-start">
                 <div class="stay-content mb-3">
                     <h2 class="text-center fs-1 text-lg-start m-auto m-lg-0">
-                        Luvnarich: Where wellness meets lifestyle.
+                        Where wellness meets lifestyle.
                     </h2>
                     <span class="short-underline m-auto m-md-0"></span>
                     <p class="first-p about-p about-description py-3 text-start">
@@ -70,22 +75,22 @@ get_header();  ?>
         </div>
         <div class="row">
             <div class="col-12 col-md-4">
-                <p class="first-p about-p py-3">
+                <p class="first-p about-p p-3 rounded" style="background: var(--gray);">
                     <strong>Our unique business model</strong> seamlessly merges the
                     inuence of e-commerce and direct selling. This allows us to provide our customers with the
                     convenience of online shopping while also giving them the opportunity to build their own
                     businesses and earn income.
                 </p>
             </div>
-            <div class="col-12 col-md-4">
-                <p class="first-p about-p py-3">
+            <div class="col-12 col-md-4 mt-1 mt-md-4 pt-1 pt-md-4">
+                <p class="first-p about-p p-3 rounded" style="background: var(--gray);">
                     <strong>We are a National company</strong> with a presence in over 10 island. This means
                     that our customers have access to a wide range of products and services, and they can
                     connect with a community of like-minded individuals from all over the world.
                 </p>
             </div>
-            <div class="col-12 col-md-4">
-                <p class="first-p about-p py-3">
+            <div class="col-12 col-md-4 mt-1 mt-md-5 pt-1 pt-md-5">
+                <p class="first-p about-p p-3 rounded" style="background: var(--gray);">
                     <strong>We are committed to making a positive difference in the world.</strong> We believe
                     that everyone has the power to make a difference, and we are proud to support organizations
                     that are working to make the world a better place.
@@ -111,6 +116,7 @@ get_header();  ?>
 <section class="stay">
     <div class="container stay-se p-0">
         <div class="py-5 px-3">
+            <!-- <img src="inc/images/blue-moving.jpeg" alt="blue moving" class="blue-move d-none"> -->
             <div class="row">
                 <div class="col-12 col-lg-6 order-2">
                     <div class="stay-description p-0">
@@ -127,7 +133,8 @@ get_header();  ?>
                             </div>
                             <div class="list-item pb-3">
                                 <i class="fa fa-solid fa-circle p-0"></i>
-                                <li>Where Diversity Meets Support - Multilingual Customer Service at Its Best</li>
+                                <li>Where Diversity Meets Support - Multilingual Customer Service at Its Best
+                                </li>
                             </div>
                             <div class="list-item pb-3">
                                 <i class="fa fa-solid fa-circle p-0"></i>
@@ -135,7 +142,8 @@ get_header();  ?>
                             </div>
                             <div class="list-item pb-3">
                                 <i class="fa fa-solid fa-circle p-0"></i>
-                                <li>Engaging Communities, Transforming Islands - 50+ CSR Projects Accomplished</li>
+                                <li>Engaging Communities, Transforming Islands - 50+ CSR Projects Accomplished
+                                </li>
                             </div>
                             <div class="list-item pb-3">
                                 <i class="fa fa-solid fa-circle p-0"></i>
@@ -154,8 +162,7 @@ get_header();  ?>
                 </div>
                 <div class="col-12 col-lg-6 m-auto d-block order-1">
                     <div class="right-bac-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/inc/images/Success.png" alt="img"
-                            class="success w-100 p-3">
+                        <img src="inc/images/Success.png" alt="img" class="success right-courve w-100 p-3">
                     </div>
                 </div>
             </div>
@@ -173,7 +180,7 @@ get_header();  ?>
             </h2>
             <span class="short-underline m-auto"></span>
         </div>
-        <h2 class="text-center text-lg-start m-auto m-lg-0 text-dark">
+        <h2 class="text-center m-auto text-dark ">
             rooted values
         </h2>
         <div class="row pt-3">
@@ -248,6 +255,7 @@ get_header();  ?>
 <section class="what-luvnarich stay">
     <div class="container stay-se p-0">
         <div class="py-5 px-3">
+            <!-- <img src="inc/images/blue-moving.jpeg" alt="blue moving" class="blue-move d-none"> -->
             <div class="row">
                 <div class="col-12 col-lg-6">
                     <div class="stay-description p-0">
@@ -276,8 +284,7 @@ get_header();  ?>
                 </div>
                 <div class="col-12 col-lg-6 m-auto d-block">
                     <div class="right-bac-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/inc/images/Success.png" alt="img"
-                            class="success w-100 p-3">
+                        <img src="inc/images/Success.png" alt="img" class="success left-courve w-100 p-3">
                     </div>
                 </div>
             </div>
@@ -290,12 +297,13 @@ get_header();  ?>
 <section class="scheme stay">
     <div class="container stay-se p-0">
         <div class="py-5 px-3">
+            <!-- <img src="inc/images/blue-moving.jpeg" alt="blue moving" class="blue-move d-none"> -->
             <div class="row">
                 <div class="col-12 col-lg-6 order-2">
                     <div class="stay-description p-0">
                         <div class="stay-content mb-3">
                             <h2 class="success-title text-center text-lg-start m-auto m-lg-0">
-                                What is Luvnarich?
+                                Is Luvnarich an Investment Scheme?
                             </h2>
                             <span class="short-underline m-auto m-md-0"></span>
                         </div>
@@ -316,8 +324,7 @@ get_header();  ?>
                 </div>
                 <div class="col-12 col-lg-6 m-auto d-block order-1">
                     <div class="right-bac-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/inc/images/Success.png" alt="img"
-                            class="success w-100 p-3">
+                        <img src="inc/images/Success.png" alt="img" class="success right-courve w-100 p-3">
                     </div>
                 </div>
             </div>
@@ -330,6 +337,7 @@ get_header();  ?>
 <section class="direct-selling stay">
     <div class="container stay-se p-0">
         <div class="py-5 px-3">
+            <!-- <img src="inc/images/blue-moving.jpeg" alt="blue moving" class="blue-move d-none"> -->
             <div class="row">
                 <div class="col-12 col-lg-6">
                     <div class="stay-description p-0">
@@ -356,8 +364,7 @@ get_header();  ?>
                 </div>
                 <div class="col-12 col-lg-6 m-auto d-block">
                     <div class="right-bac-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/inc/images/Success.png" alt="img"
-                            class="success w-100 p-3">
+                        <img src="inc/images/Success.png" alt="img" class="success left-courve w-100 p-3">
                     </div>
                 </div>
             </div>
@@ -370,6 +377,7 @@ get_header();  ?>
 <section class="make-money stay">
     <div class="container stay-se p-0">
         <div class="py-5 px-3">
+            <!-- <img src="inc/images/blue-moving.jpeg" alt="blue moving" class="blue-move d-none"> -->
             <div class="row">
                 <div class="col-12 col-lg-6 order-2">
                     <div class="stay-description p-0">
@@ -392,8 +400,7 @@ get_header();  ?>
                 </div>
                 <div class="col-12 col-lg-6 m-auto d-block order-1">
                     <div class="right-bac-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/inc/images/Success.png" alt="img"
-                            class="success w-100 p-3">
+                        <img src="inc/images/Success.png" alt="img" class="success right-courve w-100 p-3">
                     </div>
                 </div>
             </div>
@@ -406,6 +413,7 @@ get_header();  ?>
 <section class="making-income stay">
     <div class="container stay-se p-0">
         <div class="py-5 px-3">
+            <!-- <img src="inc/images/blue-moving.jpeg" alt="blue moving" class="blue-move d-none"> -->
             <div class="row">
                 <div class="col-12 col-lg-6">
                     <div class="stay-description p-0">
@@ -429,8 +437,7 @@ get_header();  ?>
                 </div>
                 <div class="col-12 col-lg-6 m-auto d-block">
                     <div class="right-bac-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/inc/images/Success.png" alt="img"
-                            class="success w-100 p-3">
+                        <img src="inc/images/Success.png" alt="img" class="success left-courve w-100 p-3">
                     </div>
                 </div>
             </div>
