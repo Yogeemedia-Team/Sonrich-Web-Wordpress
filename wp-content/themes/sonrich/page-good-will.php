@@ -42,7 +42,7 @@ get_header();  ?>
                 </p>
             </div>
         </div>
-        <div class="goodwill-list-box px-2 px-md-5">
+        <div class="goodwill-list-box">
             <div class="goodwill-container-title pt-5 fs-2 lh-sm pb-3">
                 Here are some of the ways that the luvnarich Foundation is making a difference:
             </div>

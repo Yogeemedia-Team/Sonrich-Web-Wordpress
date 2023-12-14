@@ -29,7 +29,7 @@ get_header();  ?>
                 </p>
             </div>
         </div>
-        <ol type="1" class="px-2 px-md-5">
+        <ol type="1">
             <li class="fs-4 py-3 fw-bold">The Information We Collect and How we use it.</li>
             <p class="fs-5">
                 We collect information from you when you register on our site, place an order, subscribe to a
