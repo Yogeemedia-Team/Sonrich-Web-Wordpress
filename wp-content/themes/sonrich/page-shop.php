@@ -17,7 +17,7 @@ get_header();  ?>
         <!-- parallax banner is end -->
 
         <!-- start product section -->
-        <div class="shop-products mt-5 mb-5">
+        <div class="shop-products mt-5">
             <div class="row">
                 <div class="product-title-box text-center align-content-center justify-content-center mt-5 pt-5">
                     <h5 class="product-title text-center fs-5 fw-normal">Products</h5>
@@ -50,7 +50,7 @@ get_header();  ?>
                         if ($products_query->have_posts()) :
                             while ($products_query->have_posts()) : $products_query->the_post();
                         ?>
-                                <div class="col-lg-3 col-md-6 col-sm-12">
+                                <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
                                     <div class="products-item w-100 mt-4">
                                         <div class="product-item-image">
                                             <a href="<?php the_permalink(); ?>"><img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php the_title_attribute(); ?>" class="w-100"></a>

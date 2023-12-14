@@ -81,22 +81,22 @@
                     <ul class="navbar-nav m-2 mb-lg-0 ms-auto">
                         <li class="top-nav-item">
                             <a class="top-bar nav-link" target="_blank" href="https://future.sonrich.net/" role="button">
-                                Future Sonrich
+                                sonrich future plan
                             </a>
                         </li>
                         <li class="top-nav-item">
                             <a class="top-bar nav-link" target="_blank" href="https://invoice.luvnarich.net/" role="button">
-                                invoice
+                                invoice management
                             </a>
                         </li>
                         <li class="top-nav-item">
                             <a class="top-bar nav-link" target="_blank" href="https://www.sonrich.lk/newplan/sonrichmp/login.php" role="button">
-                                Sell Sell
+                                sonrich main plan
                             </a>
                         </li>
                         <li class="top-nav-item">
                             <a class="top-bar nav-link" target="_blank" href="https://sellsell.lk/" role="button">
-                                Old Sonrich
+                                sell sell
                             </a>
                         </li>
                     </ul>
