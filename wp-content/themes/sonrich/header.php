@@ -122,7 +122,7 @@
                             array(
                                 'theme_location' => 'menu-1',
                                 'container'      => 'div',
-                                'container_class' => 'navigation-bar ms-auto',
+                                'container_class' => 'navigation-bar ms-auto py-3',
                                 'menu_class'     => 'navbar-nav mb-2 mb-lg-0',
                                 'fallback_cb'    => false,
                                 'items_wrap'     => '<ul id="%1$s" class="%2$s">%3$s 
