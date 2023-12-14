@@ -76,7 +76,7 @@
         <header>
 
             <!-- top nav start -->
-            <div class="navigation-bar" style="background: var(--black);">
+            <div id="top" class="navigation-bar" style="background: var(--black);">
                 <nav class="navbar navbar-expand-sm navbar-light container p-2">
                     <ul class="navbar-nav m-2 mb-lg-0 ms-auto">
                         <li class="top-nav-item">
@@ -143,7 +143,7 @@
         </header>
 
 
-    <!-- <div id="page" class="site">
+        <!-- <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e('Skip to content', 'sonrich'); ?></a>
 
 	<header id="masthead" class="site-header">
