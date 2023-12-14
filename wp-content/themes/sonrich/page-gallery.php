@@ -28,27 +28,27 @@ get_header();  ?>
     <div class="container">
         <div class="row" style="display: flex; flex-wrap: wrap;">
             <div class="col-lg-4 col-sm-6">
-                <div class="thumbnail bg-img my-2" style="background: url(https://source.unsplash.com/sBvouTuXoAE);">
+                <div class="thumbnail bg-img my-2" style="background: url(https://ongoing.website/websites/sonrich/wp-content/uploads/2023/12/gal1.png);">
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <div class="thumbnail bg-img my-2" style="background: url(https://source.unsplash.com/VQYxQiiRky0);">
+                <div class="thumbnail bg-img my-2" style="background: url(https://ongoing.website/websites/sonrich/wp-content/uploads/2023/12/gal2.png);">
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <div class="thumbnail bg-img my-2" style="background: url(https://source.unsplash.com/gJFvHkUHdSI);">
+                <div class="thumbnail bg-img my-2" style="background: url(https://ongoing.website/websites/sonrich/wp-content/uploads/2023/12/gal3.png);">
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <div class="thumbnail bg-img my-2" style="background: url(https://source.unsplash.com/8oydDuX4AAM);">
+                <div class="thumbnail bg-img my-2" style="background: url(https://ongoing.website/websites/sonrich/wp-content/uploads/2023/12/gal4.png);">
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <div class="thumbnail bg-img my-2" style="background: url(https://source.unsplash.com/PN_c3RKCVlA);">
+                <div class="thumbnail bg-img my-2" style="background: url(https://ongoing.website/websites/sonrich/wp-content/uploads/2023/12/gal5.png);">
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <div class="thumbnail bg-img my-2" style="background: url(https://source.unsplash.com/wsMwDxF8SKA);">
+                <div class="thumbnail bg-img my-2" style="background: url(https://ongoing.website/websites/sonrich/wp-content/uploads/2023/12/gal7.png);">
                 </div>
             </div>
         </div>

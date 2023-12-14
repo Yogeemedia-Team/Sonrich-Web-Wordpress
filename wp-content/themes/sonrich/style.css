@@ -2548,7 +2548,7 @@ span.onsale-inner {
 }
 
 .title_subtitle_holder {
-  height: 500px;
+  height: 295px;
   transform: translate(0%, 35%);
 }
 
@@ -2725,6 +2725,14 @@ p.paragraph-des.offers-description {
 
 .business-venture-second-section {
   position: relative;
+}
+
+ul.social-icon-box li {
+  list-style: none;
+}
+
+ul.social-icon-box {
+    padding-left: 0px !important;
 }
 
 @media (max-width: 1800x) {
