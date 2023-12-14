@@ -80,22 +80,22 @@
                 <nav class="navbar navbar-expand-sm navbar-light container p-2">
                     <ul class="navbar-nav m-2 mb-lg-0 ms-auto">
                         <li class="top-nav-item">
-                            <a class="top-bar nav-link" target="_blank" href="#" role="button">
+                            <a class="top-bar nav-link" target="_blank" href="https://future.sonrich.net/" role="button">
                                 Future Sonrich
                             </a>
                         </li>
                         <li class="top-nav-item">
-                            <a class="top-bar nav-link" target="_blank" href="#" role="button">
+                            <a class="top-bar nav-link" target="_blank" href="https://invoice.luvnarich.net/" role="button">
                                 invoice
                             </a>
                         </li>
                         <li class="top-nav-item">
-                            <a class="top-bar nav-link" target="_blank" href="#" role="button">
+                            <a class="top-bar nav-link" target="_blank" href="https://www.sonrich.lk/newplan/sonrichmp/login.php" role="button">
                                 Sell Sell
                             </a>
                         </li>
                         <li class="top-nav-item">
-                            <a class="top-bar nav-link" target="_blank" href="#" role="button">
+                            <a class="top-bar nav-link" target="_blank" href="https://sellsell.lk/" role="button">
                                 Old Sonrich
                             </a>
                         </li>
