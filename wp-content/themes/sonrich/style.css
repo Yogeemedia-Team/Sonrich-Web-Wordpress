@@ -277,11 +277,6 @@ a.nav-link.dropdown-toggle {
   font-weight: 200;
 }
 
-.navbar-expand-lg .navbar-collapse {
-  display: flex !important;
-  flex-basis: auto;
-  margin-left: 70px !important;
-}
 
 /* top navbar css start */
 .top-nav-item {
