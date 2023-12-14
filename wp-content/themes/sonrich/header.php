@@ -122,21 +122,22 @@
                             array(
                                 'theme_location' => 'menu-1',
                                 'container'      => 'div',
-                                'container_class' => 'navigation-bar',
-                                'menu_class'     => 'navbar-nav mb-2 mb-lg-0 ms-auto',
+                                'container_class' => 'navigation-bar ms-auto py-3',
+                                'menu_class'     => 'navbar-nav mb-2 mb-lg-0',
                                 'fallback_cb'    => false,
-                                'items_wrap'     => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+                                'items_wrap'     => '<ul id="%1$s" class="%2$s">%3$s 
+                                <form class="d-flex ms-2" role="search">
+                                    <input class="form-control navbar-search me-2 ms-auto" type="search" placeholder="Search"
+                                        aria-label="Search">
+                                    <div class="search-icon">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                    </div>
+                                </form></ul>',
                                 'walker' => new WP_Bootstrap_Navwalker(),
                             )
                         );
                         ?>
-                        <form class="d-flex ms-2" role="search">
-                            <input class="form-control navbar-search me-2 ms-auto" type="search" placeholder="Search"
-                                aria-label="Search">
-                            <div class="search-icon">
-                                <i class="fa-solid fa-magnifying-glass"></i>
-                            </div>
-                        </form>
+
                     </div>
                 </nav>
             </div>

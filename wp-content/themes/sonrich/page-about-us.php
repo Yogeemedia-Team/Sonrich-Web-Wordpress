@@ -9,45 +9,45 @@ get_header();  ?>
 
 
 <!--Third Section Start-->
-<div class="container-fluid stay-se p-0">
-    <div class="stay py-5 px-3">
-        <img src="<?php echo get_template_directory_uri(); ?>/inc/Images/blue-moving.jpeg" alt="blue moving"
-            class="blue-move d-none">
-        <div class="row">
-            <div class="col-12 col-lg-6">
-                <div class="stay-description p-0">
-                    <div class="stay-content mb-3">
-                        <h2 class="success-title text-center text-lg-start m-auto m-lg-0">
-                            WHO ARE WE?
-                        </h2>
-                        <span class="short-underline m-auto m-md-0"></span>
+<section class="stay">
+    <div class="container stay-se p-0">
+        <div class="py-5 px-3">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div class="stay-description p-0">
+                        <div class="stay-content mb-3">
+                            <h2 class="success-title text-center text-lg-start m-auto m-lg-0">
+                                WHO ARE WE?
+                            </h2>
+                            <span class="short-underline m-auto m-md-0"></span>
+                        </div>
+                        <p class="first-p first-letter py-3">
+                            <a href="#" class="first-word">Luvnarich</a> is an esteemed company focused on wellness and
+                            lifestyle, utilizing an e-commerce & Web based system powered direct selling business model.
+                            Our aim is to provide customers with an extensive selection of exceptional products and
+                            services. At Luvnarich, we strongly believe in empowering individuals by granting them the
+                            opportunity to not only access high-quality offerings but also establish their own sales
+                            enterprise through the promotion of these remarkable products.
+                        </p>
+                        <p class="second-p">
+                            Luvnarich endeavors to enrich the lives of our valued customers by delivering products
+                            and services that foster well-being and an enhanced lifestyle. We are dedicated to
+                            offering distinctive, premium-quality merchandise that caters to a diverse range of
+                            needs. These needs encompass various aspects, including Wellness and nutrition, Beauty &
+                            personal care , travel and luxury, as well as education.
+                        </p>
                     </div>
-                    <p class="first-p first-letter py-3">
-                        <a href="#" class="first-word">Luvnarich</a> is an esteemed company focused on wellness and
-                        lifestyle, utilizing an e-commerce & Web based system powered direct selling business model.
-                        Our aim is to provide customers with an extensive selection of exceptional products and
-                        services. At Luvnarich, we strongly believe in empowering individuals by granting them the
-                        opportunity to not only access high-quality offerings but also establish their own sales
-                        enterprise through the promotion of these remarkable products.
-                    </p>
-                    <p class="second-p">
-                        Luvnarich endeavors to enrich the lives of our valued customers by delivering products
-                        and services that foster well-being and an enhanced lifestyle. We are dedicated to
-                        offering distinctive, premium-quality merchandise that caters to a diverse range of
-                        needs. These needs encompass various aspects, including Wellness and nutrition, Beauty &
-                        personal care , travel and luxury, as well as education.
-                    </p>
                 </div>
-            </div>
-            <div class="col-12 col-lg-6 m-auto d-block">
-                <div class="right-bac-image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/inc/Images/Success.png" alt="img"
-                        class="success w-100 p-3">
+                <div class="col-12 col-lg-6 m-auto d-block">
+                    <div class="right-bac-image">
+                        <img src="<?php echo get_template_directory_uri(); ?>/inc/images/Success.png" alt="img"
+                            class="success w-100 p-3">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</section>
 <!--Third Section End-->
 
 <!--Section Start-->
@@ -108,60 +108,60 @@ get_header();  ?>
 <!--Section End-->
 
 <!--Section Start-->
-<div class="container-fluid stay-se p-0">
-    <div class="stay py-5 px-3">
-        <img src="<?php echo get_template_directory_uri(); ?>/inc/Images/blue-moving.jpeg" alt="blue moving"
-            class="blue-move d-none">
-        <div class="row">
-            <div class="col-12 col-lg-6 order-2">
-                <div class="stay-description p-0">
-                    <div class="stay-content mb-3">
-                        <h2 class="success-title text-center text-lg-start m-auto m-lg-0">
-                            Luvnarich at Glance
-                        </h2>
-                        <span class="short-underline m-auto m-md-0"></span>
+<section class="stay">
+    <div class="container stay-se p-0">
+        <div class="py-5 px-3">
+            <div class="row">
+                <div class="col-12 col-lg-6 order-2">
+                    <div class="stay-description p-0">
+                        <div class="stay-content mb-3">
+                            <h2 class="success-title text-center text-lg-start m-auto m-lg-0">
+                                Luvnarich at Glance
+                            </h2>
+                            <span class="short-underline m-auto m-md-0"></span>
+                        </div>
+                        <ul class="stay-list">
+                            <div class="list-item pb-3">
+                                <i class="fa fa-solid fa-circle p-0"></i>
+                                <li>Customers and Distributors Nationwide: Together, We Thrive!</li>
+                            </div>
+                            <div class="list-item pb-3">
+                                <i class="fa fa-solid fa-circle p-0"></i>
+                                <li>Where Diversity Meets Support - Multilingual Customer Service at Its Best</li>
+                            </div>
+                            <div class="list-item pb-3">
+                                <i class="fa fa-solid fa-circle p-0"></i>
+                                <li>Unlock Your Full Potential with Our Life-Enhancing Products</li>
+                            </div>
+                            <div class="list-item pb-3">
+                                <i class="fa fa-solid fa-circle p-0"></i>
+                                <li>Engaging Communities, Transforming Islands - 50+ CSR Projects Accomplished</li>
+                            </div>
+                            <div class="list-item pb-3">
+                                <i class="fa fa-solid fa-circle p-0"></i>
+                                <li>Building a Lasting Legacy for 15+ Years and Beyond</li>
+                            </div>
+                            <div class="list-item pb-3">
+                                <i class="fa fa-solid fa-circle p-0"></i>
+                                <li>Connecting Communities Across 25+ Districts</li>
+                            </div>
+                            <div class="list-item pb-3">
+                                <i class="fa fa-solid fa-circle p-0"></i>
+                                <li>Award-Winning Group Members: Where Excellence Meets Success</li>
+                            </div>
+                        </ul>
                     </div>
-                    <ul class="stay-list">
-                        <div class="list-item pb-3">
-                            <i class="fa fa-solid fa-circle p-0"></i>
-                            <li>Customers and Distributors Nationwide: Together, We Thrive!</li>
-                        </div>
-                        <div class="list-item pb-3">
-                            <i class="fa fa-solid fa-circle p-0"></i>
-                            <li>Where Diversity Meets Support - Multilingual Customer Service at Its Best</li>
-                        </div>
-                        <div class="list-item pb-3">
-                            <i class="fa fa-solid fa-circle p-0"></i>
-                            <li>Unlock Your Full Potential with Our Life-Enhancing Products</li>
-                        </div>
-                        <div class="list-item pb-3">
-                            <i class="fa fa-solid fa-circle p-0"></i>
-                            <li>Engaging Communities, Transforming Islands - 50+ CSR Projects Accomplished</li>
-                        </div>
-                        <div class="list-item pb-3">
-                            <i class="fa fa-solid fa-circle p-0"></i>
-                            <li>Building a Lasting Legacy for 15+ Years and Beyond</li>
-                        </div>
-                        <div class="list-item pb-3">
-                            <i class="fa fa-solid fa-circle p-0"></i>
-                            <li>Connecting Communities Across 25+ Districts</li>
-                        </div>
-                        <div class="list-item pb-3">
-                            <i class="fa fa-solid fa-circle p-0"></i>
-                            <li>Award-Winning Group Members: Where Excellence Meets Success</li>
-                        </div>
-                    </ul>
                 </div>
-            </div>
-            <div class="col-12 col-lg-6 m-auto d-block order-1">
-                <div class="right-bac-image">
-                    <img src="<?php echo get_template_directory_uri(); ?>/inc/Images/Success.png" alt="img"
-                        class="success w-100 p-3">
+                <div class="col-12 col-lg-6 m-auto d-block order-1">
+                    <div class="right-bac-image">
+                        <img src="<?php echo get_template_directory_uri(); ?>/inc/images/Success.png" alt="img"
+                            class="success w-100 p-3">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</section>
 <!--Section End-->
 
 <!-- core values section start -->
@@ -245,11 +245,9 @@ get_header();  ?>
 <!-- in service section end -->
 
 <!--What is Luvnarich Section Start-->
-<section class="what-luvnarich">
-    <div class="container-fluid stay-se p-0">
-        <div class="stay py-5 px-3">
-            <img src="<?php echo get_template_directory_uri(); ?>/inc/Images/blue-moving.jpeg" alt="blue moving"
-                class="blue-move d-none">
+<section class="what-luvnarich stay">
+    <div class="container stay-se p-0">
+        <div class="py-5 px-3">
             <div class="row">
                 <div class="col-12 col-lg-6">
                     <div class="stay-description p-0">
@@ -278,7 +276,7 @@ get_header();  ?>
                 </div>
                 <div class="col-12 col-lg-6 m-auto d-block">
                     <div class="right-bac-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/inc/Images/Success.png" alt="img"
+                        <img src="<?php echo get_template_directory_uri(); ?>/inc/images/Success.png" alt="img"
                             class="success w-100 p-3">
                     </div>
                 </div>
@@ -289,11 +287,9 @@ get_header();  ?>
 <!--What is Luvnarich Section End-->
 
 <!--scheme Section Start-->
-<section class="scheme">
-    <div class="container-fluid stay-se p-0">
-        <div class="stay py-5 px-3">
-            <img src="<?php echo get_template_directory_uri(); ?>/inc/Images/blue-moving.jpeg" alt="blue moving"
-                class="blue-move d-none">
+<section class="scheme stay">
+    <div class="container stay-se p-0">
+        <div class="py-5 px-3">
             <div class="row">
                 <div class="col-12 col-lg-6 order-2">
                     <div class="stay-description p-0">
@@ -320,7 +316,7 @@ get_header();  ?>
                 </div>
                 <div class="col-12 col-lg-6 m-auto d-block order-1">
                     <div class="right-bac-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/inc/Images/Success.png" alt="img"
+                        <img src="<?php echo get_template_directory_uri(); ?>/inc/images/Success.png" alt="img"
                             class="success w-100 p-3">
                     </div>
                 </div>
@@ -331,11 +327,9 @@ get_header();  ?>
 <!--scheme Section End-->
 
 <!--What direct selling Section Start-->
-<section class="direct-selling">
-    <div class="container-fluid stay-se p-0">
-        <div class="stay py-5 px-3">
-            <img src="<?php echo get_template_directory_uri(); ?>/inc/Images/blue-moving.jpeg" alt="blue moving"
-                class="blue-move d-none">
+<section class="direct-selling stay">
+    <div class="container stay-se p-0">
+        <div class="py-5 px-3">
             <div class="row">
                 <div class="col-12 col-lg-6">
                     <div class="stay-description p-0">
@@ -362,7 +356,7 @@ get_header();  ?>
                 </div>
                 <div class="col-12 col-lg-6 m-auto d-block">
                     <div class="right-bac-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/inc/Images/Success.png" alt="img"
+                        <img src="<?php echo get_template_directory_uri(); ?>/inc/images/Success.png" alt="img"
                             class="success w-100 p-3">
                     </div>
                 </div>
@@ -373,11 +367,9 @@ get_header();  ?>
 <!--What direct selling Section End-->
 
 <!--make money Section Start-->
-<section class="make-money">
-    <div class="container-fluid stay-se p-0">
-        <div class="stay py-5 px-3">
-            <img src="<?php echo get_template_directory_uri(); ?>/inc/Images/blue-moving.jpeg" alt="blue moving"
-                class="blue-move d-none">
+<section class="make-money stay">
+    <div class="container stay-se p-0">
+        <div class="py-5 px-3">
             <div class="row">
                 <div class="col-12 col-lg-6 order-2">
                     <div class="stay-description p-0">
@@ -400,7 +392,7 @@ get_header();  ?>
                 </div>
                 <div class="col-12 col-lg-6 m-auto d-block order-1">
                     <div class="right-bac-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/inc/Images/Success.png" alt="img"
+                        <img src="<?php echo get_template_directory_uri(); ?>/inc/images/Success.png" alt="img"
                             class="success w-100 p-3">
                     </div>
                 </div>
@@ -411,11 +403,9 @@ get_header();  ?>
 <!--make money Section End-->
 
 <!--making income Section Start-->
-<section class="making-income">
-    <div class="container-fluid stay-se p-0">
-        <div class="stay py-5 px-3">
-            <img src="<?php echo get_template_directory_uri(); ?>/inc/Images/blue-moving.jpeg" alt="blue moving"
-                class="blue-move d-none">
+<section class="making-income stay">
+    <div class="container stay-se p-0">
+        <div class="py-5 px-3">
             <div class="row">
                 <div class="col-12 col-lg-6">
                     <div class="stay-description p-0">
@@ -439,7 +429,7 @@ get_header();  ?>
                 </div>
                 <div class="col-12 col-lg-6 m-auto d-block">
                     <div class="right-bac-image">
-                        <img src="<?php echo get_template_directory_uri(); ?>/inc/Images/Success.png" alt="img"
+                        <img src="<?php echo get_template_directory_uri(); ?>/inc/images/Success.png" alt="img"
                             class="success w-100 p-3">
                     </div>
                 </div>
