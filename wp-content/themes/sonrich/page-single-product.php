@@ -78,11 +78,6 @@ get_header();  ?>
                             <div class="products-item w-100">
                                 <div class="product-item-image">
                                     <a href=""><img src="<?php echo get_template_directory_uri(); ?>/inc/images/shop-image-11-600x600.jpg" alt="" class="w-100"></a>
-                                    <span class="add-to-cart-button-outer">
-                                        <span class="add-to-cart-button-inner">
-                                            <a href="" class="add-to-cart-button">Add to cart</a>
-                                        </span>
-                                    </span>
                                 </div>
 
                                 <div class="product-details">
@@ -97,11 +92,6 @@ get_header();  ?>
                             <div class="products-item w-100">
                                 <div class="product-item-image">
                                     <a href=""><img src="<?php echo get_template_directory_uri(); ?>/inc/images/shop-image-12-600x600.jpg" alt="" class="w-100"></a>
-                                    <span class="add-to-cart-button-outer">
-                                        <span class="add-to-cart-button-inner">
-                                            <a href="" class="add-to-cart-button">Add to cart</a>
-                                        </span>
-                                    </span>
                                 </div>
 
                                 <div class="product-details">
@@ -116,11 +106,6 @@ get_header();  ?>
                             <div class="products-item w-100">
                                 <div class="product-item-image">
                                     <a href=""><img src="<?php echo get_template_directory_uri(); ?>/inc/images/shop-image-13-600x600.jpg" alt="" class="w-100"></a>
-                                    <span class="add-to-cart-button-outer">
-                                        <span class="add-to-cart-button-inner">
-                                            <a href="" class="add-to-cart-button">Add to cart</a>
-                                        </span>
-                                    </span>
                                 </div>
 
                                 <div class="product-details">
