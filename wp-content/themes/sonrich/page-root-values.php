@@ -63,7 +63,7 @@ get_header();  ?>
                     </div>
                 </div>
             </div>
-            <div class="root-list-box px-2 px-md-5">
+            <div class="root-list-box">
                 <div class="root-container-title pt-5 fs-2 lh-sm pb-3">
                     We believe that by focusing on these fundamental elements, we can build a sustainable
                     business
