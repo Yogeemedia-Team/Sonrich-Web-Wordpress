@@ -21,7 +21,7 @@ get_header();  ?>
         <!-- <div class="root-container-box">
                     <div class="root-container-title pt-5 fs-5"></div>
                 </div> -->
-        <ol type="1" class="px-2 px-md-5">
+        <ol type="1">
             <li class="fs-4 py-3 fw-bold">Introduction</li>
             <p class="fs-5">
                 Welcome to the Cookie Policy for Luvnarich. This policy outlines how we
