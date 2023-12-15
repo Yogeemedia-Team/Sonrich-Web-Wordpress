@@ -10,7 +10,7 @@ get_header();  ?>
     <div class="main-wrapper">
         <!-- parallax banner is start -->
         <div class="parallax-banner-wrapper">
-            <h1 id="banner-header-text" class="parallax-banner-text-box fw-normal">Shop</h1>
+            <h1 id="banner-header-text" class="parallax-banner-text-box fw-normal">Product</h1>
             <div class="parallax-banner-image" style="background-image: url(<?php echo get_template_directory_uri(); ?>/inc/images/shop-title-image.jpg);">
             </div>
         </div>
