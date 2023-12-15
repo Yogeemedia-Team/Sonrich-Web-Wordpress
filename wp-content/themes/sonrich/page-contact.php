@@ -60,16 +60,6 @@ get_header();  ?>
                             <i class="fa-brands fa-tiktok"></i>
                         </a>
                     </li>
-                    <li class="social-icon pe-4">
-                        <a href="#" target="_blank">
-                            <i class="fa-brands fa-tumblr"></i>
-                        </a>
-                    </li>
-                    <li class="social-icon pe-4">
-                        <a href="#" target="_blank">
-                            <i class="fa-brands fa-pinterest"></i>
-                        </a>
-                    </li>
                 </ul>
             </div>
             <div class="col-12 col-md-8">
