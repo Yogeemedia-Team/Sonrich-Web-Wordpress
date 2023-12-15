@@ -4,7 +4,17 @@ Template Name: Home
 */
 get_header();  ?>
 
-<?php get_template_part('template-parts/inner', 'banner'); ?>
+<div class="banner-section px-0">
+    <div class="container-fluid px-0">
+        <div class="background-image" style="background-image: url('inc/Images/sonrich-banner.jpg');">
+            <div class="banner-content position-absolute">
+                <h1 class="banner-slagon text-white fs2 ls1 fw-300 l-height1 text-lg-start text-center"
+                    style="text-shadow: 2px 2px 5px #000000;">EMPOWERING INDIVIDUALS WITH</h1>
+                <h2 class="banner-heading text-lg-start text-center">Personal health</h2>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!--Second Section Start-->
 <div class="section-nature">

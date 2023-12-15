@@ -6,23 +6,8 @@ Template Name: Gallery
 get_header();  ?>
 
 
-<!-- breadcrumb link start -->
-<div class="breadcrumb-link">
-    <div class="contact-fluid">
-        <div class="container">
-            <div class="bread-box py-5 d-flex justify-content-between">
-                <div class="breadcrumb-title">Gallery</div>
-                <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Gallery</li>
-                    </ol>
-                </nav>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- breadcrumb link end -->
+<?php get_template_part('template-parts/inner', 'banner'); ?>
+
 
 <!-- gallery img section start -->
 <section class="gallery-img pt-5">
