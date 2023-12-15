@@ -241,12 +241,16 @@ get_header();  ?>
 <!--Map Section Start-->
 <div class="map-section">
     <div class="container-fluid map-se">
-        <div class="row mt-4">
+        <div class="row">
             <div class="map">
                 <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.835989071755!2d79.93978077506604!3d6.789802920011222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae24f9580d60a1f%3A0x9b4c6fc20f16379d!2sSonrich%20Ashia%20(Pvt)Ltd.%20Head%20Office!5e0!3m2!1sen!2slk!4v1702615193056!5m2!1sen!2slk"
-                    style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4049.532879454854!2d79.93978077506603!3d6.78980292001122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae24f9580d60a1f%3A0x9b4c6fc20f16379d!2sSonrich%20Ashia%20(Pvt)Ltd.%20Head%20Office!5e1!3m2!1sen!2slk!4v1702615618442!5m2!1sen!2slk"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4049.532879454854!2d79.93978077506603!3d6.78980292001122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae24f9580d60a1f%3A0x9b4c6fc20f16379d!2sSonrich%20Ashia%20(Pvt)Ltd.%20Head%20Office!5e1!3m2!1sen!2slk!4v1702615618442!5m2!1sen!2slk"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </div>

@@ -650,10 +650,6 @@ i.fa.fa-solid.fa-chevron-right {
   padding-left: 1px;
 }
 
-.map {
-  margin-top: -24px;
-}
-
 /*-----------------------------------------Footer Section--------------------------------------------------------------------*/
 
 .footer-left {
@@ -1361,10 +1357,6 @@ i.fa.fa-solid.fa-chevron-right {
   font-size: 12px;
   color: var(--white);
   padding-left: 1px;
-}
-
-.map {
-  margin-top: -24px;
 }
 
 /*-----------------------------------------Footer Section--------------------------------------------------------------------*/
