@@ -2376,14 +2376,6 @@ span.onsale-inner {
 /* breadcrumb css end */
 
 /* gallery page css start */
-.bg-img {
-  height: 250px;
-  background-position: center center !important;
-  background-repeat: no-repeat !important;
-  background-size: cover !important;
-  object-fit: contain;
-}
-
 .gallery-title {
   font-size: 16px;
   color: var(--black);
@@ -2396,6 +2388,36 @@ span.onsale-inner {
 .gallery-sub-title {
   font-size: 14px;
   color: var(--black);
+}
+.thumbnail.bg-img {
+  position: relative;
+  height: 250px;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  object-fit: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+span.thumb-img-title {
+  position: absolute;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--white);
+  opacity: 0;
+  transition: var(--animation);
+}
+
+.thumbnail.bg-img:hover img {
+  filter: brightness(50%);
+  transition: all 1s ease;
+}
+
+.thumbnail.bg-img:hover span.thumb-img-title {
+  opacity: 1;
+  filter: brightness(100%);
 }
 
 .gallery-share {
