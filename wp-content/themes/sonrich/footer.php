@@ -47,13 +47,13 @@
     <section class="footer-section">
         <div class="container">
             <div class="row py-5">
-                <div class="col-12 col-md-6 d-flex justify-content-center align-items-center">
+                <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
                     <a href="index.html">
                         <img src="https://ongoing.website/websites/sonrich/wp-content/uploads/2023/12/logo_bg-none.png"
                             alt="footer logo" class="footer-logo w-100">
                     </a>
                 </div>
-                <div class="col-12 col-md-3">
+                <div class="col-12 col-md-4">
                     <ul>
                         <h3 class="footer-link-title fw-bold py-3 text-light">About Us</h3>
                         <li class="py-2 text-light" style="list-style: none;">
@@ -77,27 +77,32 @@
                         </a>
                     </ul>
                 </div>
-                <div class="col-12 col-md-3">
+                <div class="col-12 col-md-4">
                     <ul>
-                        <h3 class="footer-link-title fw-bold py-3 text-light">Theme Info</h3>
+                        <h3 class="footer-link-title fw-bold py-3 text-light">Quick Links</h3>
                         <li class="py-1 text-light" style="list-style: none;">
-                            <a href="#" class="text-light" style="text-decoration: none;">
-                                policy
+                            <a href="cookie-policy" target="_blank" class="text-light" style="text-decoration: none;">
+                                Cookie Policy
                             </a>
                         </li>
                         <li class="py-1 text-light" style="list-style: none;">
-                            <a href="#" class="text-light" style="text-decoration: none;">
-                                policy
+                            <a href="delivery-policy" target="_blank" class="text-light" style="text-decoration: none;">
+                                Delivery Policy
                             </a>
                         </li>
                         <li class="py-1 text-light" style="list-style: none;">
-                            <a href="#" class="text-light" style="text-decoration: none;">
-                                policy
+                            <a href="private-policy" target="_blank" class="text-light" style="text-decoration: none;">
+                                Private Policy
                             </a>
                         </li>
                         <li class="py-1 text-light" style="list-style: none;">
-                            <a href="#" class="text-light" style="text-decoration: none;">
-                                policy
+                            <a href="return-policy" target="_blank" class="text-light" style="text-decoration: none;">
+                                Return Policy
+                            </a>
+                        </li>
+                        <li class="py-1 text-light" style="list-style: none;">
+                            <a href="#" target="_blank" class="text-light" style="text-decoration: none;">
+                                Terms & Condition
                             </a>
                         </li>
                     </ul>
