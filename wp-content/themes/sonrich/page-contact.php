@@ -7,23 +7,25 @@ get_header();  ?>
 
 
 <?php get_template_part('template-parts/inner', 'banner'); ?>
-<<<<<<< HEAD
-        <!-- contact form start -->
-        <section class="contact-form py-5">
-            <div class="container">
-                <div class="contact-heading-box">
-                    <div class="contact-heading h2 font2 text-center">
-                        GET IN TOUCH WITH US
-                    </div>
-                    <div class="contact-sub-heading h5 font2 text-center pt-2">
-                        Say Hello! Don’t be shy.
-                    </div>
+
+<!-- contact form start -->
+<section class="contact-form py-5">
+    <div class="container">
+        <div class="contact-heading-box">
+            <div class="contact-heading h2 font2 text-center">
+                GET IN TOUCH WITH US
+            </div>
+            <div class="contact-sub-heading h5 font2 text-center pt-2">
+                Say Hello! Don’t be shy.
+            </div>
+        </div>
+        <div class="row p-1 p-md-3 p-lg-5">
+            <div class="col-12 col-md-4">
+                <div class="sub-title pb-3">
+                    OUR OFFICE
                 </div>
-                <div class="row p-1 p-md-3 p-lg-5">
-                    <div class="col-12 col-md-4">
-                        <div class="sub-title pb-3">
-                            OUR OFFICE
-                        </div>
+               
+  
                         <div class="office-times">
                             <div class="first-row">
                                 <span>(UTC+05:30) (Jayawardena Pura Kotte)</span>
@@ -87,64 +89,7 @@ get_header();  ?>
                                 </a>
                             </li>
                         </ul>
-
-=======
-
-<!-- contact form start -->
-<section class="contact-form py-5">
-    <div class="container">
-        <div class="contact-heading-box">
-            <div class="contact-heading h2 font2 text-center">
-                GET IN TOUCH WITH US
-            </div>
-            <div class="contact-sub-heading h5 font2 text-center pt-2">
-                Say Hello! Don’t be shy.
-            </div>
-        </div>
-        <div class="row p-1 p-md-3 p-lg-5">
-            <div class="col-12 col-md-4">
-                <div class="sub-title pb-3">
-                    OUR OFFICE
-                </div>
-                <div class="con-info">
-                    <div class="address">
-                        No.204/A/1,Bandaragama Road, <br>
-                        Kesbewa,SriLanka
->>>>>>> 631f44da185d34410140c3131b225c6fce0ed4d9
-                    </div>
-                    <div class="email">
-                        Email: <a href="mailto:info@luvnarich.net" style="text-decoration:none;">info@luvnarich.net</a>
-                    </div>
-                    <div class="phone">
-                        Phone: <a href="tel:0753370000" style="text-decoration:none;">0753370000</a>
-                    </div>
-                    <!-- <div class="fax">
-                        Fax: +88 (0) 202 0000 001
-                    </div> -->
-                </div>
-                <ul class="social-icon-box d-flex py-3">
-                    <li class="social-icon pe-4">
-                        <a href="#" target="_blank">
-                            <i class="fa-brands fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li class="social-icon pe-4">
-                        <a href="#" target="_blank">
-                            <i class="fa-brands fa-twitter"></i>
-                        </a>
-                    </li>
-                    <li class="social-icon pe-4">
-                        <a href="#" target="_blank">
-                            <i class="fa-brands fa-youtube"></i>
-                        </a>
-                    </li>
-                    <li class="social-icon pe-4">
-                        <a href="#" target="_blank">
-                            <i class="fa-brands fa-tiktok"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+                 </div>
             <div class="col-12 col-md-8">
                 <div class="sub-title pb-3">
                     CONTACT US
