@@ -1520,7 +1520,8 @@ p.txt-start {
 }
 
 .con-info,
-.con-info .phone a {
+.con-info .phone a,
+.con-info .email a {
   font-size: 14px;
   color: var(--secondory);
 }
