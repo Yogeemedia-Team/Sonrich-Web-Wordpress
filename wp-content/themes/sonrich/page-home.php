@@ -32,11 +32,9 @@ get_header();  ?>
                     <div class="nature-sec-2">
                         <div class="row mt-4">
                             <div class="nature-links">
-                                <p><a href="#">Wellness</a></p>
-                                <p><a href="#">Home & Living</a></p>
-                                <p><a href="#">Education</a></p>
-                                <p><a href="#">Health</a></p>
-                                <p><a href="#">Technology</a></p>
+                                <p><a href="business-venture">Business ventures</a></p>
+                                <p><a href="complances">Complances page</a></p>
+                                <p><a href="passive-earnings">Passive Earnings page</a></p>
                             </div>
                         </div>
                     </div>

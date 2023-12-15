@@ -57,7 +57,7 @@
                     <ul>
                         <h3 class="footer-link-title fw-bold py-3 text-light">About Us</h3>
                         <li class="py-2 text-light" style="list-style: none;">
-                            Just a short sentence. This is just a demo text you should overwrite.
+                            Empowering lifestyles with premium wellness, e-commerce, and direct selling opportunities.
                         </li>
                         <li class="py-2 text-light" style="list-style: none;">
                             No.204/A/1,Bandaragama Road,Kesbewa,SriLanka

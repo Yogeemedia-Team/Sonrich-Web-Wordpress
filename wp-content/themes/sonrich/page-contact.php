@@ -7,7 +7,6 @@ get_header();  ?>
 
 
 <?php get_template_part('template-parts/inner', 'banner'); ?>
-
         <!-- contact form start -->
         <section class="contact-form py-5">
             <div class="container">
@@ -24,7 +23,23 @@ get_header();  ?>
                         <div class="sub-title pb-3">
                             OUR OFFICE
                         </div>
-                        <div class="con-info">
+                        <div class="office-times">
+                            <div class="first-row">
+                                <span>(UTC+05:30) (Jayawardena Pura Kotte)</span>
+                            </div>
+
+                            <div class="second-row pt-3">
+                                <span><b>Monday - Friday</b></span>
+                                <span>12:00pm (noon) - 06:00am - share with us operating time ours</span>
+                            </div>
+
+                            <div class="second-row pt-3">
+                                <span><b>Saturday</b></span>
+                                <span>12:00am (midnight) - 06:00am - share with us operating time ours</span>
+                            </div>
+                        </div>
+
+                        <div class="con-info pt-3">
                             <div class="address">
                                 198 West 21th Street, Suite 721 <br>
                                 New York, NY 10010
@@ -40,7 +55,7 @@ get_header();  ?>
                             </div>
                         </div>
                         <ul class="social-icon-box d-flex py-3">
-                            <li class="social-icon pe-4">
+                            <li class="social-icon pe-4 ps-2">
                                 <a href="#" target="_blank">
                                     <i class="fa-brands fa-twitter"></i>
                                 </a>
@@ -71,6 +86,7 @@ get_header();  ?>
                                 </a>
                             </li>
                         </ul>
+
                     </div>
                     <div class="col-12 col-md-8">
                         <div class="sub-title pb-3">
