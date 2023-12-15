@@ -917,6 +917,7 @@ ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
   color: var(--black);
   padding: 0;
   margin: 0;
+  max-width: 100%;
 }
 
 .navbar-brand img {
@@ -1115,7 +1116,7 @@ p.create {
   position: absolute;
   width: 80%;
   height: auto;
-  top: 50%;
+  top: 55%;
   left: 50%;
   text-align: center;
   transform: translate(-50%, -50%);
@@ -2909,16 +2910,15 @@ ul.social-icon-box {
 
   .circle-content {
     width: 61%;
-    top: 24%;
-    left: 58px;
+    /* top: 24%;
+    left: 58px; */
     font-size: 13px;
   }
 
   img.circle-image {
-    width: 69%;
-    top: -30px;
-    position: absolute;
-    left: 25px;
+    width: 100%;
+    border-top-left-radius: 40%;
+    border-top-right-radius: 40%;
   }
 
   p.circle-content-para {
@@ -3133,8 +3133,8 @@ ul.social-icon-box {
 
   .circle-content {
     width: 61%;
-    top: 24%;
-    left: 41px;
+    /* top: 24%;
+    left: 41px; */
     font-size: 10px;
   }
 
@@ -3230,12 +3230,12 @@ ul.social-icon-box {
 
   img.circle-image {
     width: 80%;
-    top: -25px;
-    left: 15px;
+    /* top: -25px;
+    left: 15px; */
   }
 
   p.circle-content-para {
-    font-size: 12px;
+    font-size: 11px;
     width: 123%;
     padding-top: 13px;
     padding-bottom: 0px;
