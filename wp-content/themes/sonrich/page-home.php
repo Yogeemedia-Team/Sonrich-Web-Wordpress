@@ -6,7 +6,7 @@ get_header();  ?>
 
 <div class="banner-section px-0">
     <div class="container-fluid px-0">
-        <div class="background-image" style="background-image: url('inc/Images/sonrich-banner.jpg');">
+        <div class="background-image" style="background-image: url('<?php echo get_template_directory_uri(); ?>/inc/images/sonrich-banner.jpg');">
             <div class="banner-content position-absolute">
                 <h1 class="banner-slagon text-white fs2 ls1 fw-300 l-height1 text-lg-start text-center"
                     style="text-shadow: 2px 2px 5px #000000;">EMPOWERING INDIVIDUALS WITH</h1>
@@ -50,8 +50,8 @@ get_header();  ?>
                                 <img src="<?php echo get_template_directory_uri(); ?>/inc/images/Sonrich_international.png"
                                     alt="logo" class="circle-image">
                                 <p class="circle-content-para">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut soluta dolor
-                                    facere repellat ut maiores eligendi adipisci nesciunt est eveniet quo,
+                                    Luvnarich is an esteemed company focused on wellness and lifestyle, utilizing an
+                                    e-commerce & Web based system powered direct selling business
                                 </p>
                                 <a href="about-us" class="circle-link">More Details</a>
                             </div>
@@ -138,11 +138,13 @@ get_header();  ?>
                         </h2>
                     </div>
                     <p class="first-p py-3">
-                    Cross success with our herbal supplements. Crafted for vitality, our blends merge tradition with modern wellness science. From immunity boosters to stress relief, we’ve distilled nature's essence into each capsule. Improve your journey with purity and purpose.
+                        Cross success with our herbal supplements. Crafted for vitality, our blends merge tradition with
+                        modern wellness science. From immunity boosters to stress relief, we’ve distilled nature's
+                        essence into each capsule. Improve your journey with purity and purpose.
                     </p>
-                    <ul class="stay-list">
+                    <ul class="stay-list ps-3">
                         <div class="list-item">
-                            <i class="fa fa-solid fa-circle"></i>
+                            <!-- <i class="fa fa-solid fa-circle"></i> -->
                             <li>because achieving greatness starts with feeling great.</li>
                         </div>
                         <!-- <div class="list-item">
@@ -154,18 +156,18 @@ get_header();  ?>
                             <li>consequat. Duis aute irure dolor</li>
                         </div> -->
                     </ul>
-                    <p class="second-p">
+                    <!-- <p class="second-p">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos provident sequi eos
                         quibusdam unde nulla ratione sint vero aspernatur nisi fugiat voluptatum eligendi illo,
                         ullam
                         quidem? Eos nesciunt laborum consequuntur.
-                    </p>
+                    </p> -->
                 </div>
             </div>
             <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center">
                 <div class="right-bac-image">
                     <img src="<?php echo get_template_directory_uri(); ?>/inc/images/Success.png" alt="img"
-                        class="success w-100 py-3 py-md-5 py-xl-0 px-xl-2">
+                        class="success w-100 py-3 py-md-5 py-xl-0 px-xl-2 left-courve">
                 </div>
             </div>
         </div>
@@ -193,7 +195,10 @@ get_header();  ?>
                     </h2>
                     <span class="short-underline m-auto m-md-0"></span>
                     <p class="success-description text-center text-md-start py-4">
-                        In our close collaboration, success finds its strongest ally. At Luvnarich we're more than a partner; we're your dedicated support system on the road to triumph. By working hand in hand, we ensure your journey is guided by expertise, innovation, and a shared commitment to achieving milestones.
+                        In our close collaboration, success finds its strongest ally. At Luvnarich we're more than a
+                        partner; we're your dedicated support system on the road to triumph. By working hand in hand, we
+                        ensure your journey is guided by expertise, innovation, and a shared commitment to achieving
+                        milestones.
                     </p>
                 </div>
             </div>
