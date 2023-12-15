@@ -245,8 +245,14 @@ ul.navbar-nav.mb-2.mb-lg-0 {
 }
 
 li.nav-item.dropdown {
-  padding-left: 16px;
+  padding-left: 0;
   margin-top: 5px;
+}
+
+.dashicons.dashicons-admin-home {
+  font-size: 25px !important;
+  padding: 0;
+  margin-top: -10px;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -972,8 +978,14 @@ ul.navbar-nav.mb-2.mb-lg-0 {
 }
 
 li.nav-item.dropdown {
-  padding-left: 16px;
+  padding-left: 0;
   margin-top: 5px;
+}
+
+.dashicons.dashicons-admin-home {
+  font-size: 25px !important;
+  padding: 0;
+  margin-top: -10px;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
