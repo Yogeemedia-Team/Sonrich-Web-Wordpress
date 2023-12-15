@@ -110,11 +110,6 @@
             </div>
             <div class="row">
                 <div class="col">
-                    <div class="back-to-top float-end">
-                        <a href="#top" class="text-light">
-                            <i class="fa-solid fa-arrow-up fs-2 py-1 px-2 border rounded"></i>
-                        </a>
-                    </div>
                     <div class="copyright-text">
                         <p class="text-light text-start text-md-center">
                             <script>
@@ -125,6 +120,11 @@
                     </div>
                 </div>
             </div>
+        </div>
+        <div class="back-to-top float-end me-2">
+            <a href="#top" class="text-light">
+                <i class="fa-solid fa-arrow-up fs-2 py-1 px-2 border rounded"></i>
+            </a>
         </div>
     </section>
 </footer>

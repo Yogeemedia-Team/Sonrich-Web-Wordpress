@@ -5,34 +5,54 @@ Template Name: Gallery
 
 get_header();  ?>
 
+
 <?php get_template_part('template-parts/inner', 'banner'); ?>
+
 
 <!-- gallery img section start -->
 <section class="gallery-img pt-5">
     <div class="container">
         <div class="row" style="display: flex; flex-wrap: wrap;">
             <div class="col-lg-4 col-sm-6">
-                <div class="thumbnail bg-img my-2" style="background: url(https://ongoing.website/websites/sonrich/wp-content/uploads/2023/12/gal1.png);">
+                <div class="thumbnail bg-img my-2">
+                    <img class="w-100 h-100"
+                        src="https://ongoing.website/websites/sonrich/wp-content/uploads/2023/12/gal1.png" alt="img">
+                    <span class="thumb-img-title">lorem ipsum</span>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <div class="thumbnail bg-img my-2" style="background: url(https://ongoing.website/websites/sonrich/wp-content/uploads/2023/12/gal2.png);">
+                <div class="thumbnail bg-img my-2">
+                    <img class="w-100 h-100"
+                        src="https://ongoing.website/websites/sonrich/wp-content/uploads/2023/12/gal2.png" alt="img">
+                    <span class="thumb-img-title">lorem ipsum</span>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <div class="thumbnail bg-img my-2" style="background: url(https://ongoing.website/websites/sonrich/wp-content/uploads/2023/12/gal3.png);">
+                <div class="thumbnail bg-img my-2">
+                    <img class="w-100 h-100"
+                        src="https://ongoing.website/websites/sonrich/wp-content/uploads/2023/12/gal3.png" alt="img">
+                    <span class="thumb-img-title">lorem ipsum</span>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <div class="thumbnail bg-img my-2" style="background: url(https://ongoing.website/websites/sonrich/wp-content/uploads/2023/12/gal4.png);">
+                <div class="thumbnail bg-img my-2">
+                    <img class="w-100 h-100"
+                        src="https://ongoing.website/websites/sonrich/wp-content/uploads/2023/12/gal4.png" alt="img">
+                    <span class="thumb-img-title">lorem ipsum</span>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <div class="thumbnail bg-img my-2" style="background: url(https://ongoing.website/websites/sonrich/wp-content/uploads/2023/12/gal5.png);">
+                <div class="thumbnail bg-img my-2">
+                    <img class="w-100 h-100"
+                        src="https://ongoing.website/websites/sonrich/wp-content/uploads/2023/12/gal5.png" alt="img">
+                    <span class="thumb-img-title">lorem ipsum</span>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <div class="thumbnail bg-img my-2" style="background: url(https://ongoing.website/websites/sonrich/wp-content/uploads/2023/12/gal7.png);">
+                <div class="thumbnail bg-img my-2">
+                    <img class="w-100 h-100"
+                        src="https://ongoing.website/websites/sonrich/wp-content/uploads/2023/12/gal7.png" alt="img">
+                    <span class="thumb-img-title">lorem ipsum</span>
                 </div>
             </div>
         </div>
