@@ -130,7 +130,9 @@ get_header();  ?>
                         </h2>
                     </div>
                     <p class="first-p py-3">
-                    Cross success with our herbal supplements. Crafted for vitality, our blends merge tradition with modern wellness science. From immunity boosters to stress relief, we’ve distilled nature's essence into each capsule. Improve your journey with purity and purpose.
+                        Cross success with our herbal supplements. Crafted for vitality, our blends merge tradition with
+                        modern wellness science. From immunity boosters to stress relief, we’ve distilled nature's
+                        essence into each capsule. Improve your journey with purity and purpose.
                     </p>
                     <ul class="stay-list">
                         <div class="list-item">
@@ -157,7 +159,7 @@ get_header();  ?>
             <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center">
                 <div class="right-bac-image">
                     <img src="<?php echo get_template_directory_uri(); ?>/inc/images/Success.png" alt="img"
-                        class="success w-100 py-3 py-md-5 py-xl-0 px-xl-2">
+                        class="success w-100 py-3 py-md-5 py-xl-0 px-xl-2 left-courve">
                 </div>
             </div>
         </div>
@@ -185,7 +187,10 @@ get_header();  ?>
                     </h2>
                     <span class="short-underline m-auto m-md-0"></span>
                     <p class="success-description text-center text-md-start py-4">
-                        In our close collaboration, success finds its strongest ally. At Luvnarich we're more than a partner; we're your dedicated support system on the road to triumph. By working hand in hand, we ensure your journey is guided by expertise, innovation, and a shared commitment to achieving milestones.
+                        In our close collaboration, success finds its strongest ally. At Luvnarich we're more than a
+                        partner; we're your dedicated support system on the road to triumph. By working hand in hand, we
+                        ensure your journey is guided by expertise, innovation, and a shared commitment to achieving
+                        milestones.
                     </p>
                 </div>
             </div>
