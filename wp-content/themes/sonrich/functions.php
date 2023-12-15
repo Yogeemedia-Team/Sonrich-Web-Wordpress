@@ -290,3 +290,16 @@ function save_product_price($post_id) {
 }
 add_action('save_post', 'save_product_price');
 
+
+function add_data_toggle_to_menu_items($atts, $item, $args) {
+    // Check if the menu location is 'menu-1' (adjust as needed)
+    if ($args->theme_location === 'menu-1') {
+        // Add data-bs-toggle attribute to menu items with dropdowns
+        if (in_array('menu-item-has-children', $item->classes)) {
+            $atts['data-bs-toggle'] = 'dropdown';
+        }
+    }
+    return $atts;
+}
+
+add_filter('nav_menu_link_attributes', 'add_data_toggle_to_menu_items', 10, 3);

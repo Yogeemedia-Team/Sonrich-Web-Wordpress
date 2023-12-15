@@ -45,7 +45,7 @@ get_header();  ?>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut soluta dolor
                                     facere repellat ut maiores eligendi adipisci nesciunt est eveniet quo,
                                 </p>
-                                <a href="#" class="circle-link">More Details</a>
+                                <a href="about-us" class="circle-link">More Details</a>
                             </div>
                         </div>
                     </div>
@@ -85,7 +85,7 @@ get_header();  ?>
                     </a>
                     <div class="featured-pr text-center">
                         <h4 class="product_name"><?php the_title(); ?></h4>
-                        <h6 class="cat_name">category name</h6>
+                        <!-- <h6 class="cat_name">category name</h6> -->
                         <div class="star-rating">
                             <span class="fa fa-star checked"></span>
                             <span class="fa fa-star checked"></span>
@@ -126,26 +126,25 @@ get_header();  ?>
                 <div class="stay-description">
                     <div class="stay-content">
                         <h2 class="success-title text-lg-start text-center m-auto m-lg-0">
-                            Stay on the right path to success...
+                            Stay on the Right Path to Success...
                         </h2>
                     </div>
                     <p class="first-p py-3">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos provident sequi eos
-                        quibusdam unde nulla ratione sint vero aspernatur,
+                    Cross success with our herbal supplements. Crafted for vitality, our blends merge tradition with modern wellness science. From immunity boosters to stress relief, we’ve distilled nature's essence into each capsule. Improve your journey with purity and purpose.
                     </p>
                     <ul class="stay-list">
                         <div class="list-item">
                             <i class="fa fa-solid fa-circle"></i>
-                            <li>quis nostrud exercitation ullamo</li>
+                            <li>because achieving greatness starts with feeling great.</li>
                         </div>
-                        <div class="list-item">
+                        <!-- <div class="list-item">
                             <i class="fa fa-solid fa-circle"></i>
                             <li>laboris nisi ut aliquip ex ea commodo</li>
                         </div>
                         <div class="list-item">
                             <i class="fa fa-solid fa-circle"></i>
                             <li>consequat. Duis aute irure dolor</li>
-                        </div>
+                        </div> -->
                     </ul>
                     <p class="second-p">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos provident sequi eos
@@ -155,10 +154,10 @@ get_header();  ?>
                     </p>
                 </div>
             </div>
-            <div class="col-12 col-lg-6">
+            <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center">
                 <div class="right-bac-image">
                     <img src="<?php echo get_template_directory_uri(); ?>/inc/images/Success.png" alt="img"
-                        class="success w-100 py-3 py-md-5 py-xl-0 px-xl-5">
+                        class="success w-100 py-3 py-md-5 py-xl-0 px-xl-2">
                 </div>
             </div>
         </div>
@@ -186,10 +185,7 @@ get_header();  ?>
                     </h2>
                     <span class="short-underline m-auto m-md-0"></span>
                     <p class="success-description text-center text-md-start py-4">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irur
-                        edolor in
+                        In our close collaboration, success finds its strongest ally. At Luvnarich we're more than a partner; we're your dedicated support system on the road to triumph. By working hand in hand, we ensure your journey is guided by expertise, innovation, and a shared commitment to achieving milestones.
                     </p>
                 </div>
             </div>
@@ -203,7 +199,7 @@ get_header();  ?>
     <div class="row highlight-se">
         <div class="col-md-4 text-center cards-1">
             <div class="star-icon">
-                <i class="fa fa-light fa-star"></i>
+                <i class="fa-solid fa-star"></i>
             </div>
             <h2 class="highlights">Company Highlights</h2>
             <div class="button-des">
@@ -214,7 +210,7 @@ get_header();  ?>
         </div>
         <div class="col-md-4 text-center cards-2">
             <div class="star-icon">
-                <i class="fa fa-light fa-star"></i>
+                <i class="fa-solid fa-building-wheat"></i>
             </div>
             <h2 class="highlights">Community Engagement</h2>
             <div class="button-des">
@@ -225,7 +221,7 @@ get_header();  ?>
         </div>
         <div class="col-md-4 text-center cards-3">
             <div class="star-icon">
-                <i class="fa fa-light fa-star"></i>
+                <i class="fa-solid fa-people-group"></i>
             </div>
             <h2 class="highlights">Our People</h2>
             <div class="button-des">
