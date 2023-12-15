@@ -6,7 +6,7 @@ get_header();  ?>
 
 <div class="banner-section px-0">
     <div class="container-fluid px-0">
-        <div class="background-image" style="background-image: url(<?php echo get_template_directory_uri(); ?>inc/Images/sonrich-banner.jpg);">
+        <div class="background-image" style="background-image: url('inc/Images/sonrich-banner.jpg');">
             <div class="banner-content position-absolute">
                 <h1 class="banner-slagon text-white fs2 ls1 fw-300 l-height1 text-lg-start text-center"
                     style="text-shadow: 2px 2px 5px #000000;">EMPOWERING INDIVIDUALS WITH</h1>
@@ -247,11 +247,11 @@ get_header();  ?>
 <!--Map Section Start-->
 <div class="map-section">
     <div class="container-fluid map-se">
-        <div class="row mt-4">
+        <div class="row">
             <div class="map">
                 <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.7957348814216!2d79.8752930741177!3d6.915008718491732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae259b91108a333%3A0xda90acfa19a729f4!2sSonrich%20Ashia%20(Pvt)Ltd.%20Colombo%20Branch!5e0!3m2!1sen!2slk!4v1671619545782!5m2!1sen!2slk"
-                    style="border:0;" allowfullscreen="" loading="lazy"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4049.532879454854!2d79.93978077506603!3d6.78980292001122!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae24f9580d60a1f%3A0x9b4c6fc20f16379d!2sSonrich%20Ashia%20(Pvt)Ltd.%20Head%20Office!5e1!3m2!1sen!2slk!4v1702615618442!5m2!1sen!2slk"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
                     referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
