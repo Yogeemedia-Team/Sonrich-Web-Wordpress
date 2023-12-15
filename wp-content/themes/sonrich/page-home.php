@@ -52,8 +52,8 @@ get_header();  ?>
                                 <img src="<?php echo get_template_directory_uri(); ?>/inc/images/Sonrich_international.png"
                                     alt="logo" class="circle-image">
                                 <p class="circle-content-para">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut soluta dolor
-                                    facere repellat ut maiores eligendi adipisci nesciunt est eveniet quo,
+                                    Luvnarich is an esteemed company focused on wellness and lifestyle, utilizing an
+                                    e-commerce & Web based system powered direct selling business
                                 </p>
                                 <a href="about-us" class="circle-link">More Details</a>
                             </div>
@@ -144,9 +144,9 @@ get_header();  ?>
                         modern wellness science. From immunity boosters to stress relief, we’ve distilled nature's
                         essence into each capsule. Improve your journey with purity and purpose.
                     </p>
-                    <ul class="stay-list">
+                    <ul class="stay-list ps-3">
                         <div class="list-item">
-                            <i class="fa fa-solid fa-circle"></i>
+                            <!-- <i class="fa fa-solid fa-circle"></i> -->
                             <li>because achieving greatness starts with feeling great.</li>
                         </div>
                         <!-- <div class="list-item">
@@ -158,12 +158,12 @@ get_header();  ?>
                             <li>consequat. Duis aute irure dolor</li>
                         </div> -->
                     </ul>
-                    <p class="second-p">
+                    <!-- <p class="second-p">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos provident sequi eos
                         quibusdam unde nulla ratione sint vero aspernatur nisi fugiat voluptatum eligendi illo,
                         ullam
                         quidem? Eos nesciunt laborum consequuntur.
-                    </p>
+                    </p> -->
                 </div>
             </div>
             <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center">

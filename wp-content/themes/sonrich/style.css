@@ -1269,7 +1269,7 @@ p.second-p {
 }
 
 ul.stay-list {
-  list-style: none;
+  list-style: disc;
   font-size: 18px;
   color: var(--white);
   font-weight: 300;
