@@ -2735,6 +2735,11 @@ ul.social-icon-box {
     padding-left: 0px !important;
 }
 
+/*contact page - sammani*/
+.office-times {
+  max-width: 308px;
+}
+
 @media (max-width: 1800x) {
 }
 
