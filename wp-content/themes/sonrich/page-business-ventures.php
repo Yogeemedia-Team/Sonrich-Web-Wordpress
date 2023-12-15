@@ -11,7 +11,7 @@ get_header();  ?>
 <div class="business-venture-wrapper">
     <div class="business-opportunity p-5">
         <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-6 opportunity-col d-flex justify-content-center align-items-center">
+            <div class="col-12 col-md-6 opportunity-col d-flex justify-content-center align-items-center">
                 <div class="opportunity-text-wrap">
                     <h5 class="head-title mt-4 text-center text-md-start">WORKING CLOSELY TOGETHER</h5>
                     <span class="short-underline m-auto m-md-0"></span>
@@ -21,44 +21,44 @@ get_header();  ?>
                 </div>
             </div>
 
-            <div class="col-lg-6 col-md-6 col-sm-6">
+            <div class="col-12 col-md-6">
                 <div class="offers-card">
                     <div class="row">
-                        <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="col-12 col-md-6 col-lg-4">
                             <div class="offers-card-item text-center mb-3">
                                 <span><i class="fa-solid fa-sack-dollar"></i></span>
                                 <p class="paragraph-des offers-description text-center pt-3">Sales Compensations and
                                     Inducements</p>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="col-12 col-md-6 col-lg-4">
                             <div class="offers-card-item text-center mb-3">
                                 <span><i class="fa-solid fa-user-shield"></i></span>
                                 <p class="paragraph-des offers-description text-center pt-3">Viable Compensation
                                     Arrangements</p>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="col-12 col-md-6 col-lg-4">
                             <div class="offers-card-item text-center mb-3">
                                 <span><i class="fa-solid fa-people-carry-box"></i></span>
                                 <p class="paragraph-des offers-description text-center pt-3">multilingual Client Support
                                 </p>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="col-12 col-md-6 col-lg-4">
                             <div class="offers-card-item text-center mb-3">
                                 <span><i class="fa-solid fa-people-carry-box"></i></span>
                                 <p class="paragraph-des offers-description text-center pt-3">digital platforms
                                     assistance</p>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="col-12 col-md-6 col-lg-4">
                             <div class="offers-card-item text-center mb-3">
                                 <span><i class="fa-solid fa-sack-dollar"></i></span>
                                 <p class="paragraph-des offers-description text-center pt-3">educational initiatives</p>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="col-12 col-md-6 col-lg-4">
                             <div class="offers-card-item text-center mb-3">
                                 <span><i class="fa-solid fa-user-shield"></i></span>
                                 <p class="paragraph-des offers-description text-center pt-3">Cutting-edge,
@@ -74,7 +74,7 @@ get_header();  ?>
     <div class="business-venture-second-section p-5 mx-5">
         <div class="container-fluid">
             <div class="row business-venture-row">
-                <div class="col-lg-4 col-md-4 col-sm-12 px-0">
+                <div class="col-12 col-md-4 px-0">
                     <div class="opportunity-image w-100"
                         style="background-image: url(./inc/images/pexels-volker-thimm-12681379.jpg);">
                     </div>
@@ -84,7 +84,7 @@ get_header();  ?>
                 </div>
 
                 <div
-                    class="col-lg-8 col-md-8 col-sm-12 px-0 d-flex justify-content-center align-items-center opportunity-image-background">
+                    class="col-12 col-md-8 px-0 d-flex justify-content-center align-items-center opportunity-image-background">
                     <div class="opportunity-image-background text-white">
                         <div class="back-text-area text-white">
                             <h4 class="text-center text-md-start">A Luvnarich INDEPENDENT REPRESENTATIVE?</h4>
