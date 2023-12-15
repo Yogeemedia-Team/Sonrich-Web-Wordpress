@@ -24,44 +24,72 @@ get_header();  ?>
                 <div class="sub-title pb-3">
                     OUR OFFICE
                 </div>
-                <div class="con-info">
-                    <div class="address">
-                        No.204/A/1,Bandaragama Road, <br>
-                        Kesbewa,SriLanka
-                    </div>
-                    <div class="email">
-                        Email: <a href="mailto:info@luvnarich.net" style="text-decoration:none;">info@luvnarich.net</a>
-                    </div>
-                    <div class="phone">
-                        Phone: <a href="tel:0753370000" style="text-decoration:none;">0753370000</a>
-                    </div>
-                    <!-- <div class="fax">
-                        Fax: +88 (0) 202 0000 001
-                    </div> -->
-                </div>
-                <ul class="social-icon-box d-flex py-3">
-                    <li class="social-icon pe-4">
-                        <a href="#" target="_blank">
-                            <i class="fa-brands fa-facebook"></i>
-                        </a>
-                    </li>
-                    <li class="social-icon pe-4">
-                        <a href="#" target="_blank">
-                            <i class="fa-brands fa-twitter"></i>
-                        </a>
-                    </li>
-                    <li class="social-icon pe-4">
-                        <a href="#" target="_blank">
-                            <i class="fa-brands fa-youtube"></i>
-                        </a>
-                    </li>
-                    <li class="social-icon pe-4">
-                        <a href="#" target="_blank">
-                            <i class="fa-brands fa-tiktok"></i>
-                        </a>
-                    </li>
-                </ul>
-            </div>
+               
+  
+                        <div class="office-times">
+                            <div class="first-row">
+                                <span>(UTC+05:30) (Jayawardena Pura Kotte)</span>
+                            </div>
+
+                            <div class="second-row pt-3">
+                                <span><b>Monday - Friday</b></span>
+                                <span>12:00pm (noon) - 06:00am - share with us operating time ours</span>
+                            </div>
+
+                            <div class="second-row pt-3">
+                                <span><b>Saturday</b></span>
+                                <span>12:00am (midnight) - 06:00am - share with us operating time ours</span>
+                            </div>
+                        </div>
+
+                        <div class="con-info pt-3">
+                            <div class="address">
+                                198 West 21th Street, Suite 721 <br>
+                                New York, NY 10010
+                            </div>
+                            <div class="email">
+                                Email: youremail@yourdomain.com
+                            </div>
+                            <div class="phone">
+                                Phone: <a href="tel: +88 (0) 101 0000 000">+88 (0) 101 0000 000</a>
+                            </div>
+                            <div class="fax">
+                                Fax: +88 (0) 202 0000 001
+                            </div>
+                        </div>
+                        <ul class="social-icon-box d-flex py-3">
+                            <li class="social-icon pe-4 ps-2">
+                                <a href="#" target="_blank">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="social-icon pe-4">
+                                <a href="#" target="_blank">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="social-icon pe-4">
+                                <a href="#" target="_blank">
+                                    <i class="fa-brands fa-google-plus-g"></i>
+                                </a>
+                            </li>
+                            <li class="social-icon pe-4">
+                                <a href="#" target="_blank">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="social-icon pe-4">
+                                <a href="#" target="_blank">
+                                    <i class="fa-brands fa-tumblr"></i>
+                                </a>
+                            </li>
+                            <li class="social-icon pe-4">
+                                <a href="#" target="_blank">
+                                    <i class="fa-brands fa-pinterest"></i>
+                                </a>
+                            </li>
+                        </ul>
+                 </div>
             <div class="col-12 col-md-8">
                 <div class="sub-title pb-3">
                     CONTACT US

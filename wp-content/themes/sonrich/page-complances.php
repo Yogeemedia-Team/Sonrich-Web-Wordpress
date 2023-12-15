@@ -15,7 +15,7 @@ get_header();  ?>
         <div class="left-side-square position-relative py-5 my-5">
           <div class="square-part">
             <div class="square-image">
-              <img src="<?php echo get_template_directory_uri(); ?>./inc/images/pexels-joão-jesus-2480069.jpg" alt="">
+              <img src="<?php echo get_template_directory_uri(); ?>/inc/images/pexels-joão-jesus-2480069.jpg" alt="">
             </div>
           </div>
         </div>
@@ -76,7 +76,7 @@ get_header();  ?>
     </p>
   </div>
 
-  <div class="background-options">
+  <!-- <div class="background-options">
     <div class="row">
       <div class="col-lg-3">
         <div class="optional-details">
@@ -102,7 +102,7 @@ get_header();  ?>
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 </div>
 
 <div class="complances-questionnier-part my-5 py-5">
@@ -111,7 +111,7 @@ get_header();  ?>
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingOne">
           <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            Luvnarich's 10 Essential Guidelines - best practices?
+            Luvnarich's 10 Essential Guidelines
           </button>
         </h2>
         <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
@@ -127,7 +127,7 @@ get_header();  ?>
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingTwo">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            CODE OF CONDUCT - do kindly share with us?
+            CODE OF CONDUCT
           </button>
         </h2>
         <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
@@ -141,7 +141,7 @@ get_header();  ?>
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingThree">
           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            CODE OF ETHICS -do kindly share with us?
+            CODE OF ETHICS
           </button>
         </h2>
         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
@@ -155,31 +155,30 @@ get_header();  ?>
 
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingFour">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            FAQ - do kindly share with us?
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+              FAQ
           </button>
         </h2>
-        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p>Discover in our comprehensive Frequently Asked Questions (FAQ) section
-              all the answers to your inquiries regarding the Luvnarich Company,
-              business prospects, products, and services.</p>
+            <p>Discover in our comprehensive Frequently Asked Questions (FAQ) section all the answers to your inquiries regarding the Luvnarich Company, business prospects, products, and services.</p>
           </div>
         </div>
       </div>
 
       <div class="accordion-item">
-        <h2 class="accordion-header" id="headingFive">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            POLICIES & PROCEDURES - do kindly share with us?
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              POLICIES & PROCEDURES
           </button>
         </h2>
-        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-            <p>Rights and Responsibilities.</p>
+            <p>Rights and Responsibilities</p>
           </div>
         </div>
       </div>
+
     </div>
   </div>
 </div>
