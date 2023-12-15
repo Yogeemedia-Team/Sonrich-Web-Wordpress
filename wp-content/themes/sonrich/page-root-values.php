@@ -14,7 +14,7 @@ get_header();  ?>
             <div class="heading h2 font2 fs-1 text-center">
                 Preserve the our country today and for generations to come
             </div>
-            <div class="sub-heading h5 font2 fs-3 text-center pt-2">
+            <div class="sub-heading h5 font2 fs-4 text-center pt-2">
                 kindly provide us the mission for the Luvanarich?
             </div>
         </div>
@@ -64,17 +64,17 @@ get_header();  ?>
                 </div>
             </div>
             <div class="root-list-box">
-                <div class="root-container-title pt-5 fs-2 lh-sm pb-3">
+                <div class="root-container-title pt-4 fs-2 lh-sm pb-3">
                     We believe that by focusing on these fundamental elements, we can build a sustainable
                     business
                     that will be successful for years to come.
                 </div>
                 <ul>
-                    <li class="fs-4">
+                    <li class="fs-5">
                         kindly provide us the vision for the Luvanarich? and respective images. statement and
                         values?
                     </li>
-                    <li class="fs-4">
+                    <li class="fs-5">
                         Kindly provide us chairman msg directors msg with the images.
                     </li>
                 </ul>
