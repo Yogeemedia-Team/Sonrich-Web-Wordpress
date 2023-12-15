@@ -46,7 +46,8 @@ get_header();  ?>
                 </div>
                 <div class="col-12 col-lg-6 m-auto d-block">
                     <div class="right-bac-image">
-                        <img src="inc/images/Success.png" alt="img" class="success left-courve w-100 p-3">
+                        <img src="<?php echo get_template_directory_uri(); ?>/inc/images/Success.png" alt="img"
+                            class="success left-courve w-100 p-3">
                     </div>
                 </div>
             </div>
@@ -162,7 +163,8 @@ get_header();  ?>
                 </div>
                 <div class="col-12 col-lg-6 m-auto d-block order-1">
                     <div class="right-bac-image">
-                        <img src="inc/images/Success.png" alt="img" class="success right-courve w-100 p-3">
+                        <img src="<?php echo get_template_directory_uri(); ?>/inc/images/Success.png" alt="img"
+                            class="success right-courve w-100 p-3">
                     </div>
                 </div>
             </div>
@@ -186,7 +188,7 @@ get_header();  ?>
         <div class="row pt-3">
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="about-value-box">
-                    <div class="about-value-description fs-4 fw-bold text-center">Trustworthiness:</div>
+                    <div class="about-value-description fs-4 fw-bold text-center">Trustworthiness</div>
                     <p class="about-value-text text-center">
                         We embrace integrity and ignite change. We believe in honesty, transparency, and
                         accountability.
@@ -195,7 +197,7 @@ get_header();  ?>
             </div>
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="about-value-box">
-                    <div class="about-value-description fs-4 fw-bold text-center">Stability:</div>
+                    <div class="about-value-description fs-4 fw-bold text-center">Stability</div>
                     <p class="about-value-text text-center">
                         We create a sustainable future with service and leadership. We are stewards of the
                         environment and we strive to create a better world for future generations.
@@ -204,7 +206,7 @@ get_header();  ?>
             </div>
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="about-value-box">
-                    <div class="about-value-description fs-4 fw-bold text-center">Contribution:</div>
+                    <div class="about-value-description fs-4 fw-bold text-center">Contribution</div>
                     <p class="about-value-text text-center">
                         We experience the power of integrity, sustainability, and service. We are committed to
                         giving back to our communities and making a positive impact on the world.
@@ -213,7 +215,7 @@ get_header();  ?>
             </div>
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="about-value-box">
-                    <div class="about-value-description fs-4 fw-bold text-center">Leadership:</div>
+                    <div class="about-value-description fs-4 fw-bold text-center">Leadership</div>
                     <p class="about-value-text text-center">
                         We chart a path of leadership through integrity and sustainable service. We inspire and
                         lead by example, and we foster entrepreneurship as a way to create a more just and
@@ -284,7 +286,8 @@ get_header();  ?>
                 </div>
                 <div class="col-12 col-lg-6 m-auto d-block">
                     <div class="right-bac-image">
-                        <img src="inc/images/Success.png" alt="img" class="success left-courve w-100 p-3">
+                        <img src="<?php echo get_template_directory_uri(); ?>/inc/images/Success.png" alt="img"
+                            class="success left-courve w-100 p-3">
                     </div>
                 </div>
             </div>
@@ -324,7 +327,8 @@ get_header();  ?>
                 </div>
                 <div class="col-12 col-lg-6 m-auto d-block order-1">
                     <div class="right-bac-image">
-                        <img src="inc/images/Success.png" alt="img" class="success right-courve w-100 p-3">
+                        <img src="<?php echo get_template_directory_uri(); ?>/inc/images/Success.png" alt="img"
+                            class="success right-courve w-100 p-3">
                     </div>
                 </div>
             </div>
@@ -364,7 +368,8 @@ get_header();  ?>
                 </div>
                 <div class="col-12 col-lg-6 m-auto d-block">
                     <div class="right-bac-image">
-                        <img src="inc/images/Success.png" alt="img" class="success left-courve w-100 p-3">
+                        <img src="<?php echo get_template_directory_uri(); ?>/inc/images/Success.png" alt="img"
+                            class="success left-courve w-100 p-3">
                     </div>
                 </div>
             </div>
@@ -400,7 +405,8 @@ get_header();  ?>
                 </div>
                 <div class="col-12 col-lg-6 m-auto d-block order-1">
                     <div class="right-bac-image">
-                        <img src="inc/images/Success.png" alt="img" class="success right-courve w-100 p-3">
+                        <img src="<?php echo get_template_directory_uri(); ?>/inc/images/Success.png" alt="img"
+                            class="success right-courve w-100 p-3">
                     </div>
                 </div>
             </div>
@@ -437,7 +443,8 @@ get_header();  ?>
                 </div>
                 <div class="col-12 col-lg-6 m-auto d-block">
                     <div class="right-bac-image">
-                        <img src="inc/images/Success.png" alt="img" class="success left-courve w-100 p-3">
+                        <img src="<?php echo get_template_directory_uri(); ?>/inc/images/Success.png" alt="img"
+                            class="success left-courve w-100 p-3">
                     </div>
                 </div>
             </div>

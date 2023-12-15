@@ -27,7 +27,7 @@ get_header();  ?>
             <div class="row pt-4">
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="about-value-box">
-                        <div class="about-value-description fs-4 fw-bold text-center">Integrity:</div>
+                        <div class="about-value-description fs-4 fw-bold text-center">Integrity</div>
                         <p class="about-value-text text-center">
                             We believe in doing the right thing, even when it is difficult. We are committed to
                             operating our business with integrity and transparency.
@@ -36,7 +36,7 @@ get_header();  ?>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="about-value-box">
-                        <div class="about-value-description fs-4 fw-bold text-center">Excellence:</div>
+                        <div class="about-value-description fs-4 fw-bold text-center">Excellence</div>
                         <p class="about-value-text text-center">
                             We strive to provide the best possible products and services to our customers. We
                             are committed to continuous improvement and innovation.
@@ -45,7 +45,7 @@ get_header();  ?>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="about-value-box">
-                        <div class="about-value-description fs-4 fw-bold text-center">Sustainability:</div>
+                        <div class="about-value-description fs-4 fw-bold text-center">Sustainability</div>
                         <p class="about-value-text text-center">
                             We believe in doing business in a way that is environmentally and socially
                             responsible. We are committed to reducing our environmental impact and creating a
@@ -55,7 +55,7 @@ get_header();  ?>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="about-value-box">
-                        <div class="about-value-description fs-4 fw-bold text-center">Community:</div>
+                        <div class="about-value-description fs-4 fw-bold text-center">Community</div>
                         <p class="about-value-text text-center">
                             We believe in giving back to the communities where we operate. We are committed to
                             supporting local charities and organizations that make a difference.
