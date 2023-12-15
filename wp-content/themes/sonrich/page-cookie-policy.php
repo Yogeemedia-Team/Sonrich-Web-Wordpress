@@ -15,7 +15,7 @@ get_header();  ?>
                 Cookie Policy for Luvnarich
             </div>
             <div class="sub-heading h5 font2 fs-3 text-center pt-2">
-                Effective Date: [Insert Date]
+                Effective Date: 15-12-2023
             </div>
         </div>
         <!-- <div class="root-container-box">
