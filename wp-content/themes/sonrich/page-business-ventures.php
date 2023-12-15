@@ -76,7 +76,7 @@ get_header();  ?>
             <div class="row business-venture-row">
                 <div class="col-12 col-md-4 px-0">
                     <div class="opportunity-image w-100"
-                        style="background-image: url(./inc/images/pexels-volker-thimm-12681379.jpg);">
+                        style="background-image: url(<?php echo get_template_directory_uri(); ?>/inc/images/pexels-volker-thimm-12681379.jpg);">
                     </div>
                     <div class="opportunity-content">
                         <h2>HOW TO BECOME</h2>
