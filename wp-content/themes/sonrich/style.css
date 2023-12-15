@@ -3436,6 +3436,18 @@ p.first-p.about-p {
   background: var(--gray);
   border-radius: 25px;
 }
+
+
+.left-courve {
+  border-radius: 30px;
+  border-bottom-left-radius: 150px;
+}
+
+.right-courve {
+  border-radius: 30px;
+  border-bottom-right-radius: 150px;
+}
+
 /* about us css end */
 
 /* wall of fame css start */
