@@ -5,16 +5,17 @@ Template Name: Gallery
 
 get_header();  ?>
 
+
 <!-- breadcrumb link start -->
 <div class="breadcrumb-link">
     <div class="contact-fluid">
         <div class="container">
             <div class="bread-box py-5 d-flex justify-content-between">
-                <div class="breadcrumb-title">Berlin Design Week</div>
+                <div class="breadcrumb-title">Gallery</div>
                 <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
                     <ol class="breadcrumb">
                         <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">Berlin Design Week</li>
+                        <li class="breadcrumb-item active" aria-current="page">Gallery</li>
                     </ol>
                 </nav>
             </div>
@@ -28,27 +29,45 @@ get_header();  ?>
     <div class="container">
         <div class="row" style="display: flex; flex-wrap: wrap;">
             <div class="col-lg-4 col-sm-6">
-                <div class="thumbnail bg-img my-2" style="background: url(https://ongoing.website/websites/sonrich/wp-content/uploads/2023/12/gal1.png);">
+                <div class="thumbnail bg-img my-2">
+                    <img class="w-100 h-100"
+                        src="https://ongoing.website/websites/sonrich/wp-content/uploads/2023/12/gal1.png" alt="img">
+                    <span class="thumb-img-title">lorem ipsum</span>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <div class="thumbnail bg-img my-2" style="background: url(https://ongoing.website/websites/sonrich/wp-content/uploads/2023/12/gal2.png);">
+                <div class="thumbnail bg-img my-2">
+                    <img class="w-100 h-100"
+                        src="https://ongoing.website/websites/sonrich/wp-content/uploads/2023/12/gal2.png" alt="img">
+                    <span class="thumb-img-title">lorem ipsum</span>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <div class="thumbnail bg-img my-2" style="background: url(https://ongoing.website/websites/sonrich/wp-content/uploads/2023/12/gal3.png);">
+                <div class="thumbnail bg-img my-2">
+                    <img class="w-100 h-100"
+                        src="https://ongoing.website/websites/sonrich/wp-content/uploads/2023/12/gal3.png" alt="img">
+                    <span class="thumb-img-title">lorem ipsum</span>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <div class="thumbnail bg-img my-2" style="background: url(https://ongoing.website/websites/sonrich/wp-content/uploads/2023/12/gal4.png);">
+                <div class="thumbnail bg-img my-2">
+                    <img class="w-100 h-100"
+                        src="https://ongoing.website/websites/sonrich/wp-content/uploads/2023/12/gal4.png" alt="img">
+                    <span class="thumb-img-title">lorem ipsum</span>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <div class="thumbnail bg-img my-2" style="background: url(https://ongoing.website/websites/sonrich/wp-content/uploads/2023/12/gal5.png);">
+                <div class="thumbnail bg-img my-2">
+                    <img class="w-100 h-100"
+                        src="https://ongoing.website/websites/sonrich/wp-content/uploads/2023/12/gal5.png" alt="img">
+                    <span class="thumb-img-title">lorem ipsum</span>
                 </div>
             </div>
             <div class="col-lg-4 col-sm-6">
-                <div class="thumbnail bg-img my-2" style="background: url(https://ongoing.website/websites/sonrich/wp-content/uploads/2023/12/gal7.png);">
+                <div class="thumbnail bg-img my-2">
+                    <img class="w-100 h-100"
+                        src="https://ongoing.website/websites/sonrich/wp-content/uploads/2023/12/gal7.png" alt="img">
+                    <span class="thumb-img-title">lorem ipsum</span>
                 </div>
             </div>
         </div>
