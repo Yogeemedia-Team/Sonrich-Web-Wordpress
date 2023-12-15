@@ -8,7 +8,7 @@
 				  }
 				
 				else{
-          $banner = get_field('default_inner_banner', 'option');
+          // $banner = get_field('default_inner_banner', 'option');
          $bannerUrl = get_template_directory_uri() . '/inc/images/product_banner.jpg';
 
 				}
