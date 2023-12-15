@@ -182,7 +182,7 @@ ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
 }
 .active,
 .nav-link:hover {
-  /* border-bottom: 1px solid var(--dark-blue); */
+  border-bottom: 1px solid var(--dark-blue);
 }
 
 .navbar-light .navbar-brand {
@@ -280,7 +280,7 @@ a.nav-link {
 a.nav-link.dropdown-toggle {
   font-size: 14px;
   letter-spacing: 2px;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 
@@ -953,7 +953,7 @@ a.nav-link {
 }
 
 a.nav-link.dropdown-toggle {
-  color: var(--white) !important;
+  color: var(--dark-blue) !important;
 }
 
 .home {
@@ -961,7 +961,7 @@ a.nav-link.dropdown-toggle {
 }
 
 a.nav-link.dropdown-toggle {
-  background: var(--dark-blue);
+  background: none !important;
   color: var(--white);
 }
 
@@ -1012,9 +1012,9 @@ a.nav-link {
 }
 
 a.nav-link.dropdown-toggle {
-  font-size: 14px;
+  font-size: 16px;
   letter-spacing: 2px;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 /*Banner Section*/

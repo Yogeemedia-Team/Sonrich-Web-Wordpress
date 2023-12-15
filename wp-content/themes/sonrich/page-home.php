@@ -6,7 +6,8 @@ get_header();  ?>
 
 <div class="banner-section px-0">
     <div class="container-fluid px-0">
-        <div class="background-image" style="background-image: url('<?php echo get_template_directory_uri(); ?>/inc/images/sonrich-banner.jpg');">
+        <div class="background-image"
+            style="background-image: url('<?php echo get_template_directory_uri(); ?>/inc/images/sonrich-banner.jpg');">
             <div class="banner-content position-absolute">
                 <h1 class="banner-slagon text-white fs2 ls1 fw-300 l-height1 text-lg-start text-center"
                     style="text-shadow: 2px 2px 5px #000000;">EMPOWERING INDIVIDUALS WITH</h1>
@@ -32,9 +33,11 @@ get_header();  ?>
                     <div class="nature-sec-2">
                         <div class="row mt-4">
                             <div class="nature-links">
-                                <p><a href="business-venture">Business ventures</a></p>
-                                <p><a href="complances">Complances page</a></p>
-                                <p><a href="passive-earnings">Passive Earnings page</a></p>
+                                <p><a href="about-us">About Us</a></p>
+                                <p><a href="root-values">Root Values</a></p>
+                                <p><a href="good-will">Good Will</a></p>
+                                <p><a href="complances">Complances</a></p>
+                                <p><a href="business-ventures">Business Ventures</a></p>
                             </div>
                         </div>
                     </div>
