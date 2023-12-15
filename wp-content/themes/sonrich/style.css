@@ -1393,7 +1393,7 @@ i.fa.fa-solid.fa-chevron-right {
   );
   padding-top: 35px;
   padding-bottom: 55px;
-  margin-top: -6px;
+
 }
 
 img.footer-logo {
@@ -2669,6 +2669,11 @@ ul.social-icon-box li {
 
 ul.social-icon-box {
     padding-left: 0px !important;
+}
+
+/*contact page - sammani*/
+.office-times {
+  max-width: 308px;
 }
 
 @media (max-width: 1800x) {
