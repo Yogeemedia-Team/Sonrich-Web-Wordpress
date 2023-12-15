@@ -6,7 +6,7 @@ Template Name: Contact
 get_header();  ?>
 
 
-<?php get_template_part( 'template-parts/inner', 'banner' ); ?>
+<?php get_template_part('template-parts/inner', 'banner'); ?>
 
 <!-- contact form start -->
 <section class="contact-form py-5">
@@ -113,9 +113,9 @@ get_header();  ?>
         <div class="row mt-4">
             <div class="map">
                 <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.7957348814216!2d79.8752930741177!3d6.915008718491732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae259b91108a333%3A0xda90acfa19a729f4!2sSonrich%20Ashia%20(Pvt)Ltd.%20Colombo%20Branch!5e0!3m2!1sen!2slk!4v1671619545782!5m2!1sen!2slk"
-                    style="border:0;" allowfullscreen="" loading="lazy" width="100%" height="420px"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.835989071755!2d79.93978077506604!3d6.789802920011222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae24f9580d60a1f%3A0x9b4c6fc20f16379d!2sSonrich%20Ashia%20(Pvt)Ltd.%20Head%20Office!5e0!3m2!1sen!2slk!4v1702615193056!5m2!1sen!2slk"
+                    style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
             </div>
         </div>
     </div>
