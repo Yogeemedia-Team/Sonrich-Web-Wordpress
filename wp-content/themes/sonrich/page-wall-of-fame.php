@@ -28,8 +28,8 @@ get_header();  ?>
         <div class="main-timeline-2">
             <div class="timeline-2 left-2">
                 <div class="card">
-                    <img src="<?php echo get_template_directory_uri(); ?>https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(135).webp"
-                        class="card-img-top" alt="Responsive image">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(135).webp" class="card-img-top"
+                        alt="Responsive image">
                     <div class="card-body p-4">
                         <h4 class="fw-bold mb-4">Ut enim ad minim veniam</h4>
                         <p class="text-muted mb-4"><i class="far fa-clock" aria-hidden="true"></i> 2017</p>
@@ -41,8 +41,8 @@ get_header();  ?>
             </div>
             <div class="timeline-2 right-2">
                 <div class="card">
-                    <img src="<?php echo get_template_directory_uri(); ?>https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(129).webp"
-                        class="card-img-top" alt="Responsive image">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(129).webp" class="card-img-top"
+                        alt="Responsive image">
                     <div class="card-body p-4">
                         <h4 class="fw-bold mb-4">Duis aute irure dolor</h4>
                         <p class="text-muted mb-4"><i class="far fa-clock" aria-hidden="true"></i> 2016</p>
@@ -56,8 +56,8 @@ get_header();  ?>
             </div>
             <div class="timeline-2 left-2">
                 <div class="card">
-                    <img src="<?php echo get_template_directory_uri(); ?>https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(131).webp"
-                        class="card-img-top" alt="Responsive image">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(131).webp" class="card-img-top"
+                        alt="Responsive image">
                     <div class="card-body p-4">
                         <h4 class="fw-bold mb-4">Sed ut nihil unde omnis</h4>
                         <p class="text-muted mb-4"><i class="far fa-clock" aria-hidden="true"></i> 2015</p>
@@ -72,8 +72,8 @@ get_header();  ?>
             </div>
             <div class="timeline-2 right-2">
                 <div class="card">
-                    <img src="<?php echo get_template_directory_uri(); ?>https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(125).webp"
-                        class="card-img-top" alt="Responsive image">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(125).webp" class="card-img-top"
+                        alt="Responsive image">
                     <div class="card-body p-4">
                         <h4 class="fw-bold mb-4"> Quis autem vel eum voluptate</h4>
                         <p class="text-muted mb-4"><i class="far fa-clock" aria-hidden="true"></i> 2014</p>
@@ -88,8 +88,8 @@ get_header();  ?>
             </div>
             <div class="timeline-2 left-2">
                 <div class="card">
-                    <img src="<?php echo get_template_directory_uri(); ?>https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(144).webp"
-                        class="card-img-top" alt="Responsive image">
+                    <img src="https://mdbcdn.b-cdn.net/img/Photos/Slides/img%20(144).webp" class="card-img-top"
+                        alt="Responsive image">
                     <div class="card-body p-4">
                         <h4 class="fw-bold mb-4">Mussum ipsum cacilds</h4>
                         <p class="text-muted mb-4"><i class="far fa-clock" aria-hidden="true"></i> 2013</p>
