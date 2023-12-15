@@ -86,8 +86,8 @@ get_header();  ?>
                 <div
                     class="col-lg-8 col-md-8 col-sm-12 px-0 d-flex justify-content-center align-items-center opportunity-image-background">
                     <div class="opportunity-image-background text-white">
-                        <div class="back-text-area text-white text-center">
-                            <h4 class="text-center">A Luvnarich INDEPENDENT REPRESENTATIVE?</h4>
+                        <div class="back-text-area text-white">
+                            <h4 class="text-center text-md-start">A Luvnarich INDEPENDENT REPRESENTATIVE?</h4>
                         </div>
                         <div class="opportunity-list text-white mt-3">
                             <ul>
