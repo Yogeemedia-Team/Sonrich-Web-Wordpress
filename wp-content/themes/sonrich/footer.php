@@ -49,7 +49,7 @@
             <div class="row py-5">
                 <div class="col-12 col-md-4 d-flex justify-content-center align-items-center">
                     <a href="index.html">
-                        <img src="https://ongoing.website/websites/sonrich/wp-content/uploads/2023/12/logo_bg-none.png"
+                        <img src="<?php echo get_template_directory_uri(); ?>/inc/images/sonrich_logo.png"
                             alt="footer logo" class="footer-logo w-100">
                     </a>
                 </div>

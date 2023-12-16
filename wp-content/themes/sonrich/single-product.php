@@ -11,7 +11,7 @@ get_header();  ?>
     <div class="single-product-header-bottom-part">
         <div class="title_subtitle_holder">
             <div class="title_subtitle_holder_inner">
-                <h1><span>Shop</span></h1>
+                <h1><span><?php the_title();?></span></h1>
             </div>
         </div>
     </div>
