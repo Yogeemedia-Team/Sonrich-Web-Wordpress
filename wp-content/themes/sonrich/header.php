@@ -112,7 +112,7 @@
             <div class="navigation-bar">
                 <nav class="navbar navbar-expand-lg navbar-light container p-0 px-2 px-lg-0">
                     <a class="navbar-brand" href="<?php echo get_home_url(); ?>"><img
-                            src="<?php echo get_template_directory_uri(); ?>/inc/images/logo.png"
+                            src="<?php echo get_template_directory_uri(); ?>/inc/images/logo-new.png"
                             alt="logo"></a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
