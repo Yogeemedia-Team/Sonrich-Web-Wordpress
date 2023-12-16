@@ -12,7 +12,7 @@ get_header();  ?>
         <div class="shop-products mt-5">
             <div class="row">
                 <div class="product-title-box text-center align-content-center justify-content-center mt-5 pt-5">
-                    <h5 class="product-title text-center fs-5 fw-normal">Products</h5>
+                    <!-- <h5 class="product-title text-center fs-5 fw-normal">Products</h5> -->
 
                     <!-- <h3 class="product-heading-title fw-normal text-center"><span style="text-transform: none;">Organic veggies</span></h3> -->
 
