@@ -50,7 +50,7 @@ get_header();  ?>
                         </div>
                         <div class="circle">
                             <div class="circle-content">
-                                <img src="<?php echo get_template_directory_uri(); ?>/inc/images/Sonrich_international.png"
+                                <img src="<?php echo get_template_directory_uri(); ?>/inc/images/logo-new.png"
                                     alt="logo" class="circle-image">
                                 <p class="circle-content-para">
                                     Luvnarich is an esteemed company focused on wellness and lifestyle, utilizing an
