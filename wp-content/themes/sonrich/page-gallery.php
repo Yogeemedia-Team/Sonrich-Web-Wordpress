@@ -61,7 +61,7 @@ get_header();  ?>
 <!-- gallery img section end -->
 
 <!-- gallery about start -->
-<section class="gallery-about pt-2" style="padding-bottom: 50px;">
+<!-- <section class="gallery-about pt-2" style="padding-bottom: 50px;">
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-9">
@@ -123,7 +123,7 @@ get_header();  ?>
             </div>
         </div>
     </div>
-</section>
+</section> -->
 <!-- gallery about start -->
 
 <?php get_footer(); ?>

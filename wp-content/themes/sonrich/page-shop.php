@@ -14,13 +14,13 @@ get_header();  ?>
                 <div class="product-title-box text-center align-content-center justify-content-center mt-5 pt-5">
                     <h5 class="product-title text-center fs-5 fw-normal">Products</h5>
 
-                    <h3 class="product-heading-title fw-normal text-center"><span style="text-transform: none;">Organic veggies</span></h3>
+                    <!-- <h3 class="product-heading-title fw-normal text-center"><span style="text-transform: none;">Organic veggies</span></h3> -->
 
                     <div class="bottom-description">
-                        <h6 class="product-heading-description text-center fw-normal">Program is available for
+                        <!-- <h6 class="product-heading-description text-center fw-normal">Program is available for
                             people who have workedat
                             growing least one prently.
-                        </h6>
+                        </h6> -->
                     </div>
 
                 </div>

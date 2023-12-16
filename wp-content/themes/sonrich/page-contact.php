@@ -44,17 +44,14 @@ get_header();  ?>
 
                         <div class="con-info pt-3">
                             <div class="address">
-                                198 West 21th Street, Suite 721 <br>
-                                New York, NY 10010
+                                No.204/A/1,Bandaragama Road <br>
+                                Kesbewa,SriLanka
                             </div>
                             <div class="email">
-                                Email: youremail@yourdomain.com
+                                Email: info@luvnarich.net
                             </div>
                             <div class="phone">
-                                Phone: <a href="tel: +88 (0) 101 0000 000">+88 (0) 101 0000 000</a>
-                            </div>
-                            <div class="fax">
-                                Fax: +88 (0) 202 0000 001
+                                Phone: <a href="tel: +94 (0) 383370000">+94 (0) 383370000</a>
                             </div>
                         </div>
                         <ul class="social-icon-box d-flex py-3">
