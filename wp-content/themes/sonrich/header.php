@@ -77,32 +77,32 @@
 
             <!-- top nav start -->
             <div id="top" class="navigation-bar" style="background: var(--black);">
-                <nav class="navbar navbar-expand-sm navbar-light container p-2">
-                    <ul class="navbar-nav m-2 mb-lg-0 ms-auto">
-                        <li class="top-nav-item">
-                            <a class="top-bar nav-link" target="_blank" href="https://future.sonrich.net/"
+                <nav class=" container p-2">
+                    <div class="row mb-lg-0">
+                        <div class="col-12 col-sm-6 col-md-3 top-nav-item mx-0 my-1">
+                            <a class=" top-bar nav-link" target="_blank" href="https://future.sonrich.net/"
                                 role="button">
                                 sonrich future plan
                             </a>
-                        </li>
-                        <li class="top-nav-item">
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-3 top-nav-item mx-0 my-1">
                             <a class="top-bar nav-link" target="_blank" href="https://invoice.luvnarich.net/"
                                 role="button">
                                 invoice management
                             </a>
-                        </li>
-                        <li class="top-nav-item">
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-3 top-nav-item mx-0 my-1">
                             <a class="top-bar nav-link" target="_blank"
                                 href="https://www.sonrich.lk/newplan/sonrichmp/login.php" role="button">
                                 sonrich main plan
                             </a>
-                        </li>
-                        <li class="top-nav-item">
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-3 top-nav-item mx-0 my-1">
                             <a class="top-bar nav-link" target="_blank" href="https://sellsell.lk/" role="button">
                                 sell sell
                             </a>
-                        </li>
-                    </ul>
+                        </div>
+                    </div>
                 </nav>
             </div>
             <!-- top nav end -->
