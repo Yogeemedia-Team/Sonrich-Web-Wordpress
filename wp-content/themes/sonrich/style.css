@@ -1225,6 +1225,7 @@ h6.cat_name {
 .list-item {
   display: flex;
   align-items: center;
+  list-style: none !important;
 }
 
 i.fa.fa-solid.fa-circle {
