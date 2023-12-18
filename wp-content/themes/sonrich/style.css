@@ -3505,10 +3505,9 @@ p.first-p.about-p {
 /* wall of fame css start */
 
 /* single product gallery css start */
-
 .gallery {
   position: relative;
-  width: min(85vmin, 550px);
+  width: 100%;
 
   & img {
     width: 100%;
@@ -3549,5 +3548,4 @@ p.first-p.about-p {
     }
   }
 }
-
 /* single product gallery css end */

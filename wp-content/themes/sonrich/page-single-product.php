@@ -24,26 +24,51 @@ get_header();  ?>
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="single-product-detail-left w-100">
                         <div class="single-product-image w-100">
-                            <img src="<?php echo get_template_directory_uri(); ?>/inc/images/shop-image-10-600x600.jpg"
-                                alt="" class="w-100">
+                            <main class="gallery">
+                                <div class="hero w-100">
+                                    <img src="https://picsum.photos/id/22/800/500">
+                                </div>
+                                <ul class="btns ps-0 pt-1">
+                                    <li><img src="https://picsum.photos/id/22/800/500"></li>
+                                    <li><img src=" https://picsum.photos/id/38/800/500"></li>
+                                    <li><img src="https://picsum.photos/id/101/800/500"></li>
+                                    <li><img src=" https://picsum.photos/id/182/800/500"></li>
+                                    <li><img src="https://picsum.photos/id/494/800/500"></li>
+                                </ul>
+                            </main>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class=" col-lg-6 col-md-12 col-sm-12">
                     <div class="single-product-detail-right">
                         <div class="single-product-details">
                             <h1 class="product_title mb-2 text-uppercase fs-5">Organic Pear</h1>
                             <!-- <p class="price"><span class="single-product-price-amount amount"><bdi><span class="single-product-currency">$</span>22.00</bdi></span></p> -->
                             <div class="single-product-description">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Id leo in vitae turpis massa sed
-                                    elementum. In ante metus dictum at. Lacus vel facilisis volutpat est velit egestas
-                                    dui. A scelerisque purus semper eget. Diam quis enim lobortis scelerisque fermentum.
-                                    At augue eget arcu dictum varius duis at consectetur lorem. Volutpat maecenas
-                                    volutpat blandit aliquam etiam erat velit scelerisque. Amet justo donec enim diam.
-                                    Sem fringilla ut morbi tincidunt augue interdum velit euismod. Platea dictumst
-                                    quisque sagittis purus sit amet volutpat consequat mauris. Mollis aliquam ut
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                    eiusmod
+                                    tempor
+                                    incididunt ut labore et dolore magna aliqua. Id leo in vitae
+                                    turpis
+                                    massa sed
+                                    elementum. In ante metus dictum at. Lacus vel facilisis volutpat
+                                    est
+                                    velit egestas
+                                    dui. A scelerisque purus semper eget. Diam quis enim lobortis
+                                    scelerisque fermentum.
+                                    At augue eget arcu dictum varius duis at consectetur lorem.
+                                    Volutpat
+                                    maecenas
+                                    volutpat blandit aliquam etiam erat velit scelerisque. Amet
+                                    justo donec
+                                    enim diam.
+                                    Sem fringilla ut morbi tincidunt augue interdum velit euismod.
+                                    Platea
+                                    dictumst
+                                    quisque sagittis purus sit amet volutpat consequat mauris.
+                                    Mollis
+                                    aliquam ut
                                     porttitor leo a.</p>
                             </div>
                         </div>
@@ -56,18 +81,7 @@ get_header();  ?>
 
 
     <!-- single product gallery start -->
-    <main class='gallery'>
-        <div class='hero'>
-            <img src='https://picsum.photos/id/22/800/500'>
-        </div>
-        <ul class='btns'>
-            <li><img src='https://picsum.photos/id/22/800/500'></li>
-            <li><img src='https://picsum.photos/id/38/800/500'></li>
-            <li><img src='https://picsum.photos/id/101/800/500'></li>
-            <li><img src='https://picsum.photos/id/182/800/500'></li>
-            <li><img src='https://picsum.photos/id/494/800/500'></li>
-        </ul>
-    </main>
+
     <!--  single product gallery end -->
 
 
