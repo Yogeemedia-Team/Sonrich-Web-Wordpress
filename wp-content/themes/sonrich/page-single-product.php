@@ -55,7 +55,7 @@ get_header();  ?>
     <!-- single-produt-detail-section end -->
 
 
-    <!--  single product start -->
+    <!-- single product gallery start -->
     <main class='gallery'>
         <div class='hero'>
             <img src='https://picsum.photos/id/22/800/500'>
@@ -68,7 +68,7 @@ get_header();  ?>
             <li><img src='https://picsum.photos/id/494/800/500'></li>
         </ul>
     </main>
-    <!--  single product end -->
+    <!--  single product gallery end -->
 
 
     <!-- Related product section start -->
