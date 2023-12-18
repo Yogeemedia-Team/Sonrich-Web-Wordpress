@@ -200,12 +200,12 @@ jQuery(document).ready(function() {
 </script>
 
 <script>
-const image = document.querySelector(".hero img");
+const image = document.querySelector(".hero-single-product img");
 
 const reset = () => image.classList.remove("fadeIn");
 
 function activate(e) {
-    if (!e.target.matches(".btns img")) return;
+    if (!e.target.matches(".single-product-btns img")) return;
     image.src = e.target.src;
     image.classList.add("fadeIn");
 }

@@ -3505,7 +3505,7 @@ p.first-p.about-p {
 /* wall of fame css start */
 
 /* single product gallery css start */
-.gallery {
+.gallery-single-product {
   position: relative;
   width: 100%;
 
@@ -3517,8 +3517,8 @@ p.first-p.about-p {
   }
 }
 
-.hero {
-  aspect-ratio: 3/2;
+.hero-single-product {
+  aspect-ratio: 1/1;
 }
 
 .fadeIn {
@@ -3534,7 +3534,7 @@ p.first-p.about-p {
   }
 }
 
-.btns {
+.single-product-btns {
   list-style-type: none;
   display: flex;
   gap: 0.25rem;
