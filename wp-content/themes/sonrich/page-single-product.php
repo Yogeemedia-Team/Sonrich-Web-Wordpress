@@ -24,18 +24,29 @@ get_header();  ?>
                 <div class="col-lg-6 col-md-12 col-sm-12">
                     <div class="single-product-detail-left w-100">
                         <div class="single-product-image w-100">
-                            <main class="gallery">
-                                <div class="hero w-100">
-                                    <img src="https://picsum.photos/id/22/800/500">
+                            <div class="gallery-single-product">
+                                <div class="hero-single-product w-100 m-auto">
+                                    <img
+                                        src="<?php echo get_template_directory_uri(); ?>/inc/images/shop-image-10-600x600.jpg">
                                 </div>
-                                <ul class="btns ps-0 pt-1">
-                                    <li><img src="https://picsum.photos/id/22/800/500"></li>
-                                    <li><img src=" https://picsum.photos/id/38/800/500"></li>
-                                    <li><img src="https://picsum.photos/id/101/800/500"></li>
-                                    <li><img src=" https://picsum.photos/id/182/800/500"></li>
-                                    <li><img src="https://picsum.photos/id/494/800/500"></li>
+                                <ul class="single-product-btns ps-0 pt-1">
+                                    <li><img
+                                            src="<?php echo get_template_directory_uri(); ?>/inc/images/shop-image-10-600x600.jpg">
+                                    </li>
+                                    <li><img
+                                            src="<?php echo get_template_directory_uri(); ?>/inc/images/shop-image-11-600x600.jpg">
+                                    </li>
+                                    <li><img
+                                            src="<?php echo get_template_directory_uri(); ?>/inc/images/shop-image-12-600x600.jpg">
+                                    </li>
+                                    <li><img
+                                            src="<?php echo get_template_directory_uri(); ?>/inc/images/shop-image-13-600x600.jpg">
+                                    </li>
+                                    <li><img
+                                            src="<?php echo get_template_directory_uri(); ?>/inc/images/shop-image-14-600x600.jpg">
+                                    </li>
                                 </ul>
-                            </main>
+                            </div>
                         </div>
                     </div>
                 </div>
