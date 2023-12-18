@@ -1000,7 +1000,13 @@ a.nav-link.dropdown-toggle {
 }
 
 ul.dropdown-menu.show {
-  margin-left: 10px;
+  border: none;
+  text-align: center;
+  margin: 0;
+}
+
+ul.dropdown-menu.show li a {
+color: var(--dark-blue);
 }
 
 a.nav-link.active {
