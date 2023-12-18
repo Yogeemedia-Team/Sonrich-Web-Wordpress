@@ -30,26 +30,24 @@ get_header();  ?>
                                         <img src="<?php the_post_thumbnail_url('full'); ?>" alt="<?php the_title_attribute(); ?>">
                                     <?php endif; ?>
                                 </div>
-                                <ul class="single-product-btns ps-0 pt-1">
-                                    <li>
-                                        <?php if (has_post_thumbnail()) : ?>
-                                            <img src="<?php the_post_thumbnail_url('full'); ?>" alt="<?php the_title_attribute(); ?>">
-                                        <?php endif; ?>
-                                    </li>
-                                    <?php
-                                    $images = get_field('images_gallery');
-                                    if ($images) : ?>
-
+                                <?php
+                                $images = get_field('images_gallery');
+                                if ($images) : ?>
+                                    <ul class="single-product-btns ps-0 pt-1">
+                                        <li>
+                                            <?php if (has_post_thumbnail()) : ?>
+                                                <img src="<?php the_post_thumbnail_url('full'); ?>" alt="<?php the_title_attribute(); ?>">
+                                            <?php endif; ?>
+                                        </li>
                                         <?php foreach ($images as $image) : ?>
                                             <li>
                                                 <img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>" />
                                             </li>
                                         <?php endforeach; ?>
-
-                                    <?php endif; ?>
-                                </ul>
+                                    </ul>
+                                <?php endif; ?>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
