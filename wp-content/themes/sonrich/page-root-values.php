@@ -19,7 +19,7 @@ get_header();  ?>
             </div>
         </div>
         <div class="root-container-box">
-            <div class="root-container-title pt-5 fs-5">
+            <div class="root-container-title text-jus pt-5 fs-5" style="text-align: justify;">
                 Our goal is to become a sustainable business that our employees, distributors, and customers can
                 be proud of. We strive to achieve this through the following fundamental elements of our
                 operation:
@@ -64,17 +64,17 @@ get_header();  ?>
                 </div>
             </div>
             <div class="root-list-box">
-                <div class="root-container-title pt-4 fs-2 lh-sm pb-3">
+                <div class="root-container-title pt-4 fs-5 lh-sm pb-3" style="text-align: justify;">
                     We believe that by focusing on these fundamental elements, we can build a sustainable
                     business
                     that will be successful for years to come.
                 </div>
                 <ul>
-                    <li class="fs-5">
+                    <li class="fs-6">
                         kindly provide us the vision for the Luvanarich? and respective images. statement and
                         values?
                     </li>
-                    <li class="fs-5">
+                    <li class="fs-6">
                         Kindly provide us chairman msg directors msg with the images.
                     </li>
                 </ul>
