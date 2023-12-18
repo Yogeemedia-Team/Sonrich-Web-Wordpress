@@ -362,7 +362,7 @@ get_header();  ?>
                             shopping centers or department stores. With a rich history spanning over 150 years,
                             the direct selling industry has flourished through network-based marketing.
                             Remarkably, approximately 100 million individuals worldwide engage in this industry
-                            on a part-time or full-time basis, reflecting its widespread appeal and significance
+                            on a part-time or full-time basis, reflecting its widespread appeal and significance.
                         </p>
                     </div>
                 </div>
@@ -399,7 +399,7 @@ get_header();  ?>
                             determined by the sales volume generated through your referrals on our e-commerce
                             platform. Numerous individuals with entrepreneurial drive have successfully
                             leveraged our business model, building expansive sales teams and achieving
-                            remarkable growth in their ventures
+                            remarkable growth in their ventures.
                         </p>
                     </div>
                 </div>
