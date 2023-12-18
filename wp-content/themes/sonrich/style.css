@@ -1892,6 +1892,7 @@ span.single-product-currency {
 
 .single-product-description p {
   color: var(--dark-gray);
+  text-align: justify;
 }
 
 .qty {
