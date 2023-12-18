@@ -280,7 +280,7 @@ a.nav-link {
 
 a.nav-link.dropdown-toggle {
   font-size: 14px;
-  letter-spacing: 2px;
+  /* letter-spacing: 2px; */
   font-weight: 400;
 }
 
@@ -1019,7 +1019,7 @@ a.nav-link {
 
 a.nav-link.dropdown-toggle {
   font-size: 16px;
-  letter-spacing: 2px;
+  /* letter-spacing: 2px; */
   font-weight: 400;
 }
 
