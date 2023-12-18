@@ -15,7 +15,7 @@ get_header();  ?>
                 Preserve the our country today and for generations to come
             </div>
             <div class="sub-heading h5 font2 fs-4 text-center pt-2">
-                kindly provide us the mission for the Luvanarich?
+                <!-- kindly provide us the mission for the Luvanarich? -->
             </div>
         </div>
         <div class="root-container-box">
