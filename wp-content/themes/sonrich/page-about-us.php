@@ -128,34 +128,27 @@ get_header();  ?>
                             <span class="short-underline m-auto m-md-0"></span>
                         </div>
                         <ul class="stay-list">
-                            <div class="list-item pb-3">
-                                <i class="fa fa-solid fa-circle p-0"></i>
+                            <div class="pb-3">
                                 <li>Customers and Distributors Nationwide: Together, We Thrive!</li>
                             </div>
-                            <div class="list-item pb-3">
-                                <i class="fa fa-solid fa-circle p-0"></i>
+                            <div class="pb-3">
                                 <li>Where Diversity Meets Support - Multilingual Customer Service at Its Best
                                 </li>
                             </div>
-                            <div class="list-item pb-3">
-                                <i class="fa fa-solid fa-circle p-0"></i>
+                            <div class="pb-3">
                                 <li>Unlock Your Full Potential with Our Life-Enhancing Products</li>
                             </div>
-                            <div class="list-item pb-3">
-                                <i class="fa fa-solid fa-circle p-0"></i>
+                            <div class="pb-3">
                                 <li>Engaging Communities, Transforming Islands - 50+ CSR Projects Accomplished
                                 </li>
                             </div>
-                            <div class="list-item pb-3">
-                                <i class="fa fa-solid fa-circle p-0"></i>
+                            <div class="pb-3">
                                 <li>Building a Lasting Legacy for 15+ Years and Beyond</li>
                             </div>
-                            <div class="list-item pb-3">
-                                <i class="fa fa-solid fa-circle p-0"></i>
+                            <div class="pb-3">
                                 <li>Connecting Communities Across 25+ Districts</li>
                             </div>
-                            <div class="list-item pb-3">
-                                <i class="fa fa-solid fa-circle p-0"></i>
+                            <div class="pb-3">
                                 <li>Award-Winning Group Members: Where Excellence Meets Success</li>
                             </div>
                         </ul>
