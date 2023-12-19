@@ -140,7 +140,7 @@ get_header();  ?>
                             Stay on the Right Path to Success...
                         </h2>
                     </div>
-                    <p class="first-p py-3">
+                    <p class="first-p text-justify py-3">
                         Cross success with our herbal supplements. Crafted for vitality, our blends merge tradition with
                         modern wellness science. From immunity boosters to stress relief, we’ve distilled nature's
                         essence into each capsule. Improve your journey with purity and purpose.

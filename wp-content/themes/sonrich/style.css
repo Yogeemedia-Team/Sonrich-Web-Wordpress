@@ -3653,3 +3653,7 @@ p.first-p.about-p {
   }
 }
 /* single product gallery css end */
+
+.text-justify {
+  text-align: justify;
+}
