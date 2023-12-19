@@ -2598,6 +2598,14 @@ span.thumb-img-title {
   font-weight: 600;
 }
 
+
+
+
+.accordion-button:not(.collapsed) {
+  background-color: var(--light-green);
+  box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+}
+
 /*Business-Venture*/
 .business-opportunity {
   background-color: var(--light-cream);
@@ -2617,7 +2625,7 @@ span.thumb-img-title {
 }
 
 p.paragraph-des.offers-description {
-  font-size: 18px !important;
+  font-size: 17px !important;
   font-weight: 600;
 }
 
@@ -2851,6 +2859,18 @@ ul.social-icon-box {
   .opportunity-content {
     transform: translate(-268px, -34px);
     max-width: 156px;
+  }
+
+  .square-image {
+    width: 100% !important;
+  }
+
+  .square-image img {
+    max-width: 142% !important;
+  }
+
+  .square-part {
+    max-width: 80%;
   }
 }
 
@@ -3110,7 +3130,7 @@ ul.social-icon-box {
 
   /*complances-page*/
   .square-part {
-    max-width: 180%;
+    max-width: 70%;
   }
   .input-group.input-newsletter {
     padding: 0px 138px;
@@ -3125,6 +3145,16 @@ ul.social-icon-box {
     transform: translate(-250px, -34px);
     max-width: 156px;
   }
+
+  .square-image img {
+    max-width: 599px;
+  }
+
+  .square-part {
+    max-width: 80%;
+  }
+
+
 }
 
 @media (max-width: 578px) {
@@ -3326,6 +3356,58 @@ ul.social-icon-box {
 
   .opportunity-list.text-white.mt-3 {
     margin-bottom: 30px !important;
+  }
+
+  .complances-main-para.m-5 {
+    margin: 10px !important;
+  }
+
+  .square-part {
+    max-width: 89%;
+  }
+
+  .square-image img {
+    max-width: 286px;
+  }
+
+  .right-side-square .main-para-title h3 {
+    font-size: 40px;
+  }
+
+  .complances-second-background p {
+    font-size: 16px;
+    padding: 15px 15px;
+    max-width: 100%;
+  }
+
+  .container-fluid.complances-questionnier-part-wrapper {
+    padding: 10px !important;
+  }
+
+  .container-fluid.complances-questionnier-part-wrapper {
+    padding: 10px !important;
+    margin: 0 !important;
+  }
+
+  .complances-main-para.m-5 {
+    margin: 0px !important;
+  }
+
+  .row.business-venture-row {
+    border: 0px solid #48a8a6;
+  }
+
+  .business-opportunity {
+    padding: 10px !important;
+  }
+
+  .business-venture-third-section {
+    margin: 0 !important;
+    padding: 10px !important;
+  }
+
+  .parallax-banner-text-box {
+    font-size: 40px;
   }
 }
 
