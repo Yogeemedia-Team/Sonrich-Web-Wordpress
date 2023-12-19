@@ -8,7 +8,7 @@ get_header();  ?>
 <?php get_template_part('template-parts/inner', 'banner'); ?>
 
 <!--Third Section Start-->
-<section class="stay">
+<section class="stay m-0">
     <!-- <img src="inc/images/blue-moving.jpeg" alt="blue moving" class="blue-move d-none"> -->
     <div class="container stay-se p-0">
         <div class="py-5 px-3">
@@ -114,7 +114,7 @@ get_header();  ?>
 <!--Section End-->
 
 <!--Section Start-->
-<section class="stay">
+<section class="stay m-0">
     <div class="container stay-se p-0">
         <div class="py-5 px-3">
             <!-- <img src="inc/images/blue-moving.jpeg" alt="blue moving" class="blue-move d-none"> -->
@@ -128,34 +128,27 @@ get_header();  ?>
                             <span class="short-underline m-auto m-md-0"></span>
                         </div>
                         <ul class="stay-list">
-                            <div class="list-item pb-3">
-                                <i class="fa fa-solid fa-circle p-0"></i>
+                            <div class="pb-3">
                                 <li>Customers and Distributors Nationwide: Together, We Thrive!</li>
                             </div>
-                            <div class="list-item pb-3">
-                                <i class="fa fa-solid fa-circle p-0"></i>
+                            <div class="pb-3">
                                 <li>Where Diversity Meets Support - Multilingual Customer Service at Its Best
                                 </li>
                             </div>
-                            <div class="list-item pb-3">
-                                <i class="fa fa-solid fa-circle p-0"></i>
+                            <div class="pb-3">
                                 <li>Unlock Your Full Potential with Our Life-Enhancing Products</li>
                             </div>
-                            <div class="list-item pb-3">
-                                <i class="fa fa-solid fa-circle p-0"></i>
+                            <div class="pb-3">
                                 <li>Engaging Communities, Transforming Islands - 50+ CSR Projects Accomplished
                                 </li>
                             </div>
-                            <div class="list-item pb-3">
-                                <i class="fa fa-solid fa-circle p-0"></i>
+                            <div class="pb-3">
                                 <li>Building a Lasting Legacy for 15+ Years and Beyond</li>
                             </div>
-                            <div class="list-item pb-3">
-                                <i class="fa fa-solid fa-circle p-0"></i>
+                            <div class="pb-3">
                                 <li>Connecting Communities Across 25+ Districts</li>
                             </div>
-                            <div class="list-item pb-3">
-                                <i class="fa fa-solid fa-circle p-0"></i>
+                            <div class="pb-3">
                                 <li>Award-Winning Group Members: Where Excellence Meets Success</li>
                             </div>
                         </ul>
@@ -254,7 +247,7 @@ get_header();  ?>
 <!-- in service section end -->
 
 <!--What is Luvnarich Section Start-->
-<section class="what-luvnarich stay">
+<section class="what-luvnarich stay m-0">
     <div class="container stay-se p-0">
         <div class="py-5 px-3">
             <!-- <img src="inc/images/blue-moving.jpeg" alt="blue moving" class="blue-move d-none"> -->
@@ -297,7 +290,7 @@ get_header();  ?>
 <!--What is Luvnarich Section End-->
 
 <!--scheme Section Start-->
-<section class="scheme stay">
+<section class="scheme stay m-0">
     <div class="container stay-se p-0">
         <div class="py-5 px-3">
             <!-- <img src="inc/images/blue-moving.jpeg" alt="blue moving" class="blue-move d-none"> -->
@@ -338,7 +331,7 @@ get_header();  ?>
 <!--scheme Section End-->
 
 <!--What direct selling Section Start-->
-<section class="direct-selling stay">
+<section class="direct-selling stay m-0">
     <div class="container stay-se p-0">
         <div class="py-5 px-3">
             <!-- <img src="inc/images/blue-moving.jpeg" alt="blue moving" class="blue-move d-none"> -->
@@ -379,7 +372,7 @@ get_header();  ?>
 <!--What direct selling Section End-->
 
 <!--make money Section Start-->
-<section class="make-money stay">
+<section class="make-money stay m-0">
     <div class="container stay-se p-0">
         <div class="py-5 px-3">
             <!-- <img src="inc/images/blue-moving.jpeg" alt="blue moving" class="blue-move d-none"> -->
@@ -416,7 +409,7 @@ get_header();  ?>
 <!--make money Section End-->
 
 <!--making income Section Start-->
-<section class="making-income stay">
+<section class="making-income stay m-0">
     <div class="container stay-se p-0">
         <div class="py-5 px-3">
             <!-- <img src="inc/images/blue-moving.jpeg" alt="blue moving" class="blue-move d-none"> -->
