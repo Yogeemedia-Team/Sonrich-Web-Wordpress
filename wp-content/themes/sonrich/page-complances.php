@@ -11,17 +11,19 @@ get_header();  ?>
 <div class="complances-main-para m-5">
   <div class="container-fluid">
     <div class="row">
-      <div class="col-lg-5 col-md-5 col-sm-12">
+      <div class="col-lg-5 col-md-12 col-sm-12">
         <div class="left-side-square position-relative py-5 my-5">
           <div class="square-part">
             <div class="square-image">
-              <img src="<?php echo get_template_directory_uri(); ?>/inc/images/pexels-joão-jesus-2480069.jpg" alt="">
+              <div class="square-image-wrapper">
+                <img src="<?php echo get_template_directory_uri(); ?>/inc/images/pexels-joão-jesus-2480069.jpg" alt="">
+              </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="col-lg-7 col-md- col-sm-12">
+      <div class="col-lg-7 col-md-12 col-sm-12">
         <div class="right-side-square">
           <div class="main-para-title">
             <h3>Supporting distributors in constructing a <span> Resilient&nbsp;</span>business</h3>
@@ -106,80 +108,69 @@ get_header();  ?>
 </div>
 
 <div class="complances-questionnier-part my-5 py-5">
-  <div class="container-fluid px-5 mx-2">
-    <div class="accordion" id="accordionExample">
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingOne">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            Luvnarich's 10 Essential Guidelines
-          </button>
-        </h2>
-        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <p>The Luvnarich Essential Guidelines are a collection of fundamental
+  <div class="container-fluid complances-questionnier-part-wrapper px-5 mx-2">
+  <div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Luvnarich's 10 Essential Guidelines
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">The Luvnarich Essential Guidelines are a collection of fundamental
               principles established by Luvnarich, which we prioritize greatly for the
               security of our business. Luvnarich Independent Representatives (IRs) must
               ensure they operate their business ethically and NEVER breach any of these
-              Essential Guidelines</p>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingTwo">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-            CODE OF CONDUCT
-          </button>
-        </h2>
-        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <p>Luvnarich places utmost importance on Integrity, upholds ethical standards
-              through its Code of Conduct, and motivates its partners to surpass these
-              standards.</p>
-          </div>
-        </div>
-      </div>
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingThree">
-          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-            CODE OF ETHICS
-          </button>
-        </h2>
-        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <p>Luvnarich Independent Representatives (IRs) are required to adhere to the
-              Code of Ethics, Luvnarich policies, regulations, and agreements at all times,
-              with possible repercussions for any violations.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingFour">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-              FAQ
-          </button>
-        </h2>
-        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <p>Discover in our comprehensive Frequently Asked Questions (FAQ) section all the answers to your inquiries regarding the Luvnarich Company, business prospects, products, and services.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="accordion-item">
-        <h2 class="accordion-header" id="headingOne">
-          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-              POLICIES & PROCEDURES
-          </button>
-        </h2>
-        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-          <div class="accordion-body">
-            <p>Rights and Responsibilities</p>
-          </div>
-        </div>
-      </div>
-
+              Essential Guidelines.</div>
     </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+      CODE OF CONDUCT
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Luvnarich places utmost importance on Integrity, upholds ethical standards
+              through its Code of Conduct, and motivates its partners to surpass these
+              standards.</div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+      CODE OF ETHICS
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Luvnarich Independent Representatives (IRs) are required to adhere to the
+              Code of Ethics, Luvnarich policies, regulations, and agreements at all times,
+              with possible repercussions for any violations.</div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingFour">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+        FAQ
+      </button>
+    </h2>
+    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Discover in our comprehensive Frequently Asked Questions (FAQ) section all the answers to your inquiries regarding the Luvnarich Company, business prospects, products, and services.</div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingFive">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+      POLICIES &amp; PROCEDURES
+      </button>
+    </h2>
+    <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">Rights and Responsibilities.</div>
+    </div>
+  </div>
+</div>
   </div>
 </div>
 
