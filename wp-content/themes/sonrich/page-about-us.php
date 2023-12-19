@@ -8,7 +8,7 @@ get_header();  ?>
 <?php get_template_part('template-parts/inner', 'banner'); ?>
 
 <!--Third Section Start-->
-<section class="stay">
+<section class="stay m-0">
     <!-- <img src="inc/images/blue-moving.jpeg" alt="blue moving" class="blue-move d-none"> -->
     <div class="container stay-se p-0">
         <div class="py-5 px-3">
@@ -114,7 +114,7 @@ get_header();  ?>
 <!--Section End-->
 
 <!--Section Start-->
-<section class="stay">
+<section class="stay m-0">
     <div class="container stay-se p-0">
         <div class="py-5 px-3">
             <!-- <img src="inc/images/blue-moving.jpeg" alt="blue moving" class="blue-move d-none"> -->
@@ -254,7 +254,7 @@ get_header();  ?>
 <!-- in service section end -->
 
 <!--What is Luvnarich Section Start-->
-<section class="what-luvnarich stay">
+<section class="what-luvnarich stay m-0">
     <div class="container stay-se p-0">
         <div class="py-5 px-3">
             <!-- <img src="inc/images/blue-moving.jpeg" alt="blue moving" class="blue-move d-none"> -->
@@ -297,7 +297,7 @@ get_header();  ?>
 <!--What is Luvnarich Section End-->
 
 <!--scheme Section Start-->
-<section class="scheme stay">
+<section class="scheme stay m-0">
     <div class="container stay-se p-0">
         <div class="py-5 px-3">
             <!-- <img src="inc/images/blue-moving.jpeg" alt="blue moving" class="blue-move d-none"> -->
@@ -338,7 +338,7 @@ get_header();  ?>
 <!--scheme Section End-->
 
 <!--What direct selling Section Start-->
-<section class="direct-selling stay">
+<section class="direct-selling stay m-0">
     <div class="container stay-se p-0">
         <div class="py-5 px-3">
             <!-- <img src="inc/images/blue-moving.jpeg" alt="blue moving" class="blue-move d-none"> -->
@@ -379,7 +379,7 @@ get_header();  ?>
 <!--What direct selling Section End-->
 
 <!--make money Section Start-->
-<section class="make-money stay">
+<section class="make-money stay m-0">
     <div class="container stay-se p-0">
         <div class="py-5 px-3">
             <!-- <img src="inc/images/blue-moving.jpeg" alt="blue moving" class="blue-move d-none"> -->
@@ -416,7 +416,7 @@ get_header();  ?>
 <!--make money Section End-->
 
 <!--making income Section Start-->
-<section class="making-income stay">
+<section class="making-income stay m-0">
     <div class="container stay-se p-0">
         <div class="py-5 px-3">
             <!-- <img src="inc/images/blue-moving.jpeg" alt="blue moving" class="blue-move d-none"> -->
