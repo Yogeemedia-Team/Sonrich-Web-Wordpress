@@ -3384,12 +3384,12 @@ p.first-p.about-p {
 
 .left-courve {
   border-radius: 30px;
-  border-bottom-left-radius: 150px;
+  border-bottom-left-radius: 100px;
 }
 
 .right-courve {
   border-radius: 30px;
-  border-bottom-right-radius: 150px;
+  border-bottom-right-radius: 100px;
 }
 
 /* about us css end */
