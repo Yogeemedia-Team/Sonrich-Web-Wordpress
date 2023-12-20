@@ -2689,11 +2689,12 @@ p.paragraph-des.offers-description {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-508px, -34px);
+  transform: translate(-50%, -50%) !important;
   z-index: 99999;
   font-size: 30px;
   letter-spacing: 2px;
   font-weight: bold;
+  max-width: 100% !important;
 }
 
 .business-venture-second-section {
