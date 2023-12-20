@@ -82,31 +82,7 @@ get_header();  ?>
                 <div class="sub-title pb-3">
                     CONTACT US
                 </div>
-                <div class="contact-form">
-                    <div class="row pb-3">
-                        <div class="col-12 col-md-6">
-                            <input class="con-form-input p-3 mb-3" type="text" name="" id="" placeholder="First Name *">
-                        </div>
-                        <div class="col-12 col-md-6">
-                            <input class="con-form-input p-3" type="text" name="" id="" placeholder="Last Name *">
-                        </div>
-                    </div>
-                    <div class="row pb-3">
-                        <div class="col-12 col-md-6">
-                            <input class="con-form-input p-3 mb-3" type="text" name="" id="" placeholder="Email *">
-                        </div>
-                        <div class="col-12 col-md-6">
-                            <input class="con-form-input p-3" type="text" name="" id="" placeholder="Website">
-                        </div>
-                    </div>
-                    <div class="row pb-3">
-                        <div class="col">
-                            <textarea class="con-form-input p-3 mb-3" name="" id="" cols="30" rows="5"
-                                placeholder="Message..."></textarea>
-                        </div>
-                    </div>
-                    <button class="btn con-form-input" type="submit">CONTACT US</button>
-                </div>
+                <?php echo apply_shortcodes('[contact-form-7 id="4589b9d" title="contact-form"]' ); ?>
             </div>
         </div>
     </div>

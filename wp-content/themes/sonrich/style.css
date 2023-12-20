@@ -1018,7 +1018,7 @@ ul.dropdown-menu.show {
 }
 
 ul.dropdown-menu.show li a {
-color: var(--dark-blue);
+  color: var(--dark-blue);
 }
 
 a.nav-link.active {
@@ -1601,6 +1601,15 @@ p.txt-start {
   color: var(--white);
   font-weight: 600;
   width: 25%;
+}
+
+.contact-form .btn {
+  display: block;
+  margin: auto;
+  background: var(--dark-blue);
+  color: var(--white);
+  font-weight: 600;
+  width: 200px;
 }
 
 .contact-form button:hover {
