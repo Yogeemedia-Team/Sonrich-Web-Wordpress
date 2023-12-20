@@ -1006,7 +1006,7 @@ li.nav-item.dropdown {
 }
 
 a.nav-link.dropdown-toggle {
-  width: 145px !important;
+  width: 100% !important;
   padding: 6px;
   text-align: center;
 }
@@ -1656,6 +1656,7 @@ p.txt-start {
   z-index: 2;
   color: #fff;
   font-size: 70px;
+  text-align: center;
 }
 
 .shop-products .product-title-box .product-title {
@@ -3771,3 +3772,7 @@ p.first-p.about-p {
   }
 }
 /* single product gallery css end */
+
+.text-justify {
+  text-align: justify;
+}
