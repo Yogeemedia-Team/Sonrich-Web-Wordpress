@@ -11,7 +11,7 @@ get_header();  ?>
 <div class="complances-main-para m-5">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 col-md-5">
+            <div class="col-12 col-md-5 d-flex justify-content-center align-items-center">
                 <div class="left-side-square position-relative">
                     <div class="square-part">
                         <div class="square-image">
@@ -68,7 +68,7 @@ get_header();  ?>
 </div>
 
 <div class="complances-second-section my-5">
-    <div class="complances-second-background"
+    <div class="complances-second-background position-relative"
         style="background-image: url(<?php echo get_template_directory_uri(); ?>./inc/images/p.png);">
         <p>To learn more about the Luvnarich Education & Development Program,
             please visit our website or contact us today. We would be happy to answer
@@ -105,7 +105,7 @@ get_header();  ?>
   </div> -->
 </div>
 
-<div class="complances-questionnier-part my-5 py-5">
+<div class="complances-questionnier-part py-5">
     <div class="container-fluid complances-questionnier-part-wrapper px-5 mx-2">
         <div class="accordion accordion-flush" id="accordionFlushExample">
             <div class="accordion-item">
