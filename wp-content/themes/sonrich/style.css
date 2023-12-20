@@ -2526,11 +2526,12 @@ span.thumb-img-title {
 .square-image img {
   box-sizing: border-box;
   height: auto;
-  max-width: 100%;
+  max-width: 90%;
+  max-height: 90%;
   vertical-align: bottom;
   border-radius: 20px;
   display: block;
-  margin: auto;
+  margin: 10% auto;
 }
 
 .right-side-square .main-para-title h3 {
@@ -3166,10 +3167,6 @@ ul.social-icon-box {
   }
 
   /*complances-page*/
- 
-.square-image img {
-  max-width: 70%;
-}
 
   .input-group.input-newsletter {
     padding: 0px 138px;
