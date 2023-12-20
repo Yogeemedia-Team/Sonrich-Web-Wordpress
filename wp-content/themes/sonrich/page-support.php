@@ -35,14 +35,13 @@ get_header();  ?>
         </div>
     </div>
 
-    <div class="support-page-second-class d-sm-flex align-items-center text-center"
+    <div class="support-page-second-class"
         style="background-image: url(<?php echo get_template_directory_uri(); ?>/inc/images/p.png);">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12 left-support">
+            <div class="row py-5">
+                <div class="col-12 col-md-6 m-auto">
                     <div class="support-page-banner-left-side">
-                        <h5 class="head-title mt-4 text-center text-md-start">Lunarich National- Support Centre</h5>
-
+                        <h5 class="head-title text-center text-md-start">Lunarich National- Support Centre</h5>
                         <div class="support-above">
                             <span><b>Email Support: </b>kindly share with us.</span><br>
                             <span><b>Call (All Languages): </b> kindly share with us.</span><br>
@@ -52,9 +51,9 @@ get_header();  ?>
                     </div>
                 </div>
 
-                <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="col-12 col-md-6 pt-5">
                     <div class="support-page-banner-right-side">
-                        <div class="office-times">
+                        <div class="office-times" style="max-width: 100%;">
                             <span><b>Operating Hours:</b></span>
 
                             <div class="first-row">
