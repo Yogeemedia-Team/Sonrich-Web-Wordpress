@@ -23,8 +23,6 @@ get_header();  ?>
                     </div>
                 </div>
             </div>
-
-<<<<<<< HEAD
       <div class="col-lg-7 col-md-12 col-sm-12">
         <div class="right-side-square">
           <div class="main-para-title">
@@ -66,68 +64,18 @@ get_header();  ?>
             </p>
             <br>
           </div>
-=======
-            <div class="col-12 col-md-7">
-                <div class="right-side-square">
-                    <div class="main-para-title">
-                        <h3 class="fs-1 text-center text-md-start">Supporting distributors in constructing a Resilient
-                            business</h3>
-                    </div>
-
-                    <div class="para-paragraphs mt-5">
-                        <p>Luvnarich is a pioneer and a leading voice in the direct selling industry in
-                            many emerging economies. We take our responsibility seriously and are
-                            committed to educating, informing, and training our distributors to uphold
-                            the highest standards in conducting their business.
-                        </p>
-                        <p>As aspiring entrepreneurs, our distributors are not just building a business
-                            that helps them become nancially independent. They are also leading a
-                            wave of change. To support our growing network of distributors in building
-                            a professional and sustainable business, we have established a program
-                            called Luvnarich Education & Development Program
-                        </p>
-                        <p>Under the Luvnarich Education & Development Program, we conduct
-                            training programs, online seminars, create awareness through social media
-                            campaigns and videos, provide educational materials through online and
-                            offline channels, and help instill in our distributors a sense of pride for
-                            being at the forefront of a thriving industry.
-                        </p>
-                        <p>We believe that by providing our distributors with the knowledge and skills
-                            they need to succeed, we can help them build a better future for themselves
-                            and their families. We are also committed to helping our distributors make a
-                            positive impact on the world around them.
-                        </p>
-                        <p>If you are an aspiring entrepreneur who is looking for a business
-                            opportunity that is both rewarding and socially responsible, then Luvnarich
-                            is the right place for you. We offer a unique opportunity to build a business
-                            that you can be proud of, and we are committed to providing you with the
-                            support you need to succeed.
-                        </p>
-                    </div>
-                </div>
-            </div>
->>>>>>> fbde15d45ec0102873ad6d0edd34411154cdd5f2
         </div>
     </div>
 </div>
 
 <div class="complances-second-section my-5">
-<<<<<<< HEAD
   <div class="complances-second-background" style="background-image: url(<?php echo get_template_directory_uri(); ?>/inc/images/p.png);">
     <p class="page-description">To learn more about the Luvnarich Education & Development Program,
       please visit our website or contact us today. We would be happy to answer
       any questions you have...
     </p>
   </div>
-=======
-    <div class="complances-second-background position-relative"
-        style="background-image: url(<?php echo get_template_directory_uri(); ?>./inc/images/p.png);">
-        <p>To learn more about the Luvnarich Education & Development Program,
-            please visit our website or contact us today. We would be happy to answer
-            any questions you have...
-        </p>
-    </div>
->>>>>>> fbde15d45ec0102873ad6d0edd34411154cdd5f2
+
 
     <!-- <div class="background-options">
     <div class="row">
@@ -158,7 +106,6 @@ get_header();  ?>
   </div> -->
 </div>
 
-<<<<<<< HEAD
 <div class="complances-questionnier-part my-5 py-5">
   <div class="container-fluid complances-questionnier-part-wrapper px-5 mx-2">
   <div class="accordion accordion-flush" id="accordionFlushExample">
@@ -220,86 +167,6 @@ get_header();  ?>
     </h2>
     <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushExample">
       <div class="page-description  accordion-body">Rights and Responsibilities.</div>
-=======
-<div class="complances-questionnier-part py-5">
-    <div class="container-fluid complances-questionnier-part-wrapper px-5 mx-2">
-        <div class="accordion accordion-flush" id="accordionFlushExample">
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingOne">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                        Luvnarich's 10 Essential Guidelines
-                    </button>
-                </h2>
-                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
-                    data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">The Luvnarich Essential Guidelines are a collection of fundamental
-                        principles established by Luvnarich, which we prioritize greatly for the
-                        security of our business. Luvnarich Independent Representatives (IRs) must
-                        ensure they operate their business ethically and NEVER breach any of these
-                        Essential Guidelines.</div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingTwo">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                        CODE OF CONDUCT
-                    </button>
-                </h2>
-                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
-                    data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Luvnarich places utmost importance on Integrity, upholds ethical
-                        standards
-                        through its Code of Conduct, and motivates its partners to surpass these
-                        standards.</div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingThree">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                        CODE OF ETHICS
-                    </button>
-                </h2>
-                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
-                    data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Luvnarich Independent Representatives (IRs) are required to adhere to
-                        the
-                        Code of Ethics, Luvnarich policies, regulations, and agreements at all times,
-                        with possible repercussions for any violations.</div>
-                </div>
-            </div>
-
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingFour">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
-                        FAQ
-                    </button>
-                </h2>
-                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
-                    data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Discover in our comprehensive Frequently Asked Questions (FAQ) section
-                        all the answers to your inquiries regarding the Luvnarich Company, business prospects, products,
-                        and services.</div>
-                </div>
-            </div>
-
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="flush-headingFive">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
-                        POLICIES &amp; PROCEDURES
-                    </button>
-                </h2>
-                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive"
-                    data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Rights and Responsibilities.</div>
-                </div>
-            </div>
-        </div>
->>>>>>> fbde15d45ec0102873ad6d0edd34411154cdd5f2
     </div>
 </div>
 

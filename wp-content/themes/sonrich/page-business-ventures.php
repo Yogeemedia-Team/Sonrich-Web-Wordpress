@@ -115,7 +115,6 @@ get_header();  ?>
 
     <div class="business-venture-third-section px-5 mx-3 py-5">
         <div class="container">
-<<<<<<< HEAD
         <div class="title-question">
             <h4 class="heading-3">HOW TO EARN RETAIL PROFIT?</h4>
 
@@ -129,18 +128,6 @@ get_header();  ?>
                 nutrition items, both you and your team members can earn a retail prot
                 from these transactions</p>
         </div>
-=======
-            <div class="title-question">
-                <h4 class="title">HOW TO EARN RETAIL PROFIT?</h4>
-                <p class="paragraph">Luvnarich's Independent Representatives have the chance to generate a
-                    retail prot commission through the sale of products they genuinely
-                    endorse to individuals who they are aware will greatly benet from them. It
-                    is a prevailing misconception that one can solely earn money by recruiting
-                    others to become Luvnarich's IRs. By selling sought-after products like our
-                    nutrition items, both you and your team members can earn a retail prot
-                    from these transactions</p>
-            </div>
->>>>>>> fbde15d45ec0102873ad6d0edd34411154cdd5f2
         </div>
     </div>
 </div>
