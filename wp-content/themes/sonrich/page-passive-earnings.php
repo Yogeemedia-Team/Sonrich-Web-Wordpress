@@ -75,34 +75,22 @@ get_header();  ?>
             </p>
 
             <p class="page-description py-3 py-3 font-weight-bold">Here are some of the benets of joining Luvnarich:
-                <div class="paragraph-list">
+                    <div class="paragraph-list">
                     <ul>
                         <li>
-                            <div class="d-flex">
-                                <span class="heading-7">Flexible schedule:&nbsp; &nbsp;</span>
-                                <p class="first-p about-p fs-5">You can set your own hours and work from anywhere in the world.</p>
-                            </div> 
+                             <p class="page-description"><span class="heading-7">Flexible schedule: </span>You can set your own hours and work from anywhere in the world.</p>
                         </li>
 
                         <li>
-                            <div class="d-flex">
-                                <span class="heading-7">No upfront investment:&nbsp; &nbsp;</span>
-                                <p class="first-p about-p fs-5">You don't need to invest any money to get started.</p>
-                            </div>      
+                             <p class="page-description"><span class="heading-7">No upfront investment: </span>You don't need to invest any money to get started.</p>
                         </li>
 
                         <li>
-                            <div class="d-flex">
-                                <span class="heading-7">Opportunity to earn residual income:&nbsp; &nbsp;</span>
-                                <p class="first-p about-p fs-5">ou can earn money even when you're not actively selling.</p>
-                            </div>  
+                             <p class="page-description"><span class="heading-7">Opportunity to earn residual income: </span>You can earn money even when you're not actively selling.</p>
                         </li>
 
                         <li>
-                            <div class="d-flex">
-                                <span class="heading-7">Global reach:&nbsp; &nbsp;</span>
-                                <p class="first-p about-p fs-5">Luvnarich has a presence in over 100 countries, so you an reach a global audience with your products and services.</p>
-                            </div> 
+                             <p class="page-description"><span class="heading-7">Global reach: </span>Luvnarich has a presence in over 100 countries, so you an reach a global audience with your products and services.</p>
                         </li>
                     </ul>
                 </div>

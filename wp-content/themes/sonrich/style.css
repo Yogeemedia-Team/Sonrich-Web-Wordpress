@@ -3038,6 +3038,22 @@ ul.social-icon-box {
   p.paragraph-des.offers-description {
     font-size: 16px !important;
   }
+
+  .square-image img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .product-title-box.text-center.align-content-center.justify-content-center.mt-5.pt-5 {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
+  }
+
+  .subscribe-newsleter-wrapper {
+    margin-top: 0px !important;
+  }
 }
 @media (max-width: 768px) {
   .banner-section .background-image {
@@ -3338,6 +3354,22 @@ ul.social-icon-box {
   .opportunity-image-background {
     border-radius: 35px;
   }
+
+  .square-image img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .product-title-box.text-center.align-content-center.justify-content-center.mt-5.pt-5 {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
+  }
+
+  .subscribe-newsleter-wrapper {
+    margin-top: 0px !important;
+  }
 }
 
 @media (max-width: 578px) {
@@ -3442,7 +3474,7 @@ ul.social-icon-box {
   }
 
   ul.navbar-nav.mb-2.mb-lg-0 {
-    padding-left: 13px;
+    padding-left: 0px;
   }
 
   form.d-flex {
@@ -3625,6 +3657,30 @@ ul.social-icon-box {
   .business-venture-second-section.p-5.mx-5 {
     padding: 50px 0px !important;
   }
+
+  .square-image img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  form.d-flex.ms-2 {
+    margin-right: 0px !important;
+  }
+
+  .product-title-box.text-center.align-content-center.justify-content-center.mt-5.pt-5 {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+    padding-top: 0px !important;
+  }
+
+  .subscribe-newsleter-wrapper {
+    margin-top: 0px !important;
+  }
+
+  .contact-form .row {
+    padding-bottom: 0px !important;
+  }
 }
 
 @media (max-width: 370px) {
@@ -3634,6 +3690,10 @@ ul.social-icon-box {
 
   .circle {
     /* left: 121px; */
+  }
+
+  .contact-form .row {
+    padding-bottom: 0px !important;
   }
 }
 
@@ -3656,6 +3716,10 @@ ul.social-icon-box {
 
   h5.banner-heading {
     font-size: 24px;
+  }
+
+  .contact-form .row {
+    padding-bottom: 0px !important;
   }
 }
 

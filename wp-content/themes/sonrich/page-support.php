@@ -17,7 +17,6 @@ get_header();  ?>
             </div>
 
             <div class="description-paragraph">
-<<<<<<< HEAD
                 <p class="page-description pt-2">Luvnarich, a National wide recognized support center, renowned for its
                 excellence, extends its services in 3 languages across 9 Province hubs Island
                 wide. Our mission is to cater to the needs of our valued customers and
@@ -30,23 +29,6 @@ get_header();  ?>
                 ensuring prompt and efficient assistance right when you need it.
                 Experience the proximity and convenience of Luvnarich - we're here to
                 serve you better than ever before!</p>
-=======
-                <p class="first-p about-p py-3 fs-5">Luvnarich, a National wide recognized support center, renowned for
-                    its
-                    excellence, extends its services in 3 languages across 9 Province hubs Island
-                    wide. Our mission is to cater to the needs of our valued customers and
-                    Independent Representatives. With a wide array of support options
-                    including phone, email, and, our dedicated team of expert professionals is
-                    readily available to assist you.</p>
-
-                <p class="first-p about-p py-3 fs-5">Language barriers are nonexistent as our support specialists are
-                    uent in
-                    your preferred language. Moreover, we understand the importance of time
-                    ensuring prompt and efficient assistance right when you need it.
-                    Experience the proximity and convenience of Luvnarich - we're here to
-                    serve you better than ever before!</p>
->>>>>>> fbde15d45ec0102873ad6d0edd34411154cdd5f2
-            </div>
         </div>
     </div>
 
