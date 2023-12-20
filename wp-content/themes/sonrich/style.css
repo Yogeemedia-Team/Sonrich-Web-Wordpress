@@ -2520,24 +2520,18 @@ span.thumb-img-title {
 /*Complances-page*/
 /*Complances page*/
 .square-image {
-  width: 40%;
+  max-width: 100% !important;
 }
 
 .square-image img {
   box-sizing: border-box;
   height: auto;
-  max-width: 420px;
+  max-width: 90%;
+  max-height: 90%;
   vertical-align: bottom;
   border-radius: 20px;
-}
-
-.square-part {
-  background-color: var(--light-green);
-  width: 100%;
-  max-width: 61%;
-  padding: 50px;
-  border-top-left-radius: 25px;
-  border-bottom-left-radius: 25px;
+  display: block;
+  margin: 10% auto;
 }
 
 .right-side-square .main-para-title h3 {
@@ -2568,11 +2562,12 @@ span.thumb-img-title {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -60%);
+  transform: translate(-50%, -50%);
   font-weight: 600;
   font-size: 30px;
   border: 3px solid var(--yellow);
   padding: 20px 20px;
+  width: 70%;
 }
 
 .optional-details p {
@@ -2607,12 +2602,9 @@ span.thumb-img-title {
   font-weight: 600;
 }
 
-
-
-
 .accordion-button:not(.collapsed) {
   background-color: var(--light-green);
-  box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
 }
 
 /*Business-Venture*/
@@ -2689,11 +2681,12 @@ p.paragraph-des.offers-description {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-508px, -34px);
+  transform: translate(-50%, -50%) !important;
   z-index: 99999;
   font-size: 30px;
   letter-spacing: 2px;
   font-weight: bold;
+  max-width: 100% !important;
 }
 
 .business-venture-second-section {
@@ -2717,7 +2710,8 @@ ul.social-icon-box {
   background: var(--light-cream);
 }
 
-.dropdown-item.active, .dropdown-item:active {
+.dropdown-item.active,
+.dropdown-item:active {
   background-color: #c9f9ff;
 }
 
@@ -2784,11 +2778,9 @@ ul.social-icon-box {
 }
 
 @media (max-width: 1800x) {
-
 }
 
 @media (max-width: 1400px) {
-
 }
 
 @media (max-width: 1262px) {
@@ -2802,11 +2794,9 @@ ul.social-icon-box {
 }
 
 @media (max-width: 1200px) {
-
   .opportunity-content {
     transform: translate(-708px, -34px);
   }
-
 }
 
 @media (max-width: 992px) {
@@ -2953,14 +2943,6 @@ ul.social-icon-box {
 
   .square-image {
     width: 100% !important;
-  }
-
-  .square-image img {
-    max-width: 142% !important;
-  }
-
-  .square-part {
-    max-width: 80%;
   }
 
   p.paragraph-des.offers-description {
@@ -3242,9 +3224,7 @@ ul.social-icon-box {
   }
 
   /*complances-page*/
-  .square-part {
-    max-width: 70%;
-  }
+
   .input-group.input-newsletter {
     padding: 0px 138px;
   }
@@ -3259,13 +3239,6 @@ ul.social-icon-box {
     max-width: 225px;
   }
 
-  .square-image img {
-    max-width: 599px;
-  }
-
-  .square-part {
-    max-width: 80%;
-  }
 
   p.paragraph-des.offers-description {
     font-size: 15px !important;
@@ -3287,6 +3260,15 @@ ul.social-icon-box {
 
   p.paragraph-des.offers-description {
     font-size: 16px !important;
+  }
+
+  .row.business-venture-row {
+    border: none;
+  }
+
+  .opportunity-image,
+  .opportunity-image-background {
+    border-radius: 35px;
   }
 }
 
@@ -3495,22 +3477,13 @@ ul.social-icon-box {
     margin: 10px !important;
   }
 
-  .square-part {
-    max-width: 89%;
-  }
-
-  .square-image img {
-    max-width: 286px;
-  }
 
   .right-side-square .main-para-title h3 {
     font-size: 40px;
   }
 
   .complances-second-background p {
-    font-size: 16px;
-    padding: 15px 15px;
-    max-width: 100%;
+    font-size: 20px;
   }
 
   .container-fluid.complances-questionnier-part-wrapper {
@@ -3584,6 +3557,8 @@ ul.social-icon-box {
   .business-venture-second-section.p-5.mx-5 {
     padding: 50px 0px !important;
   }
+<<<<<<< HEAD
+=======
 
   .support-page-banner-right-side {
     top: 260px;
@@ -3601,6 +3576,7 @@ ul.social-icon-box {
     align-items: baseline !important;
 }
 
+>>>>>>> 8abdf16f6c1fd3a76dac98e5400793ef40533508
 }
 
 @media (max-width: 370px) {
