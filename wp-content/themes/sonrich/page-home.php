@@ -146,15 +146,15 @@ get_header();  ?>
                         essence into each capsule. Improve your journey with purity and purpose.
                     </p>
                     <ul class="stay-list ps-3">
-                        <div class="list-item">
+                        <div class="">
                             <!-- <i class="fa fa-solid fa-circle"></i> -->
                             <li>because achieving greatness starts with feeling great.</li>
                         </div>
-                        <!-- <div class="list-item">
+                        <!-- <div class="">
                             <i class="fa fa-solid fa-circle"></i>
                             <li>laboris nisi ut aliquip ex ea commodo</li>
                         </div>
-                        <div class="list-item">
+                        <div class="">
                             <i class="fa fa-solid fa-circle"></i>
                             <li>consequat. Duis aute irure dolor</li>
                         </div> -->

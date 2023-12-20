@@ -17,6 +17,7 @@ get_header();  ?>
             </div>
 
             <div class="description-paragraph">
+<<<<<<< HEAD
                 <p class="page-description pt-2">Luvnarich, a National wide recognized support center, renowned for its
                 excellence, extends its services in 3 languages across 9 Province hubs Island
                 wide. Our mission is to cater to the needs of our valued customers and
@@ -29,49 +30,65 @@ get_header();  ?>
                 ensuring prompt and efficient assistance right when you need it.
                 Experience the proximity and convenience of Luvnarich - we're here to
                 serve you better than ever before!</p>
+=======
+                <p class="first-p about-p py-3 fs-5">Luvnarich, a National wide recognized support center, renowned for
+                    its
+                    excellence, extends its services in 3 languages across 9 Province hubs Island
+                    wide. Our mission is to cater to the needs of our valued customers and
+                    Independent Representatives. With a wide array of support options
+                    including phone, email, and, our dedicated team of expert professionals is
+                    readily available to assist you.</p>
+
+                <p class="first-p about-p py-3 fs-5">Language barriers are nonexistent as our support specialists are
+                    uent in
+                    your preferred language. Moreover, we understand the importance of time
+                    ensuring prompt and efficient assistance right when you need it.
+                    Experience the proximity and convenience of Luvnarich - we're here to
+                    serve you better than ever before!</p>
+>>>>>>> fbde15d45ec0102873ad6d0edd34411154cdd5f2
             </div>
         </div>
     </div>
 
-    <div class="support-page-second-class d-sm-flex align-items-center text-center" style="background-image: url(<?php echo get_template_directory_uri(); ?>/inc/images/p.png);">
+    <div class="support-page-second-class"
+        style="background-image: url(<?php echo get_template_directory_uri(); ?>/inc/images/p.png);">
         <div class="container">
-        <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-12 left-support">
-                <div class="support-page-banner-left-side">
-                    <h5 class="head-title mt-4 text-center text-md-start">Lunarich National- Support Centre</h5>
+            <div class="row py-5">
+                <div class="col-12 col-md-6 m-auto">
+                    <div class="support-page-banner-left-side">
+                        <h5 class="head-title text-center text-md-start">Lunarich National- Support Centre</h5>
+                        <div class="support-above">
+                            <span><b>Email Support: </b>kindly share with us.</span><br>
+                            <span><b>Call (All Languages): </b> kindly share with us.</span><br>
+                            <span><b>GSC Smart Hub: </b> kindly share with us.</span><br>
+                            <span><b>Submit Customer Request: </b> kindly share with us.</span><br>
+                        </div>
+                    </div>
+                </div>
 
-                    <div class="support-above">
-                        <span><b>Email Support: </b>kindly share with us.</span>
-                        <span><b>Call (All Languages): </b> kindly share with us.</span>
-                        <span><b>GSC Smart Hub: </b> kindly share with us.</span>
-                        <span><b>Submit Customer Request: </b> kindly share with us.</span>
+                <div class="col-12 col-md-6 pt-5">
+                    <div class="support-page-banner-right-side">
+                        <div class="office-times" style="max-width: 100%;">
+                            <span><b>Operating Hours:</b></span>
+
+                            <div class="first-row">
+                                <span>(UTC+05:30) (Jayawardena Pura Kotte)</span>
+                            </div>
+
+                            <div class="second-row pt-3">
+                                <span><b>Monday - Friday</b></span><br>
+                                <span>12:00pm (noon) - 06:00am - share with us operating time ours</span>
+                            </div>
+
+                            <div class="second-row pt-3">
+                                <span><b>Saturday</b></span><br>
+                                <span>12:00am (midnight) - 06:00am - share with us operating time ours</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-
-            <div class="col-lg-6 col-md-6 col-sm-12">
-                <div class="support-page-banner-right-side">
-                    <div class="office-times">
-                        <span><b>Operating Hours:</b></span>
-            
-                        <div class="first-row">
-                        <span>(UTC+05:30) (Jayawardena Pura Kotte)</span>
-                    </div>
-
-                    <div class="second-row pt-3">
-                        <span><b>Monday - Friday</b></span>
-                        <span>12:00pm (noon) - 06:00am - share with us operating time ours</span>
-                    </div>
-
-                    <div class="second-row pt-3">
-                        <span><b>Saturday</b></span>
-                        <span>12:00am (midnight) - 06:00am - share with us operating time ours</span>
-                    </div>
-                </div>
-            </div>
-        </div>
         </div>
     </div>
-</div>
 
-<?php get_footer(); ?>
+    <?php get_footer(); ?>
