@@ -66,7 +66,7 @@ get_header();  ?>
                         Where wellness meets lifestyle.
                     </h2>
                     <span class="short-underline m-auto m-md-0"></span>
-                    <p class="first-p about-p about-description py-3 text-start">
+                    <p class="first-p about-p about-description py-3 text-justify">
                         At Luvnarich, we believe that everyone has the potential to achieve great things. We are
                         committed to empowering people to live well, and we believe that our products and
                         services can help them reach their full potential.
@@ -101,7 +101,7 @@ get_header();  ?>
         <div class="row">
             <div class="col text-center text-md-start">
                 <div class="stay-content mb-3">
-                    <p class="first-p about-p about-description py-3 text-start">
+                    <p class="first-p about-p about-description py-3 text-justify">
                         If you are looking for a way to enhance your personal life, contribute to the economic
                         growth of your community, and make a positive difference in the world, then Luvnarich is
                         the company for you. <strong>Join us today and start living your best life!</strong>
@@ -234,7 +234,7 @@ get_header();  ?>
                 </div>
             </div>
             <div class="in-service-content px-3 px-lg-5">
-                <p class="px-0 px-md-3 px-lg-5 fs-5">
+                <p class="px-0 px-md-3 px-lg-5 fs-5 text-justify">
                     We believe that service is a vital quality of effective leadership. The pioneers of our
                     organization have embedded a robust ethos of prioritizing service over personal interests,
                     and we foster this mindset within our workforce and network. We believe that demonstrating

@@ -19,7 +19,7 @@ get_header();  ?>
             </div>
         </div>
         <div class="root-container-box">
-            <div class="root-container-title text-jus pt-5 fs-5" style="text-align: justify;">
+            <div class="root-container-title text-justify pt-5 fs-5">
                 Our goal is to become a sustainable business that our employees, distributors, and customers can
                 be proud of. We strive to achieve this through the following fundamental elements of our
                 operation:
@@ -64,7 +64,7 @@ get_header();  ?>
                 </div>
             </div>
             <div class="root-list-box">
-                <div class="root-container-title pt-4 fs-5 lh-sm pb-3" style="text-align: justify;">
+                <div class="root-container-title text-justify pt-4 fs-5 lh-sm pb-3">
                     We believe that by focusing on these fundamental elements, we can build a sustainable
                     business
                     that will be successful for years to come.
