@@ -77,9 +77,9 @@ get_header();  ?>
     </div>
 
 
-    <div class="business-venture-second-section p-5 mx-5">
+    <div class="business-venture-second-section px-5 mx-5 p-0 mb-5">
         <div class="container">
-            <div class="row business-venture-row">
+            <div class="row business-venture-row mt-0">
                 <div class="col-12 col-md-4 px-0 position-relative">
                     <div class="opportunity-image w-100"
                         style="background-image: url(<?php echo get_template_directory_uri(); ?>/inc/images/pexels-volker-thimm-12681379.jpg);">
