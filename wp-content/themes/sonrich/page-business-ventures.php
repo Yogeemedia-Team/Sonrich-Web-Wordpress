@@ -9,7 +9,8 @@ get_header();  ?>
 <?php get_template_part('template-parts/inner', 'banner'); ?>
 
 <div class="business-venture-wrapper">
-    <div class="business-opportunity p-5">
+    <div class="container">
+    <div class="business-opportunity py-5">
         <div class="row">
             <div class="col-12 col-md-6 opportunity-col d-flex justify-content-center align-items-center">
                 <div class="opportunity-text-wrap">
@@ -24,41 +25,41 @@ get_header();  ?>
             <div class="col-12 col-md-6">
                 <div class="offers-card">
                     <div class="row">
-                        <div class="col-12 col-md-6 col-lg-4">
+                        <div class="col-12 col-md-6 col-lg-6">
                             <div class="offers-card-item text-center mb-3">
                                 <span><i class="fa-solid fa-sack-dollar"></i></span>
                                 <p class="paragraph-des offers-description text-center pt-3">Sales Compensations and
                                     Inducements</p>
                             </div>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4">
+                        <div class="col-12 col-md-6 col-lg-6">
                             <div class="offers-card-item text-center mb-3">
                                 <span><i class="fa-solid fa-user-shield"></i></span>
                                 <p class="paragraph-des offers-description text-center pt-3">Viable Compensation
                                     Arrangements</p>
                             </div>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4">
+                        <div class="col-12 col-md-6 col-lg-6">
                             <div class="offers-card-item text-center mb-3">
                                 <span><i class="fa-solid fa-people-carry-box"></i></span>
                                 <p class="paragraph-des offers-description text-center pt-3">multilingual Client Support
                                 </p>
                             </div>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4">
+                        <div class="col-12 col-md-6 col-lg-6">
                             <div class="offers-card-item text-center mb-3">
                                 <span><i class="fa-solid fa-people-carry-box"></i></span>
                                 <p class="paragraph-des offers-description text-center pt-3">digital platforms
                                     assistance</p>
                             </div>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4">
+                        <div class="col-12 col-md-6 col-lg-6">
                             <div class="offers-card-item text-center mb-3">
                                 <span><i class="fa-solid fa-sack-dollar"></i></span>
                                 <p class="paragraph-des offers-description text-center pt-3">educational initiatives</p>
                             </div>
                         </div>
-                        <div class="col-12 col-md-6 col-lg-4">
+                        <div class="col-12 col-md-6 col-lg-6">
                             <div class="offers-card-item text-center mb-3">
                                 <span><i class="fa-solid fa-user-shield"></i></span>
                                 <p class="paragraph-des offers-description text-center pt-3">Cutting-edge,
@@ -70,9 +71,11 @@ get_header();  ?>
             </div>
         </div>
     </div>
+</div>
+
 
     <div class="business-venture-second-section p-5 mx-5">
-        <div class="container-fluid">
+        <div class="container">
             <div class="row business-venture-row">
                 <div class="col-12 col-md-4 px-0">
                     <div class="opportunity-image w-100"
@@ -109,6 +112,7 @@ get_header();  ?>
     </div>
 
     <div class="business-venture-third-section px-5 mx-3 py-5">
+        <div class="container">
         <div class="title-question">
             <h4 class="title">HOW TO EARN RETAIL PROFIT?</h4>
             <p class="paragraph">Luvnarich's Independent Representatives have the chance to generate a
@@ -118,6 +122,7 @@ get_header();  ?>
                 others to become Luvnarich's IRs. By selling sought-after products like our
                 nutrition items, both you and your team members can earn a retail prot
                 from these transactions</p>
+        </div>
         </div>
     </div>
 </div>

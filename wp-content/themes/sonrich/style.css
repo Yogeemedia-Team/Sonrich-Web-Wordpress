@@ -131,6 +131,14 @@ ul {
   margin-bottom: 0;
 } */
 
+h5 {
+  font-size: 18px;
+  line-height: 1.8em;
+  color: var(--green);
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
 body {
   font-family: "Titillium Web", sans-serif;
   overflow-x: hidden;
@@ -2608,7 +2616,7 @@ span.thumb-img-title {
 }
 
 .offers-card-item {
-  padding: 20px 15px;
+  padding: 29px 20px;
   background-color: var(--light-white);
   min-height: 241px;
   border-radius: 10px;
@@ -2695,19 +2703,42 @@ ul.social-icon-box {
   max-width: 308px;
 }
 
+.business-venture-wrapper {
+  background: var(--light-cream);
+}
+
+.dropdown-item.active, .dropdown-item:active {
+  background-color: #c9f9ff;
+}
+
+.highlight-section h2.highlights {
+  min-height: 91px;
+}
+
 @media (max-width: 1800x) {
+
 }
 
 @media (max-width: 1400px) {
+
 }
 
 @media (max-width: 1262px) {
   .navbar-brand img {
     width: 80%;
   }
+
+  .opportunity-content {
+    transform: translate(-708px, -34px);
+  }
 }
 
 @media (max-width: 1200px) {
+
+  .opportunity-content {
+    transform: translate(-708px, -34px);
+  }
+
 }
 
 @media (max-width: 992px) {
@@ -2848,7 +2879,7 @@ ul.social-icon-box {
   }
 
   .opportunity-content {
-    transform: translate(-268px, -34px);
+    transform: translate(-313px, -34px);
     max-width: 156px;
   }
 
@@ -2863,8 +2894,33 @@ ul.social-icon-box {
   .square-part {
     max-width: 80%;
   }
-}
 
+  p.paragraph-des.offers-description {
+    font-size: 13px !important;
+  }
+
+  p.paragraph-des.offers-description {
+    font-size: 15px !important;
+  }
+
+  .business-venture-second-section.p-5.mx-5 {
+    padding: 0px !important;
+  }
+
+  .row.business-venture-row {
+    margin-top: 60px;
+  }
+
+  .cards-1,
+  .cards-2,
+  .cards-3 {
+    padding: 85px 0px;
+  }
+
+  p.paragraph-des.offers-description {
+    font-size: 16px !important;
+  }
+}
 @media (max-width: 768px) {
   .banner-section .background-image {
     min-height: 335px;
@@ -3133,8 +3189,8 @@ ul.social-icon-box {
   }
 
   .opportunity-content {
-    transform: translate(-250px, -34px);
-    max-width: 156px;
+    transform: translate(-334px, -50px);
+    max-width: 225px;
   }
 
   .square-image img {
@@ -3145,7 +3201,27 @@ ul.social-icon-box {
     max-width: 80%;
   }
 
+  p.paragraph-des.offers-description {
+    font-size: 15px !important;
+  }
 
+  .business-venture-second-section.p-5.mx-5 {
+    padding: 0px !important;
+  }
+
+  .row.business-venture-row {
+    margin-top: 60px;
+  }
+
+  .cards-1,
+  .cards-2,
+  .cards-3 {
+    padding: 85px 0px;
+  }
+
+  p.paragraph-des.offers-description {
+    font-size: 16px !important;
+  }
 }
 
 @media (max-width: 578px) {
@@ -3400,6 +3476,49 @@ ul.social-icon-box {
   .parallax-banner-text-box {
     font-size: 40px;
   }
+
+  .home .container-fluid.fea-se {
+    margin-top: 100px;
+  }
+
+  img.img-1 {
+    width: 250px;
+    height: 250px;
+  }
+
+  .circle {
+    width: 250px;
+    height: 250px;
+  }
+
+  .stay ul.stay-list {
+    padding: 10px !important;
+  }
+
+  .stay .stay-description .list-item li {
+    padding-left: 0px;
+  }
+
+  .home .fourth-section .right-side-content {
+    padding-left: 0px;
+  }
+
+  .home h2.featured-title.text-center.pt-5 {
+    padding-top: 0px !important;
+  }
+
+  .right-side-square .main-para-title h3 {
+    font-size: 35px;
+  }
+
+  .opportunity-image-background .back-text-area h4 {
+    max-width: 293px;
+  }
+
+  .business-venture-second-section.p-5.mx-5 {
+    padding: 50px 0px !important;
+  }
+
 }
 
 @media (max-width: 370px) {

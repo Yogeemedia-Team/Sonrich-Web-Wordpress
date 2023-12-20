@@ -182,7 +182,7 @@ get_header();  ?>
 <div class="container fourth-se">
     <div class="fourth-section">
         <div class="row mt-4">
-            <div class="col-md-6">
+            <div class="col-md-6 d-flex align-items-center text-center">
                 <div class="people-img">
                     <img src="<?php echo get_template_directory_uri(); ?>/inc/images/peoples.png" alt=""
                         class="left-side-image">
