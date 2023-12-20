@@ -48,7 +48,7 @@ get_header();  ?>
                                             <a href="<?php the_permalink(); ?>"><img src="<?php echo get_the_post_thumbnail_url(); ?>" alt="<?php the_title_attribute(); ?>" class="w-100"></a>
                                         </div>
                                         <div class="product-details">
-                                            <h4 class="entry-title text-center font-weight-normal">
+                                            <h4 class="heading-5 entry-title text-center font-weight-normal">
                                                 <a href="<?php the_permalink(); ?>" class="font-weight-normal"><?php the_title(); ?></a>
                                             </h4>
                                             <div class="prize-btn">

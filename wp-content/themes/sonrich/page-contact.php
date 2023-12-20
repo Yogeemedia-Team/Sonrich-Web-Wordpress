@@ -16,7 +16,7 @@ get_header();  ?>
                 GET IN TOUCH WITH US
             </div>
             <div class="contact-sub-heading h5 font2 text-center pt-2">
-                Say Hello! Don’t be shy.
+                Say Hello! Don’t be Shy.
             </div>
         </div>
         <div class="row p-1 p-md-3 p-lg-5">
@@ -24,98 +24,65 @@ get_header();  ?>
                 <div class="sub-title pb-3">
                     OUR OFFICE
                 </div>
-               
-  
-                        <div class="office-times">
-                            <div class="first-row">
-                                <span>(UTC+05:30) (Jayawardena Pura Kotte)</span>
-                            </div>
 
-                            <div class="second-row pt-3">
-                                <span><b>Monday - Friday</b></span>
-                                <span>12:00pm (noon) - 06:00am - share with us operating time ours</span>
-                            </div>
 
-                            <div class="second-row pt-3">
-                                <span><b>Saturday</b></span>
-                                <span>12:00am (midnight) - 06:00am - share with us operating time ours</span>
-                            </div>
-                        </div>
+                <div class="office-times">
+                    <div class="first-row page-description">
+                        <span class="heading-7">(UTC+05:30) (Jayawardena Pura Kotte)</span>
+                    </div>
 
-                        <div class="con-info pt-3">
-                            <div class="address">
-                                No.204/A/1,Bandaragama Road <br>
-                                Kesbewa,SriLanka
-                            </div>
-                            <div class="email">
-                                Email: info@luvnarich.net
-                            </div>
-                            <div class="phone">
-                                Phone: <a href="tel: +94 (0) 383370000">+94 (0) 383370000</a>
-                            </div>
-                        </div>
-                        <ul class="social-icon-box d-flex py-3">
-                            <li class="social-icon pe-4 ps-2">
-                                <a href="#" target="_blank">
-                                    <i class="fa-brands fa-twitter"></i>
-                                </a>
-                            </li>
-                            <li class="social-icon pe-4">
-                                <a href="#" target="_blank">
-                                    <i class="fa-brands fa-facebook-f"></i>
-                                </a>
-                            </li>
-                            <li class="social-icon pe-4">
-                                <a href="#" target="_blank">
-                                    <i class="fa-brands fa-google-plus-g"></i>
-                                </a>
-                            </li>
-                            <li class="social-icon pe-4">
-                                <a href="#" target="_blank">
-                                    <i class="fa-brands fa-instagram"></i>
-                                </a>
-                            </li>
-                            <li class="social-icon pe-4">
-                                <a href="#" target="_blank">
-                                    <i class="fa-brands fa-tumblr"></i>
-                                </a>
-                            </li>
-                            <li class="social-icon pe-4">
-                                <a href="#" target="_blank">
-                                    <i class="fa-brands fa-pinterest"></i>
-                                </a>
-                            </li>
-                        </ul>
-                 </div>
+                    <div class="second-row pt-3 page-description">
+                        <span class="heading-7">Monday - Friday</span>
+                        <span>12:00pm (noon) - 06:00am - share with us operating time ours</span>
+                    </div>
+
+                    <div class="second-row pt-3 page-description">
+                        <span class="heading-7">Saturday</span>
+                        <span>12:00am (midnight) - 06:00am - share with us operating time ours</span>
+                    </div>
+                </div>
+
+                <div class="con-info pt-3">
+                    <div class="address">
+                        No.204/A/1,Bandaragama Road <br>
+                        Kesbewa,SriLanka
+                    </div>
+                    <div class="email">
+                        Email: <a href="mailto:info@luvnarich.net" style="text-decoration: none;">info@luvnarich.net</a>
+                    </div>
+                    <div class=" phone">
+                        Phone: <a href="tel:0753370000" style="text-decoration: none;">0753370000</a>
+                    </div>
+                </div>
+                <ul class="social-icon-box d-flex py-3">
+
+                    <li class="social-icon pe-4">
+                        <a href="#" target="_blank">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="social-icon pe-4 ps-2">
+                        <a href="#" target="_blank">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="social-icon pe-4">
+                        <a href="#" target="_blank">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li class="social-icon pe-4">
+                        <a href="#" target="_blank">
+                            <i class="fa-brands fa-tiktok"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
             <div class="col-12 col-md-8">
                 <div class="sub-title pb-3">
                     CONTACT US
                 </div>
-                <div class="contact-form">
-                    <div class="row pb-3">
-                        <div class="col-12 col-md-6">
-                            <input class="con-form-input p-3 mb-3" type="text" name="" id="" placeholder="First Name *">
-                        </div>
-                        <div class="col-12 col-md-6">
-                            <input class="con-form-input p-3" type="text" name="" id="" placeholder="Last Name *">
-                        </div>
-                    </div>
-                    <div class="row pb-3">
-                        <div class="col-12 col-md-6">
-                            <input class="con-form-input p-3 mb-3" type="text" name="" id="" placeholder="Email *">
-                        </div>
-                        <div class="col-12 col-md-6">
-                            <input class="con-form-input p-3" type="text" name="" id="" placeholder="Website">
-                        </div>
-                    </div>
-                    <div class="row pb-3">
-                        <div class="col">
-                            <textarea class="con-form-input p-3 mb-3" name="" id="" cols="30" rows="5"
-                                placeholder="Message..."></textarea>
-                        </div>
-                    </div>
-                    <button class="btn con-form-input" type="submit">CONTACT US</button>
-                </div>
+                <?php echo apply_shortcodes('[contact-form-7 id="4589b9d" title="contact-form"]' ); ?>
             </div>
         </div>
     </div>

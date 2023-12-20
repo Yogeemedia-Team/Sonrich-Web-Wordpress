@@ -20,26 +20,26 @@ get_header();  ?>
         </div>
         <div class="root-container-box">
             <div class="root-container-title pt-5 fs-5">
-                <p>
+                <p class="page-description">
                     We offer the following delivery options:
                 </p>
                 <ul>
-                    <li>Cash on Delivery.</li>
-                    <li>Payment through card.</li>
+                    <li class="page-description">Cash on Delivery.</li>
+                    <li class="page-description">Payment through card.</li>
                 </ul>
 
-                <p>
+                <p class="page-description">
                     Kindly note that deliveries are not made on public holidays. Time slot cannot be specied
                     with any of our delivery options. Please refer to the Terms and Conditions of Sales for
                     further information.
                 </p>
-                <p>
+                <p class="page-description">
                     DELIVERY CHARGES AND ESTIMATED DELIVERY TIMES
                 </p>
-                <p>
+                <p class="page-description">
                     We deliver Island-wide.
                 </p>
-                <p>
+                <p class="page-description">
                     Delivery within Colombo 1-15 will be done within two days. (Please note that Delivery cut
                     off time will be 4pm)
                 </p>
@@ -48,7 +48,7 @@ get_header();  ?>
                     option to your address is not available, you will be notied about the same at the point of
                     placing the order.
                 </p>
-                <p>
+                <p class="page-description">
                     You will be required to provide your signature to conrm the receipt at the point of
                     delivery. If the product is not delivered due to any extrinsic circumstances, the parcel
                     would be returned to our warehouse. Please reach us on
@@ -56,11 +56,11 @@ get_header();  ?>
                     <a href="tel:+0753370000">0753370000</a> to arrange a redelivery and be informed that you
                     may be responsible for additional delivery charges on any redelivery
                 </p>
-                <p>
+                <p class="page-description">
                     Delivery times are estimates only. We will try our best to meet the estimated delivery times
                     but are not responsible for any delayed or unsuccessful deliveries.
                 </p>
-                <p>
+                <p class="page-description">
                     The orders may take longer and certain services may be removed during our seasonal sales,
                     periods of promotional activities or due to circumstances beyond our control, such as
                     adverse weather. If your delivery does not reach as expected, please contact us at

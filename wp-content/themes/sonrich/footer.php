@@ -101,7 +101,7 @@
                             </a>
                         </li>
                         <li class="py-1 text-light" style="list-style: none;">
-                            <a href="#" target="_blank" class="text-light" style="text-decoration: none;">
+                            <a href="terms-condition" target="_blank" class="text-light" style="text-decoration: none;">
                                 Terms & Condition
                             </a>
                         </li>
@@ -146,7 +146,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer">
 </script>
 
-<script>
+<!-- <script>
 document.addEventListener('DOMContentLoaded', function() {
     var banner = document.querySelector('.parallax-banner-wrapper');
 
@@ -158,7 +158,7 @@ document.addEventListener('DOMContentLoaded', function() {
             translateY + 'px, 0)';
     });
 });
-</script>
+</script> -->
 
 <script>
 jQuery(document).ready(function() {
@@ -197,6 +197,21 @@ jQuery(document).ready(function() {
         }
     });
 });
+</script>
+
+<script>
+const image = document.querySelector(".hero-single-product img");
+
+const reset = () => image.classList.remove("fadeIn");
+
+function activate(e) {
+    if (!e.target.matches(".single-product-btns img")) return;
+    image.src = e.target.src;
+    image.classList.add("fadeIn");
+}
+
+document.addEventListener("click", activate, false);
+document.addEventListener("animationend", reset, false);
 </script>
 
 <?php wp_footer(); ?>
