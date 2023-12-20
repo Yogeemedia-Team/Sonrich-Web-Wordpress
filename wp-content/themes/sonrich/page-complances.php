@@ -71,7 +71,7 @@ get_header();  ?>
 </div>
 
 <div class="complances-second-section my-5">
-  <div class="complances-second-background" style="background-image: url(<?php echo get_template_directory_uri(); ?>./inc/images/p.png);">
+  <div class="complances-second-background" style="background-image: url(<?php echo get_template_directory_uri(); ?>/inc/images/p.png);">
     <p>To learn more about the Luvnarich Education & Development Program,
       please visit our website or contact us today. We would be happy to answer
       any questions you have...

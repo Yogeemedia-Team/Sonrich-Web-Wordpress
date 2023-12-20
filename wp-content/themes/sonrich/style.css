@@ -1268,7 +1268,7 @@ img.blue-move {
 }
 
 h2.success-title {
-  font-size: 39px;
+  font-size: 38px;
   color: var(--white);
   max-width: 390px;
 }
@@ -2724,6 +2724,64 @@ ul.social-icon-box {
   min-height: 91px;
 }
 
+
+/*Support Page*/
+.support-page-second-class {
+  background-image: url(./inc/images/p.png);
+  background-position: 50% 50%;
+  background-repeat: repeat;
+  background-size: auto;
+  height: 300px;
+  background-color: #f8eedb;
+  position: relative;
+  opacity: 0.9;
+  background-color: #006d57;
+}
+
+.support-page-banner-left-side {
+  text-align: left;
+}
+
+/* Adjust styles for right side content */
+.support-page-banner-right-side {
+  text-align: right;
+}
+
+.support-page-banner-left-side {
+  text-align: left;
+}
+
+/* Adjust styles for right side content */
+.support-page-banner-right-side {
+  text-align: right;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.8); /* Adjust background color and opacity as needed */
+  padding: 10px; /* Add padding for better visibility */
+}
+
+/* Adjust styles for the main container to allow for positioning */
+.support-page-second-class {
+  position: relative;
+}
+
+.office-times {
+  max-width: 308px;
+  padding: 16px 30px;
+}
+
+.support-above {
+  color: #ffff;
+  line-height: 1.8;
+  font-size: 18px;
+}
+
+.support-page-banner-left-side h5.head-title.mt-4.text-center.text-md-start {
+  text-shadow: 2px 2px #111111d4;
+  color: #14ffc6 !important;
+}
+
 @media (max-width: 1800x) {
 
 }
@@ -3003,10 +3061,8 @@ ul.social-icon-box {
   }
 
   .circle {
-    width: 300px;
-    height: 300px;
-    /* top: 134px;
-    left: 233px; */
+    width: 400px;
+    height: 400px;
   }
 
   .circle-content {
@@ -3036,10 +3092,10 @@ ul.social-icon-box {
   }
 
   img.img-1 {
-    height: 300px;
-    width: 300px;
+    height: 400px;
+    width: 400px;
     border-radius: 50%;
-  }
+}
 
   h2.featured-title.text-center {
     font-size: 42px;
@@ -3527,6 +3583,22 @@ ul.social-icon-box {
   .business-venture-second-section.p-5.mx-5 {
     padding: 50px 0px !important;
   }
+
+  .support-page-banner-right-side {
+    top: 260px;
+  }
+
+  .support-page-second-class {
+    height: 560px;
+  }
+
+  .left-support .d-flex {
+    display: block !important;
+  }
+
+  .left-support .align-items-center {
+    align-items: baseline !important;
+}
 
 }
 
