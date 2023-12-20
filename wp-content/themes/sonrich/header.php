@@ -127,7 +127,7 @@
                                 'container_class' => 'navigation-bar ms-auto py-3',
                                 'menu_class'     => 'navbar-nav mb-2 mb-lg-0',
                                 'fallback_cb'    => false,
-                                'items_wrap'     => '<ul id="%1$s" class="%2$s">%3$s 
+                                'items_wrap'     => '<ul id="%1$s" class="%2$s align-items-center">%3$s 
                                 <form class="d-flex ms-2" role="search">
                                     <input class="form-control navbar-search me-2 ms-auto" type="search" placeholder="Search"
                                         aria-label="Search">
