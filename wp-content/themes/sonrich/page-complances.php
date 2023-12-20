@@ -10,7 +10,7 @@ get_header();  ?>
 
 <div class="complances-main-para m-5">
     <div class="container-fluid">
-        <div class="row py-5">
+        <div class="row">
             <div class="col-12 col-md-5">
                 <div class="left-side-square position-relative">
                     <div class="square-part">
