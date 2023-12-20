@@ -12,8 +12,8 @@ get_header();  ?>
 <div class="support-page-wrapper">
     <div class="support-page-first-section">
         <div class="container section-heading">
-            <div class="heading-paragraph">
-                <span><b>Experience Unmatched Support at Luvnarich LNSC: </b>our Success Starts Here!</span>
+            <div class="heading-paragraph pt-5">
+                <h2><b>Experience Unmatched Support at Luvnarich LNSC: </b>our Success Starts Here!</h2>
             </div>
 
             <div class="description-paragraph">
@@ -33,44 +33,45 @@ get_header();  ?>
         </div>
     </div>
 
-    <div class="support-page-second-class">
-        <div class="support-page-banner">
-            <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                    <div class="support-page-banner-left-side">
-                        <h5 class="head-title mt-4 text-center text-md-start">Lunarich National- Support Centre</h5>
+    <div class="support-page-second-class d-sm-flex align-items-center text-center" style="background-image: url(<?php echo get_template_directory_uri(); ?>/inc/images/p.png);">
+        <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-12 left-support">
+                <div class="support-page-banner-left-side">
+                    <h5 class="head-title mt-4 text-center text-md-start">Lunarich National- Support Centre</h5>
 
-                        <div class="support-above">
-                            <span><b>Email Support: </b>kindly share with us.</span>
-                            <span><b>Call (All Languages): </b> kindly share with us.</span>
-                            <span><b>GSC Smart Hub: </b> kindly share with us.</span>
-                            <span><b>Submit Customer Request: </b> kindly share with us.</span>
-                        </div>
+                    <div class="support-above">
+                        <span><b>Email Support: </b>kindly share with us.</span>
+                        <span><b>Call (All Languages): </b> kindly share with us.</span>
+                        <span><b>GSC Smart Hub: </b> kindly share with us.</span>
+                        <span><b>Submit Customer Request: </b> kindly share with us.</span>
                     </div>
                 </div>
+            </div>
 
-                <div class="col-lg-6 col-md-6 col-sm-12">
-                    <div class="support-page-banner-right-side">
-                        <div class="office-times">
-                            <span><b>Operating Hours:</b></span>
-                            
-                            <div class="first-row">
-                            <span>(UTC+05:30) (Jayawardena Pura Kotte)</span>
-                        </div>
+            <div class="col-lg-6 col-md-6 col-sm-12">
+                <div class="support-page-banner-right-side">
+                    <div class="office-times">
+                        <span><b>Operating Hours:</b></span>
+            
+                        <div class="first-row">
+                        <span>(UTC+05:30) (Jayawardena Pura Kotte)</span>
+                    </div>
 
-                        <div class="second-row pt-3">
-                            <span><b>Monday - Friday</b></span>
-                            <span>12:00pm (noon) - 06:00am - share with us operating time ours</span>
-                        </div>
+                    <div class="second-row pt-3">
+                        <span><b>Monday - Friday</b></span>
+                        <span>12:00pm (noon) - 06:00am - share with us operating time ours</span>
+                    </div>
 
-                        <div class="second-row pt-3">
-                            <span><b>Saturday</b></span>
-                            <span>12:00am (midnight) - 06:00am - share with us operating time ours</span>
-                        </div>
+                    <div class="second-row pt-3">
+                        <span><b>Saturday</b></span>
+                        <span>12:00am (midnight) - 06:00am - share with us operating time ours</span>
                     </div>
                 </div>
             </div>
         </div>
+        </div>
     </div>
 </div>
+
 <?php get_footer(); ?>
