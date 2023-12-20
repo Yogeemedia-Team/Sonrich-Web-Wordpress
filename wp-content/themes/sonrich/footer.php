@@ -101,7 +101,7 @@
                             </a>
                         </li>
                         <li class="py-1 text-light" style="list-style: none;">
-                            <a href="#" target="_blank" class="text-light" style="text-decoration: none;">
+                            <a href="terms-condition" target="_blank" class="text-light" style="text-decoration: none;">
                                 Terms & Condition
                             </a>
                         </li>
