@@ -114,8 +114,11 @@ get_header();  ?>
     <div class="business-venture-third-section px-5 mx-3 py-5">
         <div class="container">
         <div class="title-question">
-            <h4 class="title">HOW TO EARN RETAIL PROFIT?</h4>
-            <p class="paragraph">Luvnarich's Independent Representatives have the chance to generate a
+            <h4 class="heading-3">HOW TO EARN RETAIL PROFIT?</h4>
+
+            <span class="short-underline m-auto m-md-0"></span>
+
+            <p class="paragraph pt-4">Luvnarich's Independent Representatives have the chance to generate a
                 retail prot commission through the sale of products they genuinely
                 endorse to individuals who they are aware will greatly benet from them. It
                 is a prevailing misconception that one can solely earn money by recruiting

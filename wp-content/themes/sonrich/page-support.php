@@ -12,19 +12,19 @@ get_header();  ?>
 <div class="support-page-wrapper">
     <div class="support-page-first-section">
         <div class="container section-heading">
-            <div class="heading-paragraph pt-5">
-                <h2><b>Experience Unmatched Support at Luvnarich LNSC: </b>our Success Starts Here!</h2>
+            <div class="heading-paragraph pt-5 pb-3">
+                <h2 class="heading-4">Experience Unmatched Support at Luvnarich LNSC: <span>Our Success Starts Here!</span></h2>
             </div>
 
             <div class="description-paragraph">
-                <p class="first-p about-p py-3 fs-5">Luvnarich, a National wide recognized support center, renowned for its
+                <p class="page-description pt-2">Luvnarich, a National wide recognized support center, renowned for its
                 excellence, extends its services in 3 languages across 9 Province hubs Island
                 wide. Our mission is to cater to the needs of our valued customers and
                 Independent Representatives. With a wide array of support options
                 including phone, email, and, our dedicated team of expert professionals is
                 readily available to assist you.</p>
 
-                <p class="first-p about-p py-3 fs-5">Language barriers are nonexistent as our support specialists are uent in
+                <p class="page-description pt-3 pb-5">Language barriers are nonexistent as our support specialists are uent in
                 your preferred language. Moreover, we understand the importance of time
                 ensuring prompt and efficient assistance right when you need it.
                 Experience the proximity and convenience of Luvnarich - we're here to

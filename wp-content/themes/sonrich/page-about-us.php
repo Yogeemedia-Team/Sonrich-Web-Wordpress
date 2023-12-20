@@ -16,12 +16,12 @@ get_header();  ?>
                 <div class="col-12 col-lg-6">
                     <div class="stay-description p-0">
                         <div class="stay-content mb-3">
-                            <h2 class="success-title text-center text-lg-start m-auto m-lg-0">
+                            <h2 class="heading-2 success-title text-center text-lg-start m-auto m-lg-0">
                                 WHO ARE WE?
                             </h2>
                             <span class="short-underline m-auto m-md-0"></span>
                         </div>
-                        <p class="first-p  first-letter py-3">
+                        <p class="page-description first-p  first-letter py-3">
                             <a href="#" class="first-word">Luvnarich</a> is an esteemed company focused on
                             wellness
                             and lifestyle, utilizing an
@@ -33,7 +33,7 @@ get_header();  ?>
                             sales
                             enterprise through the promotion of these remarkable products.
                         </p>
-                        <p class="second-p">
+                        <p class="page-description second-p">
                             Luvnarich endeavors to enrich the lives of our valued customers by delivering
                             products
                             and services that foster well-being and an enhanced lifestyle. We are dedicated to
@@ -62,11 +62,11 @@ get_header();  ?>
         <div class="row">
             <div class="col text-center text-md-start">
                 <div class="stay-content mb-3">
-                    <h2 class="text-center fs-1 text-lg-start m-auto m-lg-0">
+                    <h2 class="heading-2 text-center fs-1 text-lg-start m-auto m-lg-0">
                         Where wellness meets lifestyle.
                     </h2>
                     <span class="short-underline m-auto m-md-0"></span>
-                    <p class="first-p about-p about-description py-3 text-justify">
+                    <p class="page-description first-p about-p about-description py-3 text-justify">
                         At Luvnarich, we believe that everyone has the potential to achieve great things. We are
                         committed to empowering people to live well, and we believe that our products and
                         services can help them reach their full potential.
@@ -76,7 +76,7 @@ get_header();  ?>
         </div>
         <div class="row">
             <div class="col-12 col-md-4">
-                <p class="first-p about-p p-3 rounded" style="background: var(--gray);">
+                <p class="page-description first-p about-p p-3 rounded" style="background: var(--gray);">
                     <strong>Our unique business model</strong> seamlessly merges the
                     inuence of e-commerce and direct selling. This allows us to provide our customers with the
                     convenience of online shopping while also giving them the opportunity to build their own
@@ -84,14 +84,14 @@ get_header();  ?>
                 </p>
             </div>
             <div class="col-12 col-md-4 mt-1 mt-md-4 pt-1 pt-md-4">
-                <p class="first-p about-p p-3 rounded" style="background: var(--gray);">
+                <p class="page-description first-p about-p p-3 rounded" style="background: var(--gray);">
                     <strong>We are a National company</strong> with a presence in over 10 island. This means
                     that our customers have access to a wide range of products and services, and they can
                     connect with a community of like-minded individuals from all over the world.
                 </p>
             </div>
             <div class="col-12 col-md-4 mt-1 mt-md-5 pt-1 pt-md-5">
-                <p class="first-p about-p p-3 rounded" style="background: var(--gray);">
+                <p class="page-description first-p about-p p-3 rounded" style="background: var(--gray);">
                     <strong>We are committed to making a positive difference in the world.</strong> We believe
                     that everyone has the power to make a difference, and we are proud to support organizations
                     that are working to make the world a better place.
@@ -101,7 +101,7 @@ get_header();  ?>
         <div class="row">
             <div class="col text-center text-md-start">
                 <div class="stay-content mb-3">
-                    <p class="first-p about-p about-description py-3 text-justify">
+                    <p class="page-description first-p about-p about-description py-3 text-justify">
                         If you are looking for a way to enhance your personal life, contribute to the economic
                         growth of your community, and make a positive difference in the world, then Luvnarich is
                         the company for you. <strong>Join us today and start living your best life!</strong>
@@ -122,8 +122,8 @@ get_header();  ?>
                 <div class="col-12 col-lg-6 order-2">
                     <div class="stay-description p-0">
                         <div class="stay-content mb-3">
-                            <h2 class="success-title text-center text-lg-start m-auto m-lg-0">
-                                Luvnarich at Glance
+                            <h2 class="heading-2 success-title text-center text-lg-start m-auto m-lg-0">
+                                Luvnarich at glance
                             </h2>
                             <span class="short-underline m-auto m-md-0"></span>
                         </div>
@@ -170,7 +170,7 @@ get_header();  ?>
 <section class="core-values">
     <div class="container py-5">
         <div class="stay-content mb-3">
-            <h2 class="success-title text-center m-auto text-dark">
+            <h2 class="heading-2 success-title text-center m-auto text-dark">
                 OUR CORE VALUES
             </h2>
             <span class="short-underline m-auto"></span>
@@ -182,7 +182,7 @@ get_header();  ?>
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="about-value-box">
                     <div class="about-value-description fs-4 fw-bold text-center">Trustworthiness</div>
-                    <p class="about-value-text text-center">
+                    <p class="page-description about-value-text text-center">
                         We embrace integrity and ignite change. We believe in honesty, transparency, and
                         accountability.
                     </p>
@@ -191,7 +191,7 @@ get_header();  ?>
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="about-value-box">
                     <div class="about-value-description fs-4 fw-bold text-center">Stability</div>
-                    <p class="about-value-text text-center">
+                    <p class="page-description about-value-text text-center">
                         We create a sustainable future with service and leadership. We are stewards of the
                         environment and we strive to create a better world for future generations.
                     </p>
@@ -200,7 +200,7 @@ get_header();  ?>
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="about-value-box">
                     <div class="about-value-description fs-4 fw-bold text-center">Contribution</div>
-                    <p class="about-value-text text-center">
+                    <p class="page-description about-value-text text-center">
                         We experience the power of integrity, sustainability, and service. We are committed to
                         giving back to our communities and making a positive impact on the world.
                     </p>
@@ -209,7 +209,7 @@ get_header();  ?>
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="about-value-box">
                     <div class="about-value-description fs-4 fw-bold text-center">Leadership</div>
-                    <p class="about-value-text text-center">
+                    <p class="page-description about-value-text text-center">
                         We chart a path of leadership through integrity and sustainable service. We inspire and
                         lead by example, and we foster entrepreneurship as a way to create a more just and
                         equitable world.
@@ -227,14 +227,14 @@ get_header();  ?>
         <div class="in-service-box py-2 py-md-5">
             <div class="in-service-title">
                 <div class="stay-content mb-3">
-                    <h2 class="success-title text-center m-auto text-dark">
+                    <h2 class="heading-2 success-title text-center m-auto text-dark">
                         IN-SERVICE
                     </h2>
                     <span class="short-underline m-auto"></span>
                 </div>
             </div>
             <div class="in-service-content px-3 px-lg-5">
-                <p class="px-0 px-md-3 px-lg-5 fs-5 text-justify">
+                <p class="page-description px-0 px-md-3 px-lg-5 fs-5 text-justify">
                     We believe that service is a vital quality of effective leadership. The pioneers of our
                     organization have embedded a robust ethos of prioritizing service over personal interests,
                     and we foster this mindset within our workforce and network. We believe that demonstrating
@@ -255,12 +255,12 @@ get_header();  ?>
                 <div class="col-12 col-lg-6">
                     <div class="stay-description p-0">
                         <div class="stay-content mb-3">
-                            <h2 class="success-title text-center text-lg-start m-auto m-lg-0">
+                            <h2 class="heading-2 success-title text-center text-lg-start m-auto m-lg-0">
                                 What is Luvnarich?
                             </h2>
                             <span class="short-underline m-auto m-md-0"></span>
                         </div>
-                        <p class="first-p py-3">
+                        <p class="page-description first-p py-3">
                             <a href="#" class="first-word">Luvnarich</a> is an ecommerce platform that operates
                             as a direct-selling company, specializing in a diverse array of products
                             encompassing health, wellness, lifestyle, and education. With a focus on enhancing
@@ -298,12 +298,12 @@ get_header();  ?>
                 <div class="col-12 col-lg-6 order-2">
                     <div class="stay-description p-0">
                         <div class="stay-content mb-3">
-                            <h2 class="success-title text-center text-lg-start m-auto m-lg-0">
-                                Is Luvnarich an Investment Scheme?
+                            <h2 class="heading-2 success-title text-center text-lg-start m-auto m-lg-0">
+                                Is luvnarich an investment scheme?
                             </h2>
                             <span class="short-underline m-auto m-md-0"></span>
                         </div>
-                        <p class="first-p py-3">Absolutely NOT! Luvnarich emphatically
+                        <p class="page-description first-p py-3">Absolutely NOT! Luvnarich emphatically
                             distances itself from any form of
                             investment scheme. It is crucial to comprehend that Luvnarich is neither a
                             scheme nor an illicit operation. On the contrary, it stands as a reputable
@@ -339,12 +339,12 @@ get_header();  ?>
                 <div class="col-12 col-lg-6">
                     <div class="stay-description p-0">
                         <div class="stay-content mb-3">
-                            <h2 class="success-title text-center text-lg-start m-auto m-lg-0">
-                                What is Direct Selling?
+                            <h2 class="heading-2 success-title text-center text-lg-start m-auto m-lg-0">
+                                What is direct selling?
                             </h2>
                             <span class="short-underline m-auto m-md-0"></span>
                         </div>
-                        <p class="first-p py-3">
+                        <p class="page-description first-p py-3">
                             <a href="#" class="first-word">Luvnarich</a> embraces the approach of
                             direct selling, which involves the direct marketing and distribution of goods and
                             services directly to consumers, whether it be within the comfort of their homes or
@@ -380,12 +380,12 @@ get_header();  ?>
                 <div class="col-12 col-lg-6 order-2">
                     <div class="stay-description p-0">
                         <div class="stay-content mb-3">
-                            <h2 class="success-title text-center text-lg-start m-auto m-lg-0">
-                                How can I make money with Luvnarich?
+                            <h2 class="heading-2 success-title text-center text-lg-start m-auto m-lg-0">
+                                How can i make money with Luvnarich?
                             </h2>
                             <span class="short-underline m-auto m-md-0"></span>
                         </div>
-                        <p class="first-p py-3">Generating income with Luvnarich solely relies on
+                        <p class="page-description first-p py-3">Generating income with Luvnarich solely relies on
                             product sales. By utilizing and recommending our products to others, you have the
                             opportunity to earn commissions based on actual sales. Luvnarich employs a
                             well-designed compensation plan that calculates the commissions you are entitled to,
@@ -417,12 +417,12 @@ get_header();  ?>
                 <div class="col-12 col-lg-6">
                     <div class="stay-description p-0">
                         <div class="stay-content mb-3">
-                            <h2 class="success-title text-center text-lg-start m-auto m-lg-0">
-                                How quickly can I start making an income with Luvnarich?
+                            <h2 class="heading-2 success-title text-center text-lg-start m-auto m-lg-0">
+                                How quickly can i start making an income with Luvnarich?
                             </h2>
                             <span class="short-underline m-auto m-md-0"></span>
                         </div>
-                        <p class="first-p py-3">
+                        <p class="page-description first-p py-3">
                             <a href="#" class="first-word">Luvnarich</a> represents a legitimate
                             business endeavor, comparable to any other enterprise. It is important to understand
                             that Luvnarich is not a shortcut to instant wealth. Achieving success in this line
