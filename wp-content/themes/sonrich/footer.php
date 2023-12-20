@@ -146,7 +146,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer">
 </script>
 
-<script>
+<!-- <script>
 document.addEventListener('DOMContentLoaded', function() {
     var banner = document.querySelector('.parallax-banner-wrapper');
 
@@ -158,7 +158,7 @@ document.addEventListener('DOMContentLoaded', function() {
             translateY + 'px, 0)';
     });
 });
-</script>
+</script> -->
 
 <script>
 jQuery(document).ready(function() {
