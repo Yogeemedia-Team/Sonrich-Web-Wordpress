@@ -2607,12 +2607,9 @@ span.thumb-img-title {
   font-weight: 600;
 }
 
-
-
-
 .accordion-button:not(.collapsed) {
   background-color: var(--light-green);
-  box-shadow: inset 0 -1px 0 rgba(0,0,0,.125);
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
 }
 
 /*Business-Venture*/
@@ -2718,7 +2715,8 @@ ul.social-icon-box {
   background: var(--light-cream);
 }
 
-.dropdown-item.active, .dropdown-item:active {
+.dropdown-item.active,
+.dropdown-item:active {
   background-color: #c9f9ff;
 }
 
@@ -2727,11 +2725,9 @@ ul.social-icon-box {
 }
 
 @media (max-width: 1800x) {
-
 }
 
 @media (max-width: 1400px) {
-
 }
 
 @media (max-width: 1262px) {
@@ -2745,11 +2741,9 @@ ul.social-icon-box {
 }
 
 @media (max-width: 1200px) {
-
   .opportunity-content {
     transform: translate(-708px, -34px);
   }
-
 }
 
 @media (max-width: 992px) {
@@ -3233,6 +3227,10 @@ ul.social-icon-box {
   p.paragraph-des.offers-description {
     font-size: 16px !important;
   }
+
+  .opportunity-image-background {
+    border-radius: 35px;
+  }
 }
 
 @media (max-width: 578px) {
@@ -3529,7 +3527,6 @@ ul.social-icon-box {
   .business-venture-second-section.p-5.mx-5 {
     padding: 50px 0px !important;
   }
-
 }
 
 @media (max-width: 370px) {
