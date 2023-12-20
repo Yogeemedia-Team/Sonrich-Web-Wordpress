@@ -16,7 +16,7 @@ get_header();  ?>
                 GET IN TOUCH WITH US
             </div>
             <div class="contact-sub-heading h5 font2 text-center pt-2">
-                Say Hello! Don’t be shy.
+                Say Hello! Don’t be Shy.
             </div>
         </div>
         <div class="row p-1 p-md-3 p-lg-5">
@@ -27,17 +27,17 @@ get_header();  ?>
 
 
                 <div class="office-times">
-                    <div class="first-row">
-                        <span>(UTC+05:30) (Jayawardena Pura Kotte)</span>
+                    <div class="first-row page-description">
+                        <span class="heading-7">(UTC+05:30) (Jayawardena Pura Kotte)</span>
                     </div>
 
-                    <div class="second-row pt-3">
-                        <span><b>Monday - Friday</b></span>
+                    <div class="second-row pt-3 page-description">
+                        <span class="heading-7">Monday - Friday</span>
                         <span>12:00pm (noon) - 06:00am - share with us operating time ours</span>
                     </div>
 
-                    <div class="second-row pt-3">
-                        <span><b>Saturday</b></span>
+                    <div class="second-row pt-3 page-description">
+                        <span class="heading-7">Saturday</span>
                         <span>12:00am (midnight) - 06:00am - share with us operating time ours</span>
                     </div>
                 </div>

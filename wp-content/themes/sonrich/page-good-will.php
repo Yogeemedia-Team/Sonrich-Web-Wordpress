@@ -9,7 +9,7 @@ get_header();  ?>
 
 <!-- goodwill header start -->
 <section>
-    <div class="container py-5">
+    <div class="container py-1">
         <div class="row">
             <div class="col">
                 <!-- <h1 class="goodwill-heading text-center">
@@ -20,17 +20,17 @@ get_header();  ?>
         </div>
         <div class="row pt-5">
             <div class="col">
-                <p class="first-p about-p py-3 fs-5">
+                <p class="first-p about-p py-1 fs-5">
                     The visionaries behind Luvnarich believe that wealth is not the ultimate goal in life. They
                     believe that true success is achieved when you use your resources to make a positive impact
                     on the world.
                 </p>
-                <p class="first-p about-p py-3 fs-5">
+                <p class="first-p about-p py-1 fs-5">
                     The visionaries behind Luvnarich believe that wealth is not the ultimate goal in life. They
                     believe that true success is achieved when you use your resources to make a positive impact
                     on the world.
                 </p>
-                <p class="first-p about-p py-3 fs-5">
+                <p class="first-p about-p py-1 fs-5">
                     The luvnarich Foundation is committed to making a difference in the lives of others. They
                     believe that everyone has the potential to make a positive impact on the world, and they are
                     dedicated to providing the resources and support that people need to achieve their full
@@ -39,28 +39,28 @@ get_header();  ?>
             </div>
         </div>
         <div class="goodwill-list-box">
-            <div class="goodwill-container-title text-justify pt-5 fs-2 lh-sm pb-3">
-                Here are some of the ways that the luvnarich Foundation is making a difference:
+            <div class="goodwill-container-title text-justify pt-2 fs-2 lh-sm pb-3">
+                Here are some of the ways that the luvnarich foundation is making a difference:
             </div>
             <ul>
-                <li class="fs-5">
+                <li class="page-description">
                     Providing scholarships to students in need
                 </li>
-                <li class="fs-5">
+                <li class="page-description">
                     Supporting healthcare initiatives in developing countries
                 </li>
-                <li class="fs-5">
+                <li class="page-description">
                     Providing microloans to entrepreneurs
                 </li>
-                <li class="fs-5">
+                <li class="page-description">
                     Promoting environmental sustainability
                 </li>
             </ul>
-            <div class="goodwill-p pt-5 fs-5 lh-sm pb-3">
+            <div class="goodwill-p pt-2 page-description lh-sm pb-3">
                 The luvnarich Foundation is a force for good in the world. They are making a difference in the
                 lives of millions of people, and they are helping to create a better future for all.
             </div>
-            <div class="goodwill-p pt-5 fs-5 lh-sm pb-3">
+            <div class="goodwill-p pt-2 page-description lh-sm pb-5">
                 If you are interested in learning more about the luvnarich Foundation, please visit their
                 website or contact them today.
             </div>

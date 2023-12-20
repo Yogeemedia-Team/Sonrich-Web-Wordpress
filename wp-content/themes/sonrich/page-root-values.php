@@ -11,7 +11,7 @@ get_header();  ?>
 <section class="content py-5">
     <div class="container">
         <div class="heading-box">
-            <div class="heading h2 font2 fs-1 text-center">
+            <div class="fs-2 heading h2 font2 text-center">
                 Preserve the our country today and for generations to come
             </div>
             <div class="sub-heading h5 font2 fs-4 text-center pt-2">
@@ -19,7 +19,7 @@ get_header();  ?>
             </div>
         </div>
         <div class="root-container-box">
-            <div class="root-container-title text-justify pt-5 fs-5">
+            <div class="page-description root-container-title text-justify pt-5 fs-5">
                 Our goal is to become a sustainable business that our employees, distributors, and customers can
                 be proud of. We strive to achieve this through the following fundamental elements of our
                 operation:
@@ -27,8 +27,8 @@ get_header();  ?>
             <div class="row pt-4">
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="about-value-box">
-                        <div class="about-value-description fs-4 fw-bold text-center">Integrity</div>
-                        <p class="about-value-text text-center">
+                        <div class="heading-3 about-value-description fs-4 fw-bold text-center">Integrity</div>
+                        <p class="page-description about-value-text text-center">
                             We believe in doing the right thing, even when it is difficult. We are committed to
                             operating our business with integrity and transparency.
                         </p>
@@ -36,8 +36,8 @@ get_header();  ?>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="about-value-box">
-                        <div class="about-value-description fs-4 fw-bold text-center">Excellence</div>
-                        <p class="about-value-text text-center">
+                        <div class="heading-3 about-value-description fs-4 fw-bold text-center">Excellence</div>
+                        <p class="page-description about-value-text text-center">
                             We strive to provide the best possible products and services to our customers. We
                             are committed to continuous improvement and innovation.
                         </p>
@@ -45,8 +45,8 @@ get_header();  ?>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="about-value-box">
-                        <div class="about-value-description fs-4 fw-bold text-center">Sustainability</div>
-                        <p class="about-value-text text-center">
+                        <div class="heading-3 about-value-description fs-4 fw-bold text-center">Sustainability</div>
+                        <p class="page-description about-value-text text-center">
                             We believe in doing business in a way that is environmentally and socially
                             responsible. We are committed to reducing our environmental impact and creating a
                             better future for our planet.
@@ -55,8 +55,8 @@ get_header();  ?>
                 </div>
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="about-value-box">
-                        <div class="about-value-description fs-4 fw-bold text-center">Community</div>
-                        <p class="about-value-text text-center">
+                        <div class="heading-3 about-value-description fs-4 fw-bold text-center">Community</div>
+                        <p class="page-description bout-value-text text-center">
                             We believe in giving back to the communities where we operate. We are committed to
                             supporting local charities and organizations that make a difference.
                         </p>
@@ -64,17 +64,17 @@ get_header();  ?>
                 </div>
             </div>
             <div class="root-list-box">
-                <div class="root-container-title text-justify pt-4 fs-5 lh-sm pb-3">
+                <div class="page-description root-container-title text-justify pt-4 fs-5 lh-sm pb-3">
                     We believe that by focusing on these fundamental elements, we can build a sustainable
                     business
                     that will be successful for years to come.
                 </div>
                 <ul>
-                    <li class="fs-6">
+                    <li class="page-description">
                         kindly provide us the vision for the Luvanarich? and respective images. statement and
                         values?
                     </li>
-                    <li class="fs-6">
+                    <li class="page-description">
                         Kindly provide us chairman msg directors msg with the images.
                     </li>
                 </ul>

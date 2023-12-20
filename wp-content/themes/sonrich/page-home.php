@@ -24,7 +24,7 @@ get_header();  ?>
             <div class="row mt-4 px-2 px-lg-5">
                 <div class="col-12 col-lg-6">
                     <div class="peo-description">
-                        <p class="improve text-center text-lg-start">IMPROVE PEOPLES LIVES</h5>
+                        <p class="heading-1 improve text-center text-lg-start">IMPROVE PEOPLES LIVES</h5>
                         <P class="create pt-3 text-center text-lg-start">
                             Let's create a <span>better world</span> where people <span>love each other,</span>
                             love <span>nature</span> and specially who <span>respect law.</span>
@@ -136,8 +136,8 @@ get_header();  ?>
             <div class="col-12 col-lg-6">
                 <div class="stay-description">
                     <div class="stay-content">
-                        <h2 class="success-title text-lg-start text-center m-auto m-lg-0">
-                            Stay on the Right Path to Success...
+                        <h2 class="heading-2 success-title text-lg-start text-center m-auto m-lg-0">
+                            Stay on the right path to success...
                         </h2>
                     </div>
                     <p class="first-p text-justify py-3">
@@ -190,14 +190,14 @@ get_header();  ?>
             </div>
             <div class="col-md-6">
                 <div class="right-side-content">
-                    <h5 class="right-content-title mt-4  text-md-start text-center">
+                    <h5 class="heading-3 right-content-title mt-4  text-md-start text-center">
                         WORKING CLOSELY TOGETHER
                     </h5>
-                    <h2 class="right-content-sub-title text-center text-md-start">
+                    <h2 class="heading-2 right-content-sub-title text-center text-md-start">
                         Supporting Success
                     </h2>
                     <span class="short-underline m-auto m-md-0"></span>
-                    <p class="success-description text-center text-md-start py-4">
+                    <p class="page-description success-description text-center text-md-start py-4">
                         In our close collaboration, success finds its strongest ally. At Luvnarich we're more than a
                         partner; we're your dedicated support system on the road to triumph. By working hand in hand, we
                         ensure your journey is guided by expertise, innovation, and a shared commitment to achieving

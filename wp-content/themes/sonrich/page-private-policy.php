@@ -11,7 +11,7 @@ get_header();  ?>
 <section class="content py-5">
     <div class="container">
         <div class="heading-box">
-            <div class="heading h2 font2 fs-1 text-center">
+            <div class="heading-2 heading h2 font2 fs-1 text-center">
                 Privacy and Security Policy
             </div>
             <!-- <div class="sub-heading h5 font2 fs-3 text-center pt-2">
@@ -20,7 +20,7 @@ get_header();  ?>
         </div>
         <div class="root-container-box">
             <div class="root-container-title pt-5 fs-5">
-                <p class="fs-5">
+                <p class="page-description">
                     This privacy policy is for this website, LUVNARICH.net (hereinafter referred to as the
                     "Site", "website") and served by LUVNARICH.net (hereinafter referred to as "us", "we",
                     "our"),. and governs the privacy of its users who choose to use it, to assure the safeguard
@@ -30,34 +30,34 @@ get_header();  ?>
             </div>
         </div>
         <ol type="1">
-            <li class="fs-4 py-3 fw-bold">The Information We Collect and How we use it.</li>
-            <p class="fs-5">
+            <li class="heading-7 py-3">The Information We Collect and How we use it.</li>
+            <p class="page-description">
                 We collect information from you when you register on our site, place an order, subscribe to a
                 newsletter, respond to a survey and fill out a form or enter information on our site. This
                 information that we collect includes but is not limited to –
             </p>
             <ul>
-                <li class="fs-5">Your personal information you give us such as your name, address and email address</li>
-                <li class="fs-5">Information about your use of our Site including details of your visits such as pages
+                <li class="page-description">Your personal information you give us such as your name, address and email address</li>
+                <li class="page-description">Information about your use of our Site including details of your visits such as pages
                     viewed, the resources that you access and devices used to access the site. Such information
                     includes traffic data, location data and other communication data.</li>
-                <li class="fs-5">Any other information you provide when you communicate with us by any means
+                <li class="page-description">Any other information you provide when you communicate with us by any means
                     We may use the information in the following ways:</li>
-                <li class="fs-5">To personalize your experience and to allow us to deliver the type of content and
+                <li class="page-description">To personalize your experience and to allow us to deliver the type of content and
                     product
                     offerings in which you are most interested.</li>
-                <li class="fs-5">To improve our website in order to better serve you.</li>
-                <li class="fs-5">To allow us to better service you in responding to your customer service requests.</li>
-                <li class="fs-5">To administer a contest, promotion, survey or other site features.
-                <li class="fs-5">To quickly process your transactions.</li>
-                <li class="fs-5">To ask for ratings and reviews of services or products.</li>
-                <li class="fs-5">To follow up with inquiries after correspondence (live chat, email or phone inquiries)
+                <li class="page-description">To improve our website in order to better serve you.</li>
+                <li class="page-description">To allow us to better service you in responding to your customer service requests.</li>
+                <li class="page-description">To administer a contest, promotion, survey or other site features.
+                <li class="page-description">To quickly process your transactions.</li>
+                <li class="page-description">To ask for ratings and reviews of services or products.</li>
+                <li class="page-description">To follow up with inquiries after correspondence (live chat, email or phone inquiries)
                 </li>
                 </li>
             </ul>
 
-            <li class="fs-4 py-3 fw-bold">Your Consent</li>
-            <p class="fs-5">
+            <li class="heading-7 py-3">Your Consent</li>
+            <p class="page-description">
                 When you provide us with personal information to complete a transaction, verify your credit
                 card, place an order, arrange for a delivery or return a purchase, we imply that you consent to
                 our collecting it and using it for that specific reason only. If we ask for your personal
@@ -65,16 +65,16 @@ get_header();  ?>
                 expressed consent, or provide you with an opportunity to say no.
             </p>
 
-            <li class="fs-4 py-3 fw-bold">WEBXPAY</li>
-            <p class="fs-5">
+            <li class="heading-7 py-3">WEBXPAY</li>
+            <p class="page-description">
                 Our store is enabled by WEBXPAY. They provide us with the online e-commerce platform that allows
                 us to sell our products and services to you. Your data is stored through WEBXPAY's data storage,
                 databases and the general WEBXPAY application. They store your data on a secure server behind a
                 firewall.
             </p>
 
-            <li class="fs-4 py-3 fw-bold">Security</li>
-            <p class="fs-5">
+            <li class="heading-7 py-3">Security</li>
+            <p class="page-description">
                 To protect your personal information, we take reasonable precautions and follow
                 industry best practices to make sure it is not inappropriately lost, misused,
                 accessed, disclosed, altered or destroyed. If you provide us with your credit card
@@ -82,8 +82,8 @@ get_header();  ?>
                 stored or processed on our servers.
             </p>
 
-            <li class="fs-4 py-3 fw-bold">Cookies, pixels and other similar technologies</li>
-            <p class="fs-5">
+            <li class="heading-7 py-3">Cookies, pixels and other similar technologies</li>
+            <p class="page-description">
                 Cookies and pixels are small pieces of data that a site or its service provider
                 transfers to your device's hard drive through your Web browser (if you allow) that
                 enables the site's or service provider's systems to recognize your browser and
@@ -96,14 +96,14 @@ get_header();  ?>
                 <br> We use cookies to:
             </p>
             <ul>
-                <li class="fs-5">Help remember and process the items in the shopping cart.</li>
-                <li class="fs-5">Understand and save user's preferences for future visits.</li>
-                <li class="fs-5">Keep track of advertisements.</li>
-                <li class="fs-5">Compile aggregate data about site traffic and site interactions in order to offer
+                <li class="page-description">Help remember and process the items in the shopping cart.</li>
+                <li class="page-description">Understand and save user's preferences for future visits.</li>
+                <li class="page-description">Keep track of advertisements.</li>
+                <li class="page-description">Compile aggregate data about site traffic and site interactions in order to offer
                     better
                     site.</li>
             </ul>
-            <p class="mt-3 fs-5">
+            <p class="mt-3 page-description">
                 experiences and tools in the future. We may also use trusted third-party services
                 that track this information on our behalf.
                 You can choose to have your computer warn you each time a cookie is being sent,
@@ -115,8 +115,8 @@ get_header();  ?>
                 able to place orders.
             </p>
 
-            <li class="fs-4 py-3 fw-bold">Third-party disclosure</li>
-            <p class="fs-5">
+            <li class="heading-7 py-3">Third-party disclosure</li>
+            <p class="page-description">
                 We do not sell, trade, or otherwise transfer to outside parties your information
                 unless we provide users with advance notice. This does not include website
                 hosting partners and other parties who assist us in operating our website,
@@ -128,8 +128,8 @@ get_header();  ?>
                 other uses.
             </p>
 
-            <li class="fs-4 py-3 fw-bold">Third-party Services</li>
-            <p class="fs-5">
+            <li class="heading-7 py-3">Third-party Services</li>
+            <p class="page-description">
                 Occasionally, at our discretion, we may include or offer third-party products or
                 services on our website. In general, the third-party providers used by us will only
                 collect, use and disclose your information to the extent necessary to allow them to
@@ -142,8 +142,8 @@ get_header();  ?>
                 governed by this Privacy Policy or our website's Terms of Service.
             </p>
 
-            <li class="fs-4 py-3 fw-bold">Changes to this privacy policy</li>
-            <p class="fs-5">
+            <li class="heading-7 py-3">Changes to this privacy policy</li>
+            <p class="page-description">
                 We reserve the right to modify this privacy policy at any time, so please review it
                 frequently. Changes and clarications will take effect immediately upon their
                 posting on the website. If our store is acquired or merged with another company,
@@ -151,8 +151,8 @@ get_header();  ?>
                 sell products to you.
             </p>
 
-            <li class="fs-4 py-3 fw-bold">Contacting Us</li>
-            <p class="fs-5">
+            <li class="heading-7 py-3">Contacting Us</li>
+            <p class="page-description">
                 If there are any questions regarding this privacy policy, you may contact us using
                 the information below. <br>
                 LUVNARICH Pvt Ltd <br>

@@ -131,6 +131,57 @@ ul {
   margin-bottom: 0;
 } */
 
+
+.heading-1 {
+  font-size: 20px;
+  color: var(--green);
+  font-weight: 500;
+}
+
+.heading-2{
+  font-size: 50px;
+  font-weight: 300;
+  color: #4a4a4a;
+}
+
+.heading-3{
+  font-size: 18px;
+  line-height: 1.8em;
+  color: var(--green);
+  font-weight: 700;
+  letter-spacing: 3px;
+}
+
+.heading-4{
+  font-size: 38px;
+    color: #5e5e5e;
+    line-height: 1.2em;
+    width: 100%;
+    font-weight: 300;
+}
+
+.page-description{
+  font-size: 18px;
+  color: #4a4a4a;
+  font-weight: 300;
+  line-height: 1.5em;
+}
+
+.heading-5{
+  font-size: 18px;
+  font-weight: 400px;
+  color: var(--green);	
+  line-height: 1.5em;	
+}
+
+.heading-7{
+  font-size: 18px;
+  line-height: 1.3em;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+
 h5 {
   font-size: 18px;
   line-height: 1.8em;
@@ -146,7 +197,7 @@ body {
 }
 
 p.paragraph-des {
-  font-size: 20px;
+  font-size: 18px;
   color: #4a4a4a;
   font-weight: 300;
   line-height: 1.5em;
@@ -171,6 +222,12 @@ p.paragraph {
   font-size: 18px;
   line-height: 1.8;
 }
+
+p {
+  margin-top: 0;
+  margin-bottom: 0rem;
+}
+
 ul.navbar-nav.me-auto.mb-2.mb-lg-0 {
   margin: 0 auto;
 }
@@ -1268,9 +1325,10 @@ img.blue-move {
 }
 
 h2.success-title {
-  font-size: 38px;
+  font-size: 50px;
   color: var(--white);
-  max-width: 390px;
+  max-width: 100%;
+  font-weight: 300;
 }
 
 p.first-p {
@@ -2536,7 +2594,7 @@ span.thumb-img-title {
 
 .right-side-square .main-para-title h3 {
   font-size: 50px;
-  font-weight: 600;
+  font-weight: 300;
 }
 
 /* .right-side-square .main-para-title h3:first-of-type:first-letter{
@@ -2775,6 +2833,16 @@ ul.social-icon-box {
 .support-page-banner-left-side h5.head-title.mt-4.text-center.text-md-start {
   text-shadow: 2px 2px #111111d4;
   color: #14ffc6 !important;
+}
+
+.page-template-page-contact .office-times {
+  max-width: 308px;
+  padding: 16px 0px;
+}
+
+.page-template-page-contact .sub-title {
+  font-family: var(--font2);
+  font-size: 18px;
 }
 
 @media (max-width: 1800x) {
@@ -3610,7 +3678,7 @@ a.first-word {
 
 p.first-p.about-p {
   color: var(--black);
-  font-weight: 400;
+  font-weight: 300;
   font-size: 1.2rem;
   line-height: 1.3em;
   letter-spacing: 1px;
