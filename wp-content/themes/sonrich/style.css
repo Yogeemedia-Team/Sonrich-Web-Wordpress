@@ -3228,6 +3228,11 @@ ul.social-icon-box {
     font-size: 16px !important;
   }
 
+  .row.business-venture-row {
+    border: none;
+  }
+
+  .opportunity-image,
   .opportunity-image-background {
     border-radius: 35px;
   }

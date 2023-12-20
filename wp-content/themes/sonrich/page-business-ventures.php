@@ -88,9 +88,8 @@ get_header();  ?>
                         <h2>HOW TO BECOME</h2>
                     </div>
                 </div>
-
                 <div
-                    class="col-12 col-md-8 px-0 d-flex justify-content-center align-items-center opportunity-image-background">
+                    class="col-12 col-md-8 px-0 mt-5 mt-md-0 d-flex justify-content-center align-items-center opportunity-image-background">
                     <div class="opportunity-image-background text-white">
                         <div class="back-text-area text-white">
                             <h4 class="text-center text-md-start">A LUVNARICH INDEPENDENT REPRESENTATIVE?</h4>
