@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Archievers-Hub
+Template Name: Achievers-Hub
 */
 
 get_header();  ?>
