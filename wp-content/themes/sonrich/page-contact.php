@@ -33,12 +33,14 @@ get_header();  ?>
 
                     <div class="second-row pt-3 page-description">
                         <span class="heading-7">Monday - Friday</span>
-                        <span>12:00pm (noon) - 06:00am - share with us operating time ours</span>
+                        <span>12:00pm (noon) - 06:00am</span>
+                        <p>share with us operating time ours</p>
                     </div>
 
                     <div class="second-row pt-3 page-description">
                         <span class="heading-7">Saturday</span>
-                        <span>12:00am (midnight) - 06:00am - share with us operating time ours</span>
+                        <span>12:00am (midnight) - 06:00am</span>
+                        <p>share with us operating time ours</p>
                     </div>
                 </div>
 
