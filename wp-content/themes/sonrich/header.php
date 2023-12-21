@@ -77,7 +77,7 @@
 
             <!-- top nav start -->
             <div id="top" class="navigation-bar" style="background: var(--black);">
-                <nav class=" container p-2">
+                <nav class="container p-2">
                     <div class="row mb-lg-0">
                         <div class="col-12 col-sm-6 col-md-3 top-nav-item mx-0 my-1">
                             <a class=" top-bar nav-link" target="_blank" href="https://future.sonrich.net/"
