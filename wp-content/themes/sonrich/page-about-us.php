@@ -123,7 +123,7 @@ get_header();  ?>
                     <div class="stay-description p-0">
                         <div class="stay-content mb-3">
                             <h2 class="heading-2 success-title text-center text-lg-start m-auto m-lg-0">
-                                Luvnarich at glance
+                                Luvnarich at Glance
                             </h2>
                             <span class="short-underline m-auto m-md-0"></span>
                         </div>
@@ -154,7 +154,7 @@ get_header();  ?>
                         </ul>
                     </div>
                 </div>
-                <div class="col-12 col-lg-6 m-auto d-block order-1">
+                <div class="col-12 col-lg-6 m-auto d-block order-lg-1 order-sm-2">
                     <div class="right-bac-image">
                         <img src="<?php echo get_template_directory_uri(); ?>/inc/images/Success.png" alt="img"
                             class="success right-courve w-100 p-3">
@@ -318,7 +318,7 @@ get_header();  ?>
                         </p>
                     </div>
                 </div>
-                <div class="col-12 col-lg-6 m-auto d-block order-1">
+                <div class="col-12 col-lg-6 m-auto d-block order-lg-1 order-sm-2">
                     <div class="right-bac-image">
                         <img src="<?php echo get_template_directory_uri(); ?>/inc/images/Success.png" alt="img"
                             class="success right-courve w-100 p-3">
@@ -359,7 +359,7 @@ get_header();  ?>
                         </p>
                     </div>
                 </div>
-                <div class="col-12 col-lg-6 m-auto d-block">
+                <div class="col-12 col-lg-6 m-auto d-block order-lg-1 order-sm-2">
                     <div class="right-bac-image">
                         <img src="<?php echo get_template_directory_uri(); ?>/inc/images/Success.png" alt="img"
                             class="success left-courve w-100 p-3">
@@ -396,7 +396,7 @@ get_header();  ?>
                         </p>
                     </div>
                 </div>
-                <div class="col-12 col-lg-6 m-auto d-block order-1">
+                <div class="col-12 col-lg-6 m-auto d-block order-lg-1 order-sm-2">
                     <div class="right-bac-image">
                         <img src="<?php echo get_template_directory_uri(); ?>/inc/images/Success.png" alt="img"
                             class="success right-courve w-100 p-3">
@@ -434,7 +434,7 @@ get_header();  ?>
                         </p>
                     </div>
                 </div>
-                <div class="col-12 col-lg-6 m-auto d-block">
+                <div class="col-12 col-lg-6 m-auto d-block order-lg-1 order-sm-2">
                     <div class="right-bac-image">
                         <img src="<?php echo get_template_directory_uri(); ?>/inc/images/Success.png" alt="img"
                             class="success left-courve w-100 p-3">

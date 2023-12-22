@@ -2845,6 +2845,19 @@ ul.social-icon-box {
   font-size: 18px;
 }
 
+.office-times .page-description {
+  font-size: 14px;
+}
+
+.office-times .second-row .heading-7 {
+  font-size: 14px;
+}
+
+.top-nav-item {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+
 @media (max-width: 1800x) {
 }
 
@@ -3519,9 +3532,8 @@ ul.social-icon-box {
   }
 
   .row.f-product {
-    padding: 20px;
+    margin: 20px;
   }
-
   .newsletter-bottom-textbox.text-center {
     width: 100%;
     padding: 0px 30px;
@@ -3681,6 +3693,26 @@ ul.social-icon-box {
   .contact-form .row {
     padding-bottom: 0px !important;
   }
+
+  .con-form-input {
+    margin-bottom: 12px !important;
+  }
+
+  .navigation-bar .row.mb-lg-0 {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+
+  .row.highlight-se {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+
+  .map-se .row {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+  }
+
 }
 
 @media (max-width: 370px) {
